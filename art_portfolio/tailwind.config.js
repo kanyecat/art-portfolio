@@ -16,7 +16,8 @@ module.exports = {
         arimo: ["Arimo", "sans-serif"],
       },
       backgroundImage: {
-        "stone-pattern": "url('/src/assets/stonebg.png')",
+        "stone": "url('/src/assets/stonebg.png')",
+        "hanji": "url('src/assets/hanji.png')"
       },
     },
     screens: {
