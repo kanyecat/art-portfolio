@@ -2,7 +2,7 @@ import styles from '../style';
 import { motion } from 'framer-motion';
 import { slideIn, staggerContainer, textVariant } from '../motion'
 import { TypingText } from '../components';
-import { PotCanvas } from "./canvas";
+import { PotCanvas, ChairCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -24,8 +24,10 @@ const Hero = () => {
         </div>
       </section>
       <div className={`flex md:flex-row flex-col h-[300px] ${styles.paddingX} mt-10`}>
-        <PotCanvas />
+        <ChairCanvas />
+        {/* <PotCanvas /> */}
       </div>
+
     </>
   )
 }

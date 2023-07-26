@@ -45,6 +45,17 @@ import seoul from "./seoul.png";
 import corals from "./corals.gif";
 import waterIntoWine from "./waterIntoWine.png";
 import me from "./me.png";
+import css from "./css.png";
+import figma from "./figma.png";
+import git from "./git.png";
+import html from "./html.png";
+import javascript from "./javascript.png";
+import nodejs from "./nodejs.png";
+import reactjs from "./reactjs.png";
+import tailwind from "./tailwind.png";
+import threejs from "./threejs.svg";
+import typescript from "./typescript.png";
+import solidworks from "./solidworks.svg";
 
 export {
   me,
@@ -92,4 +103,15 @@ export {
   seoul,
   corals,
   waterIntoWine,
+  css,
+  tailwind,
+  threejs,
+  typescript,
+  javascript,
+  nodejs,
+  reactjs,
+  html,
+  git,
+  figma,
+  solidworks,
 };

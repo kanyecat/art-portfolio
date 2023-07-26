@@ -1,6 +1,6 @@
 import styles from '../style';
 
-import { Hero, Work, Footer } from '../components';
+import { Hero, Work, Tech } from '../components';
 
 const Home = () => {
   return (
@@ -8,9 +8,9 @@ const Home = () => {
       <div className={`bg-primary bg-cover bg-no-repeat bg-center ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
+          <Tech />
         </div>
       </div>
-
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Work />

@@ -1,9 +1,10 @@
-import { facebook, instagram, calligraphy, mantis_enclosure, 
+import { instagram, calligraphy, mantis_enclosure, 
   recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
   untold_story, defenseMechanism, notebookcoverdesign, single_propagation_holder, 
   triple_propagation_holder, fortyDaysNights, linkedin, twitter, airbnb, binance, 
   coinbase, dropbox, wahlbergii, torso, sofa, relationships, seoul, corals,
-  waterIntoWine } from "../assets";
+  waterIntoWine, css, html, reactjs, tailwind, figma, git, javascript, typescript,
+  nodejs, threejs, solidworks } from "../assets";
 
 export const navLinks = [
   {
@@ -259,6 +260,53 @@ export const socialMedia = [
     id: "social-media-3",
     icon: linkedin,
     link: "www.linkedin.com/in/joo-hee-kim",
+  },
+];
+
+export const technologies = [
+  {
+    name: "SolidWorks",
+    icon: solidworks,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
 ];
 

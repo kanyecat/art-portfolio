@@ -7,8 +7,9 @@ import { TypingText } from './CustomTexts';
 import About from './About';
 import ExperimentsSketches from './ExperimentsSketches';
 import Home from './Home';
-import { PotCanvas } from './canvas';
+import { PotCanvas, ChairCanvas, BallCanvas } from './canvas';
 import Loader from "./Loader";
+import Tech from "./Tech";
 
 export {
     Navbar,
@@ -22,4 +23,7 @@ export {
     Home,
     Loader,
     PotCanvas,
+    BallCanvas,
+    ChairCanvas,
+    Tech,
 };
