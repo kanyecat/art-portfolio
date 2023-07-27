@@ -57,9 +57,7 @@ const Navbar = () => {
                   [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mb-5'} 
                   text-white`}
                 >
-                  <a href={nav.link}>
-                    {nav.title}
-                  </a>
+                  <Link to={nav.link}>{nav.title}</Link>
                 </li>
               ))}
             </ul>
