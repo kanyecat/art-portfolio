@@ -13,9 +13,9 @@ import { BrowserRouter,
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="art-portfolio">
       <Routes>
-        <Route path="/" element={<Root />} basename="/art-portfolio">
+        <Route path="/" element={<Root />}>
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/experimentssketches" element={<ExperimentsSketches />} />
