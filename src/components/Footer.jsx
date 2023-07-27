@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6
       border-t-[1px] border-t-[#3f3r45]">
         <p className="font-arimo font-normal text-center text-[16px] leading-[27px] text-white">
-        ©Joo Hee Kim
+        © Code by Joo Hee Kim
         </p>
         <p className="font-arimo font-normal text-center text-[16px] leading-[27px] text-white">
           jooheeki@andrew.cmu.edu

@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
 import { navVariants } from '../motion';
+import "./gallery.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false); 
@@ -17,10 +18,13 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]"'>
-      <h1>
-        <a href='/' className='font-arimo font-normal xs:text-[18px] text-[17px] text-white xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
-          JOO HEE KIM
-        </a>
+      <h1 className='JHK'>
+        <Link to='/' className='font-arimo font-normal text-white xs:text-[18px] text-[17px] nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
+            <span className='jooheekim'>
+              <span className='jooheekim-en'>Joo Hee Kim</span>
+              {/* <span className='jooheeekim-kr'>김주희</span> */}
+            </span>
+        </Link>
       </h1>
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>

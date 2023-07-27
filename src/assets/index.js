@@ -1,4 +1,3 @@
-import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -60,7 +59,6 @@ import arduino from "./arduino.png";
 
 export {
   me,
-  airbnb,
   bill,
   binance,
   card,

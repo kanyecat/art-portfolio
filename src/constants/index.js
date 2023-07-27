@@ -1,7 +1,7 @@
 import { instagram, calligraphy, mantis_enclosure, 
   recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
   untold_story, defenseMechanism, notebookcoverdesign, single_propagation_holder, 
-  triple_propagation_holder, fortyDaysNights, linkedin, twitter, airbnb, binance, 
+  triple_propagation_holder, fortyDaysNights, linkedin, twitter, binance, 
   coinbase, dropbox, wahlbergii, torso, sofa, relationships, seoul, corals,
   waterIntoWine, css, html, reactjs, tailwind, figma, git, javascript, typescript,
   nodejs, threejs, solidworks, arduino } from "../assets";
@@ -315,10 +315,6 @@ export const technologies = [
 ];
 
 export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
   {
     id: "client-2",
     logo: binance,
