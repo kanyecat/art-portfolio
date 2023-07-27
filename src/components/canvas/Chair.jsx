@@ -10,16 +10,16 @@ const chair = useGLTF("../desktop_pc/rockingChair.gltf")
     <mesh>
         <hemisphereLight
         intensity={0.15}
-        groundColor = "black" />
+        groundColor = "#4f84d1" />
         <pointLight intensity={0.2} />
-        <spotLight
+        {/* <spotLight
             position={[30, 30, 15]}
             angle={0.12}
             penumbra={1}
             intensity={1}
             castShadow
             shadow-mapSize={1024}
-        />
+        /> */}
         <primitive
             object = {chair.scene}
             scale={0.05}
