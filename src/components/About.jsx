@@ -3,9 +3,11 @@ import { motion } from 'framer-motion';
 import { slideIn, staggerContainer, textVariant } from '../motion'
 import { TypingText } from '../components';
 import { me } from "../assets";
+import { Tech } from '../components';
 
 const About = () => {
   return (
+    <>
     <div className={`bg-primary ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
       <section id='home' className={`flex md:flex-row flex-col`}>
         <img src={me} className='w-[400px]'/>
@@ -21,6 +23,10 @@ const About = () => {
         </motion.div>  
       </section>
     </div>
+    <div className={`${styles.boxWidth}`}>
+      <Tech />
+    </div>
+    </>
   )
 }
 
