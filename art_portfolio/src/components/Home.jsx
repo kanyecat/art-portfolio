@@ -11,11 +11,11 @@ const Home = () => {
           <Tech />
         </div>
       </div>
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      {/* <div className={`bg-primary ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Work />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

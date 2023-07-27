@@ -56,6 +56,7 @@ import tailwind from "./tailwind.png";
 import threejs from "./threejs.svg";
 import typescript from "./typescript.png";
 import solidworks from "./solidworks.svg";
+import arduino from "./arduino.png";
 
 export {
   me,
@@ -114,4 +115,5 @@ export {
   git,
   figma,
   solidworks,
+  arduino,
 };

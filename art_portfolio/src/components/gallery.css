@@ -93,3 +93,7 @@
 .changingBg .active {
     background: white;
 }
+
+.text-align-right{
+    text-align: right;
+}

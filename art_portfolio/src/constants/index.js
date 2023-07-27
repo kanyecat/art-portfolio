@@ -4,7 +4,7 @@ import { instagram, calligraphy, mantis_enclosure,
   triple_propagation_holder, fortyDaysNights, linkedin, twitter, airbnb, binance, 
   coinbase, dropbox, wahlbergii, torso, sofa, relationships, seoul, corals,
   waterIntoWine, css, html, reactjs, tailwind, figma, git, javascript, typescript,
-  nodejs, threejs, solidworks } from "../assets";
+  nodejs, threejs, solidworks, arduino } from "../assets";
 
 export const navLinks = [
   {
@@ -43,20 +43,20 @@ export const features = [
       "Experimentation with traditional Korean calligraphy, paintings, furnitures, and patterns.",
     link: "https://www.jooheekim.art/traditional-korean-art-re-interpretation/",
   },
-  {
-    id: "feature-3",
-    image: krtr_pot_v1,
-    title: "Computer-Aided Design",
-    content:
-      "Digitial prototypes created for digital fabrication processes.",
-    link: "https://www.jooheekim.art/computer-aided-design/",
-  },
+  // {
+  //   id: "feature-3",
+  //   image: krtr_pot_v1,
+  //   title: "Computer-Aided Design",
+  //   content:
+  //     "Digitial prototypes created for digital fabrication processes.",
+  //   link: "https://www.jooheekim.art/computer-aided-design/",
+  // },
   {
     id: "feature-4",
     image: fortyDaysNights,
     title: "Paintings",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "",
     link: "https://www.jooheekim.art/paintings/",
   },
 ];
@@ -267,6 +267,10 @@ export const technologies = [
   {
     name: "SolidWorks",
     icon: solidworks,
+  },
+  {
+    name: "Arduino",
+    icon: arduino,
   },
   {
     name: "HTML 5",
