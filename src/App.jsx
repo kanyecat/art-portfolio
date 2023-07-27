@@ -13,7 +13,7 @@ import { BrowserRouter,
 function App() {
 
   return (
-    <BrowserRouter basename="art-portfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Root />}>
           <Route index element={<Home />} />
