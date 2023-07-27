@@ -2,7 +2,9 @@ import styles from './style';
 import React, { useState } from 'react';
 
 import { Navbar, Home, ExperimentsSketches, About, Footer } from './components';
-import { BrowserRouter, 
+import { BrowserRouter,
+  createBrowserRouter,
+  createRoutesFromElements,
   Routes, 
   Route, 
   Link,
@@ -11,18 +13,21 @@ import { BrowserRouter,
 } from "react-router-dom";
 
 function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
+        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/experimentssketches" element={<ExperimentsSketches />} />
+        <Route path="/about" element={<About />} />
+      </Route>
+    )
+  );
 
   return (
-    <BrowserRouter basename='/app'>
-      <Routes>
-        <Route path="/" element={<Root />}>
-          <Route index element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/experimentssketches" element={<ExperimentsSketches />} />
-          <Route path="/about" element={<About />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div className='App'>
+      <RouterProvider router={router} />
+    </div>
   )
 }
 
@@ -49,4 +54,4 @@ const Root = () => {
   )
 }
 
-export default App
+export default App;
