@@ -32,7 +32,7 @@ const Hero = () => {
           <p className="font-gruppo xs:text-[30px] text-[20px] xs:leading-[45.8px] leading-[30.8px] 
             text-white text-align-right">+ UI UX</p>
         <div className='flex justify-center items-center w-full mt-10'>
-          <p className='text-dimWhite'>at Carnegie Mellon University</p>
+          <p className='font-arimo font-normal text-[15px] text-dimWhite'>...at Carnegie Mellon University</p>
         </div>
         </div>
         {/* <PotCanvas /> */}
