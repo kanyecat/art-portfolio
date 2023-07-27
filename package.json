@@ -1,6 +1,6 @@
 {
   "name": "art-portfolio",
-  "homepage": "https://jooheekim.art",
+  "homepage": "https://kanyecat.github.io/art-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,6 +18,7 @@
     "@types/three": "^0.154.0",
     "eslint-config-next": "^13.4.10",
     "framer-motion": "^10.13.0",
+    "gh-pages": "^5.0.0",
     "gsap": "^3.12.2",
     "lil-gui": "^0.18.2",
     "maath": "^0.7.0",
