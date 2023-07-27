@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         arimo: ["Arimo", "sans-serif"],
+        gruppo: ["Gruppo", "sans-serif"],
       },
       backgroundImage: {
         "stone": "url('/src/assets/stonebg.png')",
