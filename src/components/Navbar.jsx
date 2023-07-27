@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from '../style';
 import { motion } from 'framer-motion';
 
@@ -30,9 +31,7 @@ const Navbar = () => {
             [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mr-10'} 
             text-white`}
           >
-            <a href={nav.link}>
-              {nav.title}
-            </a>
+            <Link to={nav.link}>{nav.title}</Link>
           </li>
         ))}
       </ul>
