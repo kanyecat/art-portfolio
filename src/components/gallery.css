@@ -36,6 +36,11 @@
         -moz-column-width: 100%;
         column-width: 100%;
     }
+
+    .icon {
+        padding-bottom: 5px;
+        padding-right: 0;
+    }
 }
 
 /*model*/
@@ -128,4 +133,42 @@
     left: 0;
     transform: translateX(3.25em);
     white-space: nowrap;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+    padding-right: 10px;
+}
+
+/* .icon:hover{
+    filter: invert(100%) sepia(50%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+} */
+
+.button-effect{
+    position: relative;
+}
+
+.button-effect:hover{
+    transition: 0.5s;
+    letter-spacing: 0.025em;
+}
+
+.button-effect::after{
+    content: "";
+    height: 6px;
+    border-radius: 20px;
+    width: 6px;
+    background: #4f84d1;
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.button-effect:hover::after{
+    opacity: 1;
 }

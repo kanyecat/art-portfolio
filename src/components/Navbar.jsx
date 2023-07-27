@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import styles from '../style';
 import { motion } from 'framer-motion';
 
-import { close, logo, menu } from '../assets';
+import { close, menu } from '../assets';
 import { navLinks } from '../constants';
 import { navVariants } from '../motion';
 import "./gallery.css";
@@ -31,7 +31,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-arimo font-normal cursor-pointer text-
+            className={`button-effect font-arimo font-normal cursor-pointer text-
             [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mr-10'} 
             text-white`}
           >

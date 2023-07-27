@@ -8,7 +8,7 @@ const Home = () => {
       <div className={`bg-primary bg-cover bg-no-repeat bg-center ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
-          <Tech />
+          {/* <Tech /> */}
         </div>
       </div>
       {/* <div className={`bg-primary ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
