@@ -2,7 +2,7 @@ import styles from '../style';
 import { motion } from 'framer-motion';
 import { slideIn, staggerContainer, textVariant } from '../motion'
 import { TypingText } from '../components';
-import { PotCanvas, ChairCanvas } from "./canvas";
+import { PotCanvas, ChairCanvas, ArkCanvas } from "./canvas";
 import "./gallery.css";
 
 const Hero = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
             <span className='font-gruppo xs:text-[100px] text-[60px] xs:leading-[120.8px] leading-[60.8px] text-white'>Mechanical Engineering</span>
           </div>
           <div className={`flex md:flex-row flex-col w-[400px] h-[300px] pr-3 xl:mr-0 sm:mr-40 sm:mt-20 mr-0`}>
-            <ChairCanvas />
+            <PotCanvas />
           </div>
         </div>
         <div className="sm:px-40 px-6">

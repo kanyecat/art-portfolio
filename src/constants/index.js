@@ -8,17 +8,17 @@ import { instagram, calligraphy, mantis_enclosure,
 export const navLinks = [
   {
     id: "work",
-    title: "Work",
+    title: "./work",
     link: "/",
   },
   {
     id: "experiments",
-    title: "Experiments + Prototypes",
+    title: "./experiments-prototypes",
     link: "/experimentssketches",
   },
   {
     id: "about",
-    title: "About",
+    title: "./about",
     link: "/about",
   },
 ];

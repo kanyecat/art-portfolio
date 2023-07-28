@@ -35,7 +35,7 @@ const ExperimentsSketches = () => {
       className={changingBg ? "bg-darkGray" : "bg-primary" }>
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
-          <img src={tempImage} />
+          <img src={tempImage} loading='lazy'/>
         </div>
         <div className='gallery'>
           {experiments.map((item, index) => (
@@ -49,6 +49,7 @@ const ExperimentsSketches = () => {
               <img 
                 src={item.image} 
                 style={{width: "100%"}}
+                loading='lazy'
                 onClick={() => getImage(item.image)}
               />
             </Tilt>
