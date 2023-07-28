@@ -259,7 +259,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: linkedin,
-    link: "www.linkedin.com/in/joo-hee-kim",
+    link: "https://linkedin.com/in/joo-hee-kim",
   },
 ];
 
