@@ -1,8 +1,7 @@
 import { instagram, calligraphy, mantis_enclosure, 
   recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
   untold_story, defenseMechanism, notebookcoverdesign, single_propagation_holder, 
-  triple_propagation_holder, fortyDaysNights, linkedin, twitter, binance, 
-  coinbase, dropbox, wahlbergii, torso, sofa, relationships, seoul, corals,
+  triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, relationships, seoul, corals,
   waterIntoWine, css, html, reactjs, tailwind, figma, git, javascript, typescript,
   nodejs, threejs, solidworks, arduino } from "../assets";
 
@@ -129,33 +128,6 @@ export const experiments = [
   },
 ];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
-
 export const stats = [
   {
     id: "stats-1",
@@ -225,19 +197,6 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
 ];
 
 export const socialMedia = [
@@ -246,16 +205,6 @@ export const socialMedia = [
     icon: instagram,
     link: "https://www.instagram.com/jooheekim.art",
   },
-  // {
-  //   id: "social-media-2",
-  //   icon: facebook,
-  //   link: "https://www.facebook.com/",
-  // },
-  // {
-  //   id: "social-media-3",
-  //   icon: twitter,
-  //   link: "https://www.twitter.com/",
-  // },
   {
     id: "social-media-3",
     icon: linkedin,
@@ -311,20 +260,5 @@ export const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-];
-
-export const clients = [
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];
