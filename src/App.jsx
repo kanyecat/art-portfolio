@@ -1,7 +1,7 @@
 import styles from './style';
 import React, { useState } from 'react';
 
-import { Navbar, Home, ExperimentsSketches, About, Footer } from './components';
+import { Navbar, Home, ExperimentsSketches, About, Footer, NotFound } from './components';
 import { BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
@@ -20,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/experimentssketches" element={<ExperimentsSketches />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     )
   );

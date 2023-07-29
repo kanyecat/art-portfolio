@@ -10,6 +10,7 @@ import Home from './Home';
 import { PotCanvas, ChairCanvas, BallCanvas } from './canvas';
 import Loader from "./Loader";
 import Tech from "./Tech";
+import NotFound from './NotFound';
 
 export {
     Navbar,
@@ -26,4 +27,5 @@ export {
     BallCanvas,
     ChairCanvas,
     Tech,
+    NotFound,
 };
