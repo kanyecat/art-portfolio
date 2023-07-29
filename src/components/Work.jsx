@@ -17,7 +17,7 @@ const FeatureCard = ({image, title, content, style, size, link, index}) => (
   >
     <motion.div 
     variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
-    className= {`flex md:flex-row flex-col pb-10 ${style}`}
+    className= {`flex md:flex-row flex-col md:pb-10 pb-8 ${style} ${index !== features.length -1 ? "mb-4" : "mb-0"}`}
     >
       <Tilt 
         options={{
@@ -26,19 +26,18 @@ const FeatureCard = ({image, title, content, style, size, link, index}) => (
           speed: 450
         }}
         alt={link}   
-        className={`flex md:flex-row flex-col justify-between items-center
-        ${index !== features.length -1 ? "mb-6" : "mb-0"} cursor-pointer`}>
+        className={`flex md:flex-row flex-col justify-between items-center cursor-pointer`}>
           <div className={`${styles.flexCenter}`}>
-            <img src={image} alt="image" className={`${size} object-cover`}/>
+            <img src={image} alt="image" loading="lazy" className={`${size} object-cover`}/>
           </div>
       </Tilt>
-      <div className='flex-1 flex flex-col ml-3 pt-4'>
-        <h4 className='font-arial font-semibold text-white
-          text-[18px] leading-[23px] mb-1'>
+      <div className='flex-1 flex flex-col ml-0 md:pl-4 pl-0 md:pt-0 pt-3'>
+        <h4 className='font-arial font-normal text-white
+          md:text-[22px] md:leading-[30.5px] text-[16px] leading-[20px] mb-1'>
           {title}
         </h4>
         <p className='font-arial font-normal text-dimWhite
-          text-[16px] leading-[24px] mb-1'>
+          md:text-[16px] text-[14px] leading-[18px] mb-1'>
           {content}
         </p>
       </div>

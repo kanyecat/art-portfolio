@@ -32,8 +32,8 @@ export const features = [
       (
       "MACHINE"
       ),
-    style: "sm:pr-80 pr-10",
-    size: "w-[380px] h-[225px] sm:h-[300px]",
+    style: "sm:mr-80 pr-10",
+    size: "w-[380px] h-[240px] sm:h-[300px]",
     link: "https://www.jooheekim.art/kinetic-devices+sculptures/",
   },
   {
@@ -42,8 +42,8 @@ export const features = [
     title: "Silent Killers",
     content:
       "SCULPTURE",
-    style: "sm:pl-60 pl-12",
-    size: "w-[200px] h-[300px]",
+    style: "sm:ml-80 sm:pl-20 ml-20 pl-10",
+    size: "w-[200px] h-[300px] sm:h-[300px]",
     link: "https://www.jooheekim.art/traditional-korean-art-re-interpretation/",
   },
   {
