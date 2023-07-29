@@ -22,7 +22,6 @@ const Navbar = () => {
         <Link to='/' className='font-arimo font-normal text-white xs:text-[18px] text-[17px] nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
             <span className='jooheekim'>
               <span className='jooheekim-en'>JOO HEE KIM</span>
-              {/* <span className='jooheeekim-kr'>김주희</span> */}
             </span>
         </Link>
       </h1>

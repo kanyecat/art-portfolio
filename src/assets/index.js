@@ -41,6 +41,10 @@ import typescript from "./typescript.png";
 import solidworks from "./solidworks.svg";
 import arduino from "./arduino.png";
 import logo from "./logo.svg";
+import marblepaint from "./marblepaint.png";
+import silentKillers from "./silentKillers.png";
+import psalmsBlock from "./psalms_block.png";
+import frankensteinHeadSide1 from "./frankenstein_head_side1.png";
 
 export {
   me,
@@ -84,4 +88,8 @@ export {
   figma,
   solidworks,
   arduino,
+  marblepaint,
+  silentKillers,
+  psalmsBlock,
+  frankensteinHeadSide1,
 };

@@ -2,8 +2,8 @@ import { instagram, calligraphy, mantis_enclosure,
   recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
   untold_story, defenseMechanism, notebookcoverdesign, single_propagation_holder, 
   triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, relationships, seoul, corals,
-  waterIntoWine, css, html, reactjs, tailwind, figma, git, javascript, typescript,
-  nodejs, threejs, solidworks, arduino } from "../assets";
+  waterIntoWine, css, html, psalmsBlock, reactjs, tailwind, figma, git, javascript, typescript,
+  nodejs, threejs, solidworks, frankensteinHeadSide1, arduino, marblepaint, silentKillers} from "../assets";
 
 export const navLinks = [
   {
@@ -26,36 +26,34 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    image: defenseMechanism,
-    title: "Kinetic Devices + Sculptures",
+    image: marblepaint,
+    title: "Marble Paint",
     content:
       (
-      "Incorporation of kinetic energy to power visual elements. My exploration of kinetic art that triggers sensory, emotional, and intellectual responses through its mechanical components."
+      "MACHINE"
       ),
+    style: "sm:pr-80 pr-10",
+    size: "w-[380px] h-[225px] sm:h-[300px]",
     link: "https://www.jooheekim.art/kinetic-devices+sculptures/",
   },
   {
     id: "feature-2",
-    image: calligraphy,
-    title: "Traditional Korean Art Re-interpretation",
+    image: silentKillers,
+    title: "Silent Killers",
     content:
-      "Experimentation with traditional Korean calligraphy, paintings, furnitures, and patterns.",
+      "SCULPTURE",
+    style: "sm:pl-60 pl-12",
+    size: "w-[200px] h-[300px]",
     link: "https://www.jooheekim.art/traditional-korean-art-re-interpretation/",
   },
-  // {
-  //   id: "feature-3",
-  //   image: krtr_pot_v1,
-  //   title: "Computer-Aided Design",
-  //   content:
-  //     "Digitial prototypes created for digital fabrication processes.",
-  //   link: "https://www.jooheekim.art/computer-aided-design/",
-  // },
   {
     id: "feature-4",
-    image: fortyDaysNights,
-    title: "Paintings",
+    image: frankensteinHeadSide1,
+    title: "Frankenstein",
     content:
-      "",
+      "KINETIC SCULPTURE",
+    style: "pr-10",
+    size: "w-[150px] h-[150px] sm:w-[250px] sm:h-[250px]",
     link: "https://www.jooheekim.art/paintings/",
   },
 ];
@@ -64,7 +62,7 @@ export const features = [
 export const experiments = [
   {
     id: "experiment-1",
-    image: waterIntoWine,
+    image: corals,
   },
   {
     id: "experiment-2",
@@ -112,12 +110,12 @@ export const experiments = [
   },
   {
     id: "experiment-13",
-    image: corals,
+    image: waterIntoWine,
   },
-  {
-    id: "experiment-14",
-    image: relationships,
-  },
+  // {
+  //   id: "experiment-14",
+  //   image: relationships,
+  // },
   {
     id: "experiment-15",
     image: single_propagation_holder,
@@ -125,6 +123,10 @@ export const experiments = [
   {
     id: "experiment-16",
     image: seoul,
+  },
+  {
+    id: "experiment-17",
+    image: psalmsBlock,
   },
 ];
 
