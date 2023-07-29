@@ -32,7 +32,7 @@ const ExperimentsSketches = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25}}
-      className={changingBg ? "bg-darkGray" : "bg-primary" }>
+      className={changingBg ? "bg-white" : "bg-primary" }>
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
           <img src={tempImage} loading='lazy'/>
@@ -46,7 +46,8 @@ const ExperimentsSketches = () => {
               speed: 450
             }}
             key={index}>
-              <img 
+              <img
+                className='pic'
                 src={item.image} 
                 style={{width: "100%"}}
                 loading='lazy'

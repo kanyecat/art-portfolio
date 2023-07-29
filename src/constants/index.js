@@ -34,7 +34,7 @@ export const features = [
       ),
     style: "sm:mr-80 pr-10",
     size: "w-[380px] h-[240px] sm:h-[300px]",
-    link: "https://www.jooheekim.art/kinetic-devices+sculptures/",
+    link: "/marble-paint",
   },
   {
     id: "feature-2",
@@ -44,7 +44,7 @@ export const features = [
       "SCULPTURE",
     style: "sm:ml-80 sm:pl-20 ml-20 pl-10",
     size: "w-[200px] h-[300px] sm:h-[300px]",
-    link: "https://www.jooheekim.art/traditional-korean-art-re-interpretation/",
+    link: "/silent-killers",
   },
   {
     id: "feature-4",
@@ -54,7 +54,7 @@ export const features = [
       "KINETIC SCULPTURE",
     style: "pr-10",
     size: "w-[150px] h-[150px] sm:w-[250px] sm:h-[250px]",
-    link: "https://www.jooheekim.art/paintings/",
+    link: "/frankenstein",
   },
 ];
 

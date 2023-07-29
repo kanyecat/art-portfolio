@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { close, menu } from '../assets';
 import { navLinks } from '../constants';
 import { navVariants } from '../motion';
+import { Work } from '../components';
 import "./gallery.css";
 
 const Navbar = () => {

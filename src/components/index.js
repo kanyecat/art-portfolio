@@ -11,6 +11,9 @@ import { PotCanvas, ChairCanvas, BallCanvas } from './canvas';
 import Loader from "./Loader";
 import Tech from "./Tech";
 import NotFound from './NotFound';
+import MarblePaint from "./MarblePaint";
+import SilentKillers from './SilentKillers';
+import Frankenstein from './Frankenstein';
 
 export {
     Navbar,
@@ -28,4 +31,7 @@ export {
     ChairCanvas,
     Tech,
     NotFound,
+    MarblePaint,
+    SilentKillers,
+    Frankenstein,
 };
