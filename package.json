@@ -1,7 +1,6 @@
 {
   "name": "art-portfolio",
   "homepage": "https://jooheekim.art",
-  "start": "webpack-dev-server --inline --content-base . --history-api-fallback",
   "private": true,
   "version": "0.0.0",
   "type": "module",
