@@ -8,7 +8,7 @@ const MarblePaint = () => {
       <div className={`bg-primary bg-cover bg-no-repeat bg-center ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <div className={`${styles.paddingX}`}>
-            <img src={marblepaint2} className='w-full h-[400px] object-cover'/>
+            <img src={marblepaint2} className='w-full md:h-[400px] h-[100px] object-cover'/>
             <span className='text-white'>coming soon</span>
           </div>
         </div>
