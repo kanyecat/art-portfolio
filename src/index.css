@@ -36,14 +36,43 @@
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+  background: radial-gradient(
+    64.18% 64.18% at 6.16% 51.69%,
+    #00040f 0.89%,
+    #010715 17.23%,
+    #01091c 42.04%,
+    #020b24 55.12%,
+    #00040f 71.54%,
+    #00040f 100%
+  );
+}
+
+.bg-orangered-gradient {
+  background: radial-gradient(
+    75.18% 50.18% at 94.16% 50.0%,
+    #300a03 0.89%,
+    #280802 17.23%,
+    #170501 42.04%,
+    #120300 55.12%,
+    #0d0200 71.54%,
+    #00040f 100%
+  );
+}
+
+.bg-blur {
+  background: rgba(255, 255, 255, 0.4);
+  filter: blur(100%);
+}
+
+.bg-white-gradient {
+  background: radial-gradient(
+    75.18% 50.18% at 94.16% 50.0%,
+    #1b3272 0.89%,
+    #162d64 17.23%,
+    #0f265c 42.04%,
+    #0c1e4e 55.12%,
+    #051234 71.54%,
+    #00040f 100%
   );
 }
 

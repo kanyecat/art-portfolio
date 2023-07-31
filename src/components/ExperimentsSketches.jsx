@@ -32,7 +32,7 @@ const ExperimentsSketches = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25}}
-      className={changingBg ? "bg-white" : "bg-primary" }>
+      className={`${changingBg ? "bg-white" : "bg-primary"} transition-all ease duration:350ms`}>
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
           <img src={tempImage} loading='lazy'/>

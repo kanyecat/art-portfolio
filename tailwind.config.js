@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
-        beige: "rgba(255, 255, 255, 0.7)",
+        beige: "rgba(125, 125, 125)",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.75)",
         darkGray: "#222222",
@@ -19,7 +19,8 @@ module.exports = {
       },
       backgroundImage: {
         "stone": "url('/src/assets/stonebg.png')",
-        "hanji": "url('src/assets/hanji.png')"
+        "hanji": "url('src/assets/hanji.png')",
+        "hanji2" : "url('src/assets/hanji2.png')",
       },
     },
     screens: {

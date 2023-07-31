@@ -47,6 +47,7 @@ import psalmsBlock from "./psalms_block.png";
 import frankensteinHeadSide1 from "./frankenstein_head_side1.png";
 import marblepaint1 from "./marblepaint1.png";
 import marblepaint2 from "./marblepaint2.png";
+import hanji2 from "./hanji2.png";
 
 export {
   me,
@@ -96,4 +97,5 @@ export {
   frankensteinHeadSide1,
   marblepaint1,
   marblepaint2,
+  hanji2,
 };

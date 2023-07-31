@@ -175,3 +175,11 @@
 .button-effect:hover::after{
     opacity: 1;
 }
+
+.menubar{
+    filter: blur(100%);
+}
+
+.sidebar{
+    filter: blur(80%) brightness(10%);
+}

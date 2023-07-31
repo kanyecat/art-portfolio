@@ -8,19 +8,12 @@ import { Tech } from '../components';
 const About = () => {
   return (
     <>
-    <div className={`bg-primary ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
+    <div className={`bg-orangered-gradient ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
       <section id='home' className={`flex md:flex-row flex-col`}>
+      <span className='text-white font-arimo font-normal pb-10 md:text-[22px] text-[16px]'>Hello, I'm Joo Hee! I am currently pursuing a Bachelors 
+      in Engineering Studies and Arts (Mechanical Engineering and Art) and a minor in Physical Computing of IDeATe 
+      at Carnegie Mellon University. </span>
         <img src={me} className='w-[400px]'/>
-        <motion.div 
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
-          className='flex md:flex-row flex-col justify-center items-center py-[6px] px-4
-        bg-discount-gradient rounded-[0px] mb-2 w-full'>
-          <TypingText title="coming soon" textStyles ='text-white' />
-          <span className='font-arimo font-normal text-[15px] text-dimWhite'></span>
-        </motion.div>  
       </section>
     </div>
     <div className={`${styles.boxWidth}`}>

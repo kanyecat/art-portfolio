@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 import { close, menu } from '../assets';
 import { navLinks } from '../constants';
-import { navVariants } from '../motion';
+import { navVariants, fadeIn, slideIn, staggerContainer } from '../motion';
 import { Work } from '../components';
 import "./gallery.css";
 
@@ -18,7 +18,7 @@ const Navbar = () => {
       variants = {navVariants}
       initial="hidden"
       whileInView="show"
-      className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]"'>
+      className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
       <h1 className='JHK'>
         <Link to='/' className='font-arimo font-normal text-white xs:text-[18px] text-[17px] nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
             <span className='jooheekim'>
@@ -47,13 +47,16 @@ const Navbar = () => {
           className='w-[25px] h-[25px] object-contain'
           onClick={() => setToggle((prev) => !prev)}
           />
-
-          <div
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25}}
+            variants={fadeIn('left', 'spring', 0.5, 0.65)}
             className={`${toggle ? 'flex' : 'hidden'}
             p-6 bg-black-gradient absolute top-20 right-0
-            mx-4 my-2 min-w-[140px] sidebar`}
+            mx-6 my-2 min-w-[140px] `}
           >
-            <ul className='list-none flex flex-col justify-end items-center flex-1'>
+            <ul className='list-none flex flex-col justify-end items-start flex-1'>
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
@@ -65,7 +68,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
       </div>
 
     </motion.nav>
