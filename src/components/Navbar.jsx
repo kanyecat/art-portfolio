@@ -42,9 +42,9 @@ const Navbar = () => {
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img 
-          src={toggle ? close : menu} 
+          src={menu}
           alt='menu'
-          className='w-[25px] h-[25px] object-contain'
+          className={`w-[25px] h-[25px] object-contain ${toggle && "animate-turn"}`}
           onClick={() => setToggle((prev) => !prev)}
           />
           <motion.div
@@ -58,14 +58,18 @@ const Navbar = () => {
           >
             <ul className='list-none flex flex-col justify-end items-start flex-1'>
               {navLinks.map((nav, index) => (
-                <li
+                <motion.li
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: false, amount: 0.25}}
+                  variants={fadeIn('right', 'spring', index*0.75, 0.65)}
                   key={nav.id}
                   className={`font-arimo font-normal cursor-pointer text-
                   [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mb-5'} 
                   text-white`}
                 >
                   <Link to={nav.link}>{nav.title}</Link>
-                </li>
+                </motion.li>
               ))}
             </ul>
           </motion.div>

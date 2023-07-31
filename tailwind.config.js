@@ -22,6 +22,17 @@ module.exports = {
         "hanji": "url('src/assets/hanji.png')",
         "hanji2" : "url('src/assets/hanji2.png')",
       },
+      keyframes: {
+        turn: {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "11%": { transform: "rotate(-10deg)" },
+          "40%": { transform: "rotate(-55deg)" },
+          "66%": { transform: "rotate(35deg)" }
+        }
+      },
+      animation: {
+        turn: "turn 600ms ease-in-out"
+      },
     },
     screens: {
       xs: "480px",

@@ -59,11 +59,6 @@
   );
 }
 
-.bg-blur {
-  background: rgba(255, 255, 255, 0.4);
-  filter: blur(100%);
-}
-
 .bg-white-gradient {
   background: radial-gradient(
     75.18% 50.18% at 94.16% 50.0%,
@@ -167,4 +162,12 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+#preloader{
+  background: #00040f;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }

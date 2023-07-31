@@ -39,12 +39,12 @@ function App() {
 const Root = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
+      {/* <div id="preloader"></div> */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
-
       <div className='bg-primary w-full'>
         <Outlet />
       </div>

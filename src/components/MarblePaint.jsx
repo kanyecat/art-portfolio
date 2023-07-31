@@ -12,6 +12,7 @@ const MarblePaint = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 
