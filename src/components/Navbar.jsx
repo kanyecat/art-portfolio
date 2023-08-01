@@ -26,9 +26,12 @@ const Navbar = () => {
         className='font-arimo font-normal text-white xs:text-[18px] text-[17px] 
         nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'
         >
-            <span className='jooheekim'>
-              <span className='jooheekim-en'>JOO HEE KIM</span>
-            </span>
+          <ul className='names'>
+            <div className='names-all'>
+              <li><span>JOO HEE KIM</span></li>
+              <li><span className="font-grandiflora">김주희</span></li>
+            </div>
+          </ul>
         </Link>
       </h1>
       

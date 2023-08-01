@@ -16,6 +16,8 @@ module.exports = {
       fontFamily: {
         arimo: ["Arimo", "sans-serif"],
         gruppo: ["Gruppo", "sans-serif"],
+        diphylleia: ["Diphylleia"],
+        grandiflora: ["GRANDIFLORA", "sans-serif"],
       },
       backgroundImage: {
         "stone": "url('/src/assets/stonebg.png')",

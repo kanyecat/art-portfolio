@@ -107,36 +107,50 @@
 }
 
 .JHK {
+    display: inline-flex;
+}
+
+.names{
+    margin-left: 0.21em;
+    height: 20px;
+    line-height: 20px;
     overflow: hidden;
-    position: relative;
 }
-
-.code-by{
-    transform: translateX(0) rotate(0.001deg);
+.names li{
+    color:white;
+    list-style: none;
+    font-size: 16px;
     position: relative;
-    display: inline-block;
-    transition: var(--animation-primary);
-}
-
-.jooheekim{
-    transform: translateX(0) rotate(0.001deg);
-    position: relative;
-    display: inline-block;
-    padding-left: 0.21em;
-    padding-right: 0.2em;
-    transition: var(--animation-primary);
-}
-
-.jooheekim-kr{
-    position: absolute;
-    opacity: 1;
-    padding-left: 0.21em;
-    transition: var(--animation-primary);
     top: 0;
-    left: 0;
-    transform: translateX(3.25em);
-    white-space: nowrap;
 }
+.names-all:hover{
+    transform: translateY(-1.25rem);
+    transition: all ease-in-out 200ms;
+}
+.names li span{
+    position: relative;
+}
+
+/* .names li span:hover::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    animation: typing 3s steps(4) infinite;
+} */
+@keyframes slide {
+    100%{
+        top: -40px;
+    }
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
 
 .icon{
     width: 25px;
