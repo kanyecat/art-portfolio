@@ -20,7 +20,12 @@ const Navbar = () => {
       whileInView="show"
       className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
       <h1 className='JHK z-30'>
-        <Link to='/' className='font-arimo font-normal text-white xs:text-[18px] text-[17px] nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
+        <Link 
+        to='/' 
+        onClick={() => setToggle(false)}
+        className='font-arimo font-normal text-white xs:text-[18px] text-[17px] 
+        nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'
+        >
             <span className='jooheekim'>
               <span className='jooheekim-en'>JOO HEE KIM</span>
             </span>
@@ -41,7 +46,6 @@ const Navbar = () => {
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center touch-none '>
-        <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-10'/>
         <img 
           src={menu}
           alt='menu'
@@ -51,6 +55,7 @@ const Navbar = () => {
         <div
           className={`${toggle ? 'flex' : 'hidden'}`}
         >
+          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-10'/>
           <div
           className={`bg-hanji-blue fixed top-0 right-0
           w-[100%] h-[100%] z-20 sidebar touch-none`}
