@@ -104,7 +104,7 @@
 }
 
 .blur{
-  backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(5px);
 }
 
 .bg-discount-gradient {
