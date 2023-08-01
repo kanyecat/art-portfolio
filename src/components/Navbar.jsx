@@ -40,7 +40,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className='sm:hidden flex flex-1 justify-end items-center '>
+      <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img 
           src={menu}
           alt='menu'
@@ -55,7 +55,7 @@ const Navbar = () => {
           className={`bg-hanji-transparent fixed top-0 right-0
           w-[100%] h-[100%] z-20 sidebar overflow-y-hidden`}
           />
-          <ul className='fixed z-30 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
+          <ul className='fixed touch-none z-30 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
             {navLinks.map((nav, index) => (
               <motion.li
                 initial="hidden"
