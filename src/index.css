@@ -97,7 +97,7 @@
   );
 }
 
-.bg-hanji-transparent {
+.bg-hanji-blue {
   background: url(..\src\assets\hanji3.png);
   opacity: 0.8;
   background-size: cover;
