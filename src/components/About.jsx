@@ -10,9 +10,18 @@ const About = () => {
     <>
     <div className={`bg-orangered-gradient ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
       <section id='home' className={`flex md:flex-row flex-col`}>
-      <span className='text-white font-arimo font-normal pb-10 md:text-[22px] text-[16px]'>Hello, I'm Joo Hee! I am currently pursuing a Bachelors 
-      in Engineering Studies and Arts (Mechanical Engineering and Art) and a minor in Physical Computing of IDeATe 
-      at Carnegie Mellon University. </span>
+        <div className='pb-10 md:pr-6'>
+          <span className='text-white font-arimo font-normal md:text-[18px] text-[16px]'>Hello, I'm Joo Hee. I am currently in the</span>
+          <span className='text-white font-grandiflora font-normal md:text-[22px] text-[17px]'> Bachelor of Engineering Studies and Arts (BESA) </span>
+          <span className='text-white font-arimo font-normal md:text-[18px] text-[16px]' >intercollege degree program at Carnegie Mellon University. I am pursuing
+           two majors in the</span>
+          <span className='text-white font-grandiflora font-normal md:text-[22px] text-[17px]'> School of Art </span>
+          <span className='text-white font-arimo font-normal md:text-[18px] text-[16px]'>and</span>
+          <span className='text-white font-grandiflora font-normal md:text-[22px] text-[17px]'> Mechanical Engineering </span>
+          <span className='text-white font-arimo font-normal md:text-[18px] text-[16px]'>as well as a minor in</span>
+          <span className='text-white font-grandiflora font-normal md:text-[22px] text-[17px]'> Physical Computing (IDeATe)</span>
+          <span className='text-white font-arimo font-normal md:text-[18px] text-[16px]'>.</span>
+        </div>
         <img src={me} className='w-[400px]'/>
       </section>
     </div>

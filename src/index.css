@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "GRANDIFLORA";
-  src: url("../public/Grandiflora-Hairline.otf");
+  src: url("../Grandiflora-Hairline.otf");
 }
 
 @tailwind base;
