@@ -19,7 +19,7 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
-      <h1 className='JHK'>
+      <h1 className='JHK z-20'>
         <Link to='/' className='font-arimo font-normal text-white xs:text-[18px] text-[17px] nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
             <span className='jooheekim'>
               <span className='jooheekim-en'>JOO HEE KIM</span>
@@ -40,39 +40,37 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className='sm:hidden flex flex-1 justify-end items-center'>
+      <div className='sm:hidden flex flex-1 justify-end items-center '>
         <img 
           src={menu}
           alt='menu'
-          className={`w-[25px] h-[25px] object-contain ${toggle && "animate-turn"}`}
+          className={`w-[25px] h-[25px] object-contain z-20 ${toggle && "animate-turn"}`}
           onClick={() => setToggle((prev) => !prev)}
+        />
+        <div
+          className={`${toggle ? 'flex' : 'hidden'}`}
+        >
+          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden'/>
+          <div
+          className={`bg-hanji-transparent fixed top-0 right-0
+          w-[100%] h-[100%] z-10 sidebar overflow-y-hidden`}
           />
-          <motion.div
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.25}}
-            variants={fadeIn('left', 'spring', 0.5, 0.65)}
-            className={`${toggle ? 'flex' : 'hidden'}
-            p-6 bg-black-gradient absolute top-20 right-0
-            mx-6 my-2 min-w-[140px] `}
-          >
-            <ul className='list-none flex flex-col justify-end items-start flex-1'>
-              {navLinks.map((nav, index) => (
-                <motion.li
-                  initial="hidden"
-                  whileInView="show"
-                  viewport={{ once: false, amount: 0.25}}
-                  variants={fadeIn('right', 'spring', index*0.75, 0.65)}
-                  key={nav.id}
-                  className={`font-arimo font-normal cursor-pointer text-
-                  [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mb-5'} 
-                  text-white`}
-                >
-                  <Link to={nav.link}>{nav.title}</Link>
-                </motion.li>
-              ))}
-            </ul>
-          </motion.div>
+          <ul className='fixed z-20 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
+            {navLinks.map((nav, index) => (
+              <motion.li
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.25}}
+                variants={fadeIn('left', 'spring', index*0.5, 0.65)}
+                key={nav.id}
+                className={`font-arimo font-normal cursor-pointer text-[24px] pb-5 pl-8
+                text-white `}
+              >
+                <Link to={nav.link} onClick={() => setToggle(false)}>{nav.title}</Link>
+              </motion.li>
+            ))}
+          </ul>
+        </div>
       </div>
 
     </motion.nav>
