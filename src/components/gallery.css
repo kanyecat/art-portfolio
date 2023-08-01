@@ -112,7 +112,7 @@
 
 .names{
     margin-left: 0.21em;
-    height: 20px;
+    height: 18px;
     line-height: 20px;
     overflow: hidden;
 }
@@ -124,7 +124,7 @@
     top: 0;
 }
 .names-all:hover{
-    transform: translateY(-1.25rem);
+    transform: translateY(-1.2rem);
     transition: all ease-in-out 200ms;
 }
 .names li span{
