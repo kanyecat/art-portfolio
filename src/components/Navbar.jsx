@@ -50,7 +50,7 @@ const Navbar = () => {
         <div
           className={`${toggle ? 'flex' : 'hidden'}`}
         >
-          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden'/>
+          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-10'/>
           <div
           className={`bg-hanji-transparent fixed top-0 right-0
           w-[100%] h-[100%] z-20 sidebar overflow-y-hidden`}
