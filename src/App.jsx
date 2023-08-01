@@ -41,11 +41,11 @@ const Root = () => {
     <div className='bg-primary w-full overflow-hidden'>
       {/* <div id="preloader"></div> */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} z-10`}>
           <Navbar />
         </div>
       </div>
-      <div className='bg-primary w-full'>
+      <div className='bg-primary w-full z-0'>
         <Outlet />
       </div>
 

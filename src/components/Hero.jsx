@@ -22,7 +22,7 @@ const Hero = () => {
             <span className='font-gruppo xs:text-[100px] text-[60px] xs:leading-[120.8px] leading-[60.8px] text-white'>Art &</span>
             <span className='font-gruppo xs:text-[100px] text-[60px] xs:leading-[120.8px] leading-[60.8px] text-white'>Mechanical Engineering</span>
           </div>
-          <div className={`flex md:flex-row flex-col w-[400px] h-[300px] pr-3 xl:mr-0 sm:mr-40 sm:mt-20 mr-0 z-0`}>
+          <div className={`flex md:flex-row flex-col w-[400px] h-[300px] pr-3 xl:mr-0 sm:mr-40 sm:mt-20 mr-0`}>
             <PotCanvas />
           </div>
         </div>

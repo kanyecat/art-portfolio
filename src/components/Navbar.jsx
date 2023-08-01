@@ -19,7 +19,7 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
-      <h1 className='JHK z-20'>
+      <h1 className='JHK z-30'>
         <Link to='/' className='font-arimo font-normal text-white xs:text-[18px] text-[17px] nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'>
             <span className='jooheekim'>
               <span className='jooheekim-en'>JOO HEE KIM</span>
@@ -44,7 +44,7 @@ const Navbar = () => {
         <img 
           src={menu}
           alt='menu'
-          className={`w-[25px] h-[25px] object-contain z-20 ${toggle && "animate-turn"}`}
+          className={`w-[25px] h-[25px] object-contain z-30 ${toggle && "animate-turn"}`}
           onClick={() => setToggle((prev) => !prev)}
         />
         <div
@@ -53,9 +53,9 @@ const Navbar = () => {
           <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden'/>
           <div
           className={`bg-hanji-transparent fixed top-0 right-0
-          w-[100%] h-[100%] z-10 sidebar overflow-y-hidden`}
+          w-[100%] h-[100%] z-20 sidebar overflow-y-hidden`}
           />
-          <ul className='fixed z-20 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
+          <ul className='fixed z-30 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
             {navLinks.map((nav, index) => (
               <motion.li
                 initial="hidden"
