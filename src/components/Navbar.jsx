@@ -41,6 +41,7 @@ const Navbar = () => {
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center touch-none '>
+        <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-10'/>
         <img 
           src={menu}
           alt='menu'
@@ -50,7 +51,6 @@ const Navbar = () => {
         <div
           className={`${toggle ? 'flex' : 'hidden'}`}
         >
-          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-10'/>
           <div
           className={`bg-hanji-blue fixed top-0 right-0
           w-[100%] h-[100%] z-20 sidebar touch-none`}
