@@ -99,8 +99,10 @@
 
 .bg-hanji-blue {
   background: url(..\src\assets\hanji3.png);
-  opacity: 0.8;
   background-size: cover;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
 }
 
 .blur{
