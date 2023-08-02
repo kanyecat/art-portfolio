@@ -138,7 +138,7 @@
     top: 0;
 }
 .names-all:hover{
-    transform: translateY(-21px);
+    transform: translateY(-20px);
     transition: all ease-in-out 200ms;
 }
 .names li span{
