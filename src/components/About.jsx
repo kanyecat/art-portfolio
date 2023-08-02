@@ -4,6 +4,7 @@ import { slideIn, staggerContainer, textVariant } from '../motion'
 import { TypingText } from '../components';
 import { me } from "../assets";
 import { Tech } from '../components';
+import { transition } from "../hoc";
 
 const About = () => {
   return (
@@ -37,4 +38,4 @@ const About = () => {
   )
 }
 
-export default About
+export default transition(About);

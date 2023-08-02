@@ -1,7 +1,7 @@
 import { instagram, calligraphy, mantis_enclosure, 
-  recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
+  recordplayer, recordplayerSmall, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
   untold_story, defenseMechanism, notebookcoverdesign, single_propagation_holder, 
-  triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, relationships, seoul, corals,
+  triple_propagation_holder, fortyDaysNights, fortyDaysNightsSmall, linkedin, wahlbergii, torso, sofa, relationships, seoul, corals,
   waterIntoWine, css, html, psalmsBlock, reactjs, tailwind, figma, git, javascript, typescript,
   nodejs, threejs, solidworks, frankensteinHeadSide1, arduino, marblepaint, silentKillers} from "../assets";
 
@@ -75,6 +75,7 @@ export const experiments = [
   {
     id: "experiment-4",
     image: fortyDaysNights,
+    imageSmall: fortyDaysNightsSmall,
   },
   {
     id: "experiment-5",
@@ -95,6 +96,7 @@ export const experiments = [
   {
     id: "experiment-9",
     image: recordplayer,
+    imageSmall: recordplayerSmall,
   },
   {
     id: "experiment-10",

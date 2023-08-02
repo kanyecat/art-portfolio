@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style';
+import { transition } from "../hoc";
 import { marblepaint, marblepaint1, marblepaint2 } from '../assets';
 
 const MarblePaint = () => {
@@ -16,4 +17,4 @@ const MarblePaint = () => {
   )
 }
 
-export default MarblePaint
+export default transition(MarblePaint,"")

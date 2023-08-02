@@ -1,5 +1,6 @@
 import styles from './style';
 import React, { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
 
 import { Navbar, Home, ExperimentsSketches, About, Footer, NotFound, 
   MarblePaint, SilentKillers, Frankenstein } from './components';
@@ -38,23 +39,24 @@ function App() {
 
 const Root = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} z-10`}>
-          <Navbar />
+    <AnimatePresence mode='wait'>
+      <div className='bg-primary w-full overflow-hidden'>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth} z-10`}>
+            <Navbar />
+          </div>
+        </div>
+        <div className='bg-primary w-full z-0'>
+          <Outlet />
+        </div>
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Footer />
+          </div>
         </div>
       </div>
-      <div className='bg-primary w-full z-0'>
-        <Outlet />
-      </div>
-
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Footer />
-        </div>
-      </div>
-
-    </div>
+    </AnimatePresence>
   )
 }
 

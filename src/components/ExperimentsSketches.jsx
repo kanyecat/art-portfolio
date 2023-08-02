@@ -5,7 +5,8 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { fadeIn, slideIn, staggerContainer, textVariant } from '../motion'
 import { close } from '../assets';
-import "./gallery.css"
+import { transition } from "../hoc";
+import "./gallery.css";
 
 const ExperimentsSketches = () => {
   const [model, setModel] = useState(false);
@@ -25,7 +26,20 @@ const ExperimentsSketches = () => {
     // console.log(window.scrollY)
   };
 
+  // const blurredImageDiv = document.querySelector("#blur-img");
+  // const img = blurredImageDiv.querySelector("img");
+  // function loaded() {
+  //   blurredImageDiv.classList.add("loaded")
+  // };
+  
+  // if (img.complete) {
+  //   loaded()
+  // } else {
+  //   img.addEventListener("load", loaded)
+  // };
+
   window.addEventListener("scroll", changeBackground);
+
   return (
     <motion.div 
       variants={staggerContainer} 
@@ -39,20 +53,24 @@ const ExperimentsSketches = () => {
         </div>
         <div className='gallery'>
           {experiments.map((item, index) => (
-            <Tilt className='pics' 
+            <Tilt className='pics'
+            loading="lazy"
             options={{
               max: 15,
               scale: 1,
               speed: 450
             }}
             key={index}>
-              <img
-                className='pic'
-                src={item.image} 
-                style={{width: "100%"}}
-                loading='lazy'
-                onClick={() => getImage(item.image)}
-              />
+              {/* <div id='blur-img'
+              style={`background-image: url(${item.imageSmall})`}> */}
+                <img
+                  className='pic'
+                  src={item.image} 
+                  style={{width: "100%"}}
+                  loading='lazy'
+                  onClick={() => getImage(item.image)}
+                />
+              {/* </div> */}
             </Tilt>
           ))}
         </div>
@@ -61,4 +79,4 @@ const ExperimentsSketches = () => {
   )
 }
 
-export default ExperimentsSketches
+export default transition(ExperimentsSketches,"");

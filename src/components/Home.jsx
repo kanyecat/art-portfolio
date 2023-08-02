@@ -1,5 +1,5 @@
 import styles from '../style';
-
+import { transition } from "../hoc";
 import { Hero, Work, Tech } from '../components';
 
 const Home = () => {
@@ -20,4 +20,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default transition(Home,"");

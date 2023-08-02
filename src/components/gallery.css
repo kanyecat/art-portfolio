@@ -21,6 +21,40 @@
     transition: all 350ms ease;
     border-radius: 15px;
 }
+.blur-img {
+    background-size: cover;
+    background-position: center;
+}
+.blur-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    animation: pulse 2.5s infinite;
+    background-color: transparent;
+} @keyframes pulse {
+0% {
+    opacity: 0;
+}
+50% {
+    opacity: 0.1;
+}
+100% {
+    opacity: 0;
+}
+}
+.blur-img.loaded::before {
+    animation: none;
+    content: none;
+}
+.blur-img pic {
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+
+.blur-img.loaded pic {
+  opacity: 1;
+}
 
 @media (max-width: 991px) {
     .gallery{

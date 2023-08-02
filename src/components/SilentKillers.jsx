@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style';
+import { transition } from "../hoc";
 
 const SilentKillers = () => {
   return (
@@ -15,4 +16,4 @@ const SilentKillers = () => {
   )
 }
 
-export default SilentKillers
+export default transition(SilentKillers,"");

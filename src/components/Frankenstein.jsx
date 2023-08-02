@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style';
+import { transition } from "../hoc";
 
 const Frankenstein = () => {
   return (
@@ -15,4 +16,4 @@ const Frankenstein = () => {
   )
 }
 
-export default Frankenstein
+export default transition(Frankenstein,"");
