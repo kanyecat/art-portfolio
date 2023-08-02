@@ -10,7 +10,7 @@ const pot = useGLTF("../desktop_pc/krtr_pot_metal.gltf")
     <mesh>
         <hemisphereLight
         intensity={0.5}
-        groundColor = "black" />
+        groundColor = "#1a398f" />
         {/* <pointLight intensity={0.4} /> */}
         <spotLight
             position={[30, 0, 55]}
