@@ -51,7 +51,7 @@
         overflow: hidden;
     }
     @keyframes shuffle{
-        0% {
+        0%, 85% {
             transform: translateY(0px);
         }
         100% {
@@ -160,10 +160,10 @@
     height: 100%;
     justify-content: flex-end;
     align-items: center;
-    animation: shuffle steps(14) 1.5s;
+    animation: shuffle steps(14) 5s;
 }
 @keyframes shuffle{
-    0% {
+    0%, 80%{
         transform: translateY(0px);
     }
     100% {
