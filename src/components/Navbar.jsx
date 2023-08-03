@@ -12,6 +12,11 @@ import "./gallery.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false); 
+  const [drop, setDrop] = useState(false);
+  const reset = () => {
+    setToggle(false);
+    setDrop(false);
+  };
 
   return (
     <motion.nav
@@ -19,10 +24,10 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
-      <h1 className='JHK z-30'>
+      <h1 className='JHK z-30'
+      onClick={() => reset()}>
         <Link 
         to='/' 
-        onClick={() => setToggle(false)}
         className='font-arimo font-normal text-white xs:text-[18px] text-[17px] 
         nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'
         >
@@ -48,7 +53,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className='sm:hidden flex flex-1 justify-end items-center touch-none '>
+      <div className='sm:hidden flex flex-1 justify-end items-center touch-none'>
         <img 
           src={menu}
           alt='menu'
@@ -64,17 +69,66 @@ const Navbar = () => {
           w-[100%] h-[100%] z-20 sidebar touch-none`}
           />
           <ul className='fixed z-30 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
+            <motion.li 
+            className={`${drop? "dropdown open" : "dropdown"} w-full justify-start`}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25}}
+            variants={fadeIn('left', 'spring', 0, 0.65)}
+            onClick={() => setDrop((prev) => !prev)}
+            >
+              <button 
+              className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pl-8 pt-3 text-white`}>
+              ./projects
+              </button>
+              <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} w-[100%] pl-[15vw]`}>
+                <li
+                key="marble paint"
+                className={`font-arimo font-normal cursor-pointer text-[18px] pt-5 pb-3
+                text-white link w-full`}
+                onClick={() => reset()}
+                >
+                  <Link 
+                  to="/marble-paint"
+                  >/marble-paint
+                  </Link>
+                </li>
+                <li
+                key="silent killers"
+                className={`font-arimo font-normal cursor-pointer text-[18px] pt-3 pb-3
+                text-white link`}
+                onClick={() => reset()}
+                >
+                  <Link 
+                  to="/silent-killers"
+                  >/silent-killers
+                  </Link>
+                </li>
+                <li
+                key="frankenstein"
+                className={`font-arimo font-normal cursor-pointer text-[18px] pt-3 pb-5
+                text-white`}
+                onClick={() => reset()}
+                >
+                  <Link 
+                  to="/frankenstein"
+                  >/frankenstein
+                  </Link>
+                </li>
+              </ul>
+            </motion.li> 
             {navLinks.map((nav, index) => (
               <motion.li
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25}}
-                variants={fadeIn('left', 'spring', index*0.5, 0.65)}
+                variants={fadeIn('left', 'spring', (index+1)*0.5, 0.65)}
                 key={nav.id}
-                className={`font-arimo font-normal cursor-pointer text-[24px] pb-5 pl-8
+                className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pt-3 pl-8
                 text-white `}
+                onClick={() => reset()}
               >
-                <Link to={nav.link} onClick={() => setToggle(false)}>{nav.title}</Link>
+                <Link to={nav.link}>{nav.title}</Link>
               </motion.li>
             ))}
           </ul>

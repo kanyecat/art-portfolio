@@ -6,11 +6,11 @@ import { instagram, calligraphy, mantis_enclosure,
   nodejs, threejs, solidworks, frankensteinHeadSide1, arduino, marblepaint, silentKillers} from "../assets";
 
 export const navLinks = [
-  {
-    id: "work",
-    title: "./work",
-    link: "/",
-  },
+  // {
+  //   id: "work",
+  //   title: "./work",
+  //   link: "/",
+  // },
   {
     id: "experiments",
     title: "./experiments-prototypes",

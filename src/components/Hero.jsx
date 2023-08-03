@@ -1,6 +1,6 @@
 import styles from '../style';
 import { motion } from 'framer-motion';
-import { slideIn, staggerContainer, textVariant } from '../motion'
+import { slideIn, staggerContainer, textVariant, fadeIn } from '../motion'
 import { TypingText } from '../components';
 import { PotCanvas, ChairCanvas, ArkCanvas } from "./canvas";
 import "./gallery.css";
@@ -27,10 +27,10 @@ const Hero = () => {
             <PotCanvas />
           </div>
         </div>
-        <div className="md:px-40 px-6 flex-row justify-end items-center">
+        <div className="px-6 flex-row justify-end items-center">
           <div className='scramble-txts xs:text-[30px] text-[20px] xs:leading-[45.8px] leading-[30.8px]'>
               <span className='font-grandiflora'>+ PHYSICAL COMPUTING</span>
-              <span className="font-grandiflora">+ P&$~:#+^_%?=@/*?-#</span>
+              <span className="font-grandiflora">+ %&$~:#+^_%?=@/*?-#</span>
               <span className="font-grandiflora">+ P&Y~:#+^_%?=@/*&-#</span>
               <span className="font-grandiflora">+ PH$~I#+^&%?=@/*?-%</span>
               <span className="font-grandiflora">+ PHY~:C+^=%?=@/*&-#</span>
@@ -44,21 +44,21 @@ const Hero = () => {
               <span className="font-grandiflora">+ PHYSICAL=COMPUTI-G</span>
               <span className="font-grandiflora">+ PHYSICAL COMPUTING</span>
           </div>
-          <div className='scramble-txts md:pl-40 pl-10 xs:text-[30px] text-[20px] xs:leading-[45.8px] leading-[30.8px]'>
-              <span className='font-grandiflora'>+ UI UX</span>
-              <span className="font-grandiflora">+ UUIUU</span>
-              <span className="font-grandiflora">+ IIIII</span>
-              <span className="font-grandiflora">+ UUIUU</span>
-              <span className="font-grandiflora">+ UIUIU</span>
-              <span className="font-grandiflora">+ IIUII</span>
-              <span className="font-grandiflora">+ XXXXX</span>
-              <span className="font-grandiflora">+ UUXUU</span>
-              <span className="font-grandiflora">+ XUXUX</span>
-              <span className="font-grandiflora">+ XXUXX</span>
-              <span className="font-grandiflora">+ XXXXX</span>
-              <span className="font-grandiflora">+ XIXIX</span>
-              <span className="font-grandiflora">+ IXIXI</span>
-              <span className="font-grandiflora">+ UI UX</span>
+          <div className='scramble-txts md:pl-40 md:mt-4 mt-2 pl-10 xs:text-[30px] text-[20px] xs:leading-[45.8px] leading-[30.8px]'>
+              <span className='font-grandiflora'>+ FRONT-END DEV</span>
+              <span className="font-grandiflora">+ %?0#4-3&+*@~^</span>
+              <span className="font-grandiflora">+ #R0&4~?@+-D=$</span>
+              <span className="font-grandiflora">+ FR0@!=8&+=#E^</span>
+              <span className="font-grandiflora">+ FRO#4-EN+*$3#</span>
+              <span className="font-grandiflora">+ F?0N!=3N+~D~*</span>
+              <span className="font-grandiflora">+ FR0N4~E$+*@*^</span>
+              <span className="font-grandiflora">+ F?0NT-EN+~DE$</span>
+              <span className="font-grandiflora">+ FRO#T~E@D=$*^</span>
+              <span className="font-grandiflora">+ FR0NT-#ND-&3V</span>
+              <span className="font-grandiflora">+ FR0#T-EN+=D^V</span>
+              <span className="font-grandiflora">+ FR0NT~E&D-D-*</span>
+              <span className="font-grandiflora">+ FRONT-END-DE^</span>
+              <span className="font-grandiflora">+ FRONT-END DEV</span>
           </div>
         </div>
         <div className='flex justify-center items-center w-full mt-10'>

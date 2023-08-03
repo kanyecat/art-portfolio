@@ -53,6 +53,7 @@ import frankensteinHeadSide1Small from "./frankenstein_head_side1-small.png";
 import marblepaint1 from "./marblepaint1.png";
 import marblepaint2 from "./marblepaint2.png";
 import hanji2 from "./hanji2.png";
+import me1 from "./me1.png";
 
 export {
   me,
@@ -108,4 +109,5 @@ export {
   marblepaint1,
   marblepaint2,
   hanji2,
+  me1,
 };
