@@ -294,3 +294,12 @@
     transform: translateY(10px);
     transition: opacity 350ms ease-in-out, transform 250ms ease-in-out;
 }
+.objectives li::before {
+    content: "+ ";
+}
+.image-box{
+    overflow-y: scroll;
+}
+.image-box::-webkit-scrollbar{
+    display: none;
+}
