@@ -106,10 +106,9 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(0,0,0,0.85);
-    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+    transition: opacity .3s ease, visibility .3s ease;
     visibility: hidden;
     opacity: 0;
-    transform: scale(0);
     overflow: hidden;
     z-index: 999;
 }
@@ -120,9 +119,9 @@
 }
 .model img{
     width: auto;
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
-    max-height: 100%;
+    max-height: 85%;
     display: block;
     line-height: 0;
     box-sizing: border-box;
