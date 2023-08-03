@@ -272,7 +272,7 @@
 }
 .dropdown.open {
     position: relative;
-    margin-bottom: 21vh;
+    margin-bottom: 22vh;
 }
 .dropdown-menu{
     position: absolute;
@@ -283,14 +283,12 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    height: 0;
 }
 .dropdown-menu .link{
     position: relative;
     border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
 }
 .dropdown-menu.open{
-    height: 19vh;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
