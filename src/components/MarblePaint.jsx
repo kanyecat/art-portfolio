@@ -9,7 +9,7 @@ const MarblePaint = () => {
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`bg-primary bg-cover bg-no-repeat bg-center ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex flex-wrap justify-center`}>
-        <span className='md:text-start text-center w-full md:text-[90px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>MARBLE PAINT</span>
+        <span className='md:text-start items-start w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>MARBLE PAINT</span>
           <div className='flex md:flex-row flex-col'>
           <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
               <div className='flex flex-row pb-6'>
@@ -63,14 +63,14 @@ const MarblePaint = () => {
               </div>
             </div>
 
-            <div className='flex flex-col md:flex-[1.5] scroll-box md:h-[650px]'>
-              <img src={marblepaint} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+            <div className='flex flex-col md:flex-[1.5] scroll-box md:h-[700px]'>
+              <img src={marblepaint} className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
               <img src={marblepaint2} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
               <img src={marblepaint1} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
               <img src={me1} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
             </div>
 
-            <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-0 md:pt-6'>
+            <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-0'>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>
