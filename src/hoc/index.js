@@ -1,4 +1,4 @@
 import StarWrapper from "./SectionWrapper";
-import transition from "./Transition";
+import transition from "./transition";
 
 export { StarWrapper, transition };
