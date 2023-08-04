@@ -13,7 +13,7 @@ const About = () => {
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <section className={`flex flex-col`}>
-            <div className='pb-10 md:pr-6'>
+            <div className='pb-10'>
               <span className='text-dimWhite font-arimo font-normal md:text-[24px] text-[16px]'>Hello, I'm Joo Hee. I am currently in the</span>
               <span className='text-white font-grandiflora font-normal md:text-[26px] text-[18px]'> Bachelor of Engineering Studies and Arts (BESA) </span>
               <span className='text-dimWhite font-arimo font-normal md:text-[24px] text-[16px]' >intercollege degree program at Carnegie Mellon University. I am pursuing

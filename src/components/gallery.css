@@ -84,6 +84,9 @@
         background: transparent;
         overflow: hidden;
     }
+    .scroll-box{
+        overflow-y: visible;
+    }
     @keyframes shuffle{
         0%, 85% {
             transform: translateY(0px);
@@ -297,9 +300,9 @@
 .objectives li::before {
     content: "+ ";
 }
-.image-box{
+.scroll-box{
     overflow-y: scroll;
 }
-.image-box::-webkit-scrollbar{
+.scroll-box::-webkit-scrollbar{
     display: none;
 }

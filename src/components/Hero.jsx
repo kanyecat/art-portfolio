@@ -17,8 +17,8 @@ const Hero = () => {
             className='flex md:flex-row flex-col justify-center items-center mb-2 w-full'>
             <TypingText title="Joo Hee is a senior studying..." textStyles ='text-dimWhite' />
         </motion.div>  
-        <div className='flex md:flex-row flex-col'>
-          <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:pl-20 md:pl-40 px-6 md:pt-0 pt-4`}>
+        <div className={`flex md:flex-row flex-col`}>
+          <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:pl-20 md:pt-0 pt-4`}>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ART &</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>MECHANICAL</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ENGINEERING</span>
@@ -27,7 +27,7 @@ const Hero = () => {
             <PotCanvas />
           </div>
         </div>
-        <div className="px-6 flex-row justify-end items-center">
+        <div className={`flex-row ${styles.paddingX} justify-end items-center`}>
           <div className='scramble-txts xs:text-[30px] text-[20px] xs:leading-[45.8px] leading-[30.8px]'>
               <span className='font-grandiflora'>+ PHYSICAL COMPUTING</span>
               <span className="font-grandiflora">+ %&$~:#+^_%?=@/*?-#</span>
