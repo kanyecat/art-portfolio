@@ -54,6 +54,11 @@ import marblepaint1 from "./marblepaint1.png";
 import marblepaint2 from "./marblepaint2.png";
 import hanji2 from "./hanji2.png";
 import me1 from "./me1.png";
+import silentKillers2 from "./silentKillers2.png";
+import silentKillers3 from "./silentKillers3.png";
+import silentKillers4 from "./silentKillers4.png";
+import silentKillers5 from "./silentKillers5.png";
+import silentKillers6 from "./silentKillers6.png";
 
 export {
   me,
@@ -110,4 +115,9 @@ export {
   marblepaint2,
   hanji2,
   me1,
+  silentKillers2,
+  silentKillers3,
+  silentKillers4,
+  silentKillers5,
+  silentKillers6,
 };

@@ -29,7 +29,8 @@ const MarblePaint = () => {
                   <ul className={`text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
                     <li>Mechanical Design</li>
                     <li>Digital Prototyping</li>
-                    <li>Digital Fabrication</li>
+                    <li>Laser Cutting</li>
+                    <li>3D Printing</li>
                     <li>Building and Testing</li>
                   </ul>
                 </div>
@@ -88,7 +89,8 @@ const MarblePaint = () => {
                   <ul className={`text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
                     <li>Mechanical Design</li>
                     <li>Digital Prototyping</li>
-                    <li>Digital Fabrication</li>
+                    <li>Laser Cutting</li>
+                    <li>3D Printing</li>
                     <li>Building and Testing</li>
                   </ul>
                 </div>
@@ -125,7 +127,6 @@ const MarblePaint = () => {
         </div>
       </div>
     </div>
-    
   )
 }
 
