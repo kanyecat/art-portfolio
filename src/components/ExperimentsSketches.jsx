@@ -41,7 +41,7 @@ const ExperimentsSketches = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <div className={`${changingBg ? "bg-white" : "bg-primary"} w-[full] transition-all ease duration:350ms`}>
+    <div id='experiments-sketches' className={`${changingBg ? "bg-white" : "bg-primary"} w-[full] transition-all ease duration:350ms`}>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} justify-center`}>
           <div className={model? "model open" : "model"} onClick={() => setModel(false)}>

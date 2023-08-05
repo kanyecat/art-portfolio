@@ -6,7 +6,7 @@ import "./gallery.css"
 
 const SilentKillers = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div id='silent-killers' className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
         <span className='md:text-start text-center w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-8'>SILENT KILLERS</span>

@@ -6,7 +6,7 @@ import "./gallery.css"
 
 const Frankenstein = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div id='frankenstein' className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
           <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-col'>

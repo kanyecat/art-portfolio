@@ -6,12 +6,12 @@ import "./gallery.css"
 
 const MarblePaint = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div id='marble-paint' className='bg-primary w-full overflow-hidden'>
       <div className={` ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
-        <span className='md:text-start text-center w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-8'>MARBLE PAINT</span>
+          <span className='md:text-start text-center w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-8'>MARBLE PAINT</span>
           <div className='flex md:flex-row flex-col'>
-          <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
+            <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>
