@@ -7,9 +7,9 @@ import "./gallery.css"
 const SilentKillers = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
-      <div className={`bg-primary bg-cover bg-no-repeat bg-center ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} flex flex-wrap justify-center`}>
-        <span className='md:text-start items-start w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>SILENT KILLERS</span>
+      <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
+        <span className='md:text-start text-center w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-8'>SILENT KILLERS</span>
           <div className='flex md:flex-row flex-col'>
           <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
               <div className='flex flex-row pb-6'>
@@ -56,10 +56,11 @@ const SilentKillers = () => {
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
                 <div className='flex-[0.15]'></div>
                 <ul className={`flex-[2.5] items-start text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
-                  <li>Create an interactive painting machine</li>
-                  <li>Allow the children to  have artistic freedom</li>
-                  <li>Make the project easy to interact with</li>
-                  <li>Able to produce variety of paintings (paintings are not structured)</li>
+                  <li>Plywood</li>
+                  <li>Plaster</li>
+                  <li>Resin</li>
+                  <li>Fishing Line</li>
+                  <li>Acrylic Paint</li>
                 </ul>
               </div>
             </div>

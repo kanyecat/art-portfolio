@@ -48,7 +48,11 @@ import marblepaint from "./marblepaint.png";
 import silentKillers from "./silentKillers.png";
 import silentKillersSmall from "./silentKillers-small.png";
 import psalmsBlock from "./psalms_block.png";
-import frankensteinHeadSide1 from "./frankenstein_head_side1.png";
+import frankensteinHead1 from "./frankenstein_head_side1.png";
+import frankensteinHead2 from "./frankensteinHead2.png";
+import frankensteinHead3 from "./frankensteinHead3.png";
+import frankensteinHand1 from "./frankensteinHand1.png";
+import frankensteinHand2 from "./frankensteinHand2.png";
 import frankensteinHeadSide1Small from "./frankenstein_head_side1-small.png";
 import marblepaint1 from "./marblepaint1.png";
 import marblepaint2 from "./marblepaint2.png";
@@ -110,7 +114,11 @@ export {
   silentKillers,
   silentKillersSmall,
   psalmsBlock,
-  frankensteinHeadSide1,
+  frankensteinHead1,
+  frankensteinHead2,
+  frankensteinHead3,
+  frankensteinHand1,
+  frankensteinHand2,
   marblepaint1,
   marblepaint2,
   hanji2,
