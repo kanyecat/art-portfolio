@@ -18,7 +18,7 @@ const Hero = () => {
             <TypingText title="Joo Hee is a senior studying..." textStyles ='text-dimWhite' />
         </motion.div>  
         <div className={`flex md:flex-row flex-col`}>
-          <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:pl-20 md:pt-0 pt-4`}>
+          <div className={`flex-1 ${styles.flexStart} flex-col ${styles.paddingX} md:pt-0 pt-4`}>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ART &</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>MECHANICAL</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ENGINEERING</span>
