@@ -1,6 +1,6 @@
 import { instagram, calligraphy, mantis_enclosure, 
   recordplayer, recordplayerSmall, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
-  untold_story, defenseMechanism, notebookcoverdesign, single_propagation_holder, 
+  untold_story, defenseMechanism1, defenseMechanism2, notebookcoverdesign, single_propagation_holder, 
   triple_propagation_holder, fortyDaysNights, fortyDaysNightsSmall, linkedin, wahlbergii, torso, sofa, relationships, seoul, corals,
   waterIntoWine, css, html, psalmsBlock, reactjs, tailwind, figma, git, javascript, typescript,
   nodejs, threejs, solidworks, frankensteinHead1, arduino, marblepaint, silentKillers} from "../assets";

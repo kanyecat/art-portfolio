@@ -17,6 +17,7 @@ module.exports = {
         arimo: ["Arimo", "sans-serif"],
         gruppo: ["Gruppo", "sans-serif"],
         diphylleia: ["Diphylleia"],
+        opensans: ["Open Sans"],
         grandiflora: ["GRANDIFLORA", "sans-serif"],
       },
       backgroundImage: {

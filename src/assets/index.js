@@ -8,7 +8,6 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import calligraphy from "./calligraphy.png";
 import krtr_pot_v1 from "./krtr_pot_v1.png";
-import defenseMechanism from "./defenseMechanism.png";
 import fortyDaysNights from "./fortyDaysNights.png";
 import fortyDaysNightsSmall from "./fortyDaysNights-small.png";
 import krtr_pot_lantern from "./krtr_pot_lantern.png";
@@ -56,6 +55,9 @@ import frankensteinHand2 from "./frankensteinHand2.png";
 import frankensteinHeadSide1Small from "./frankenstein_head_side1-small.png";
 import marblepaint1 from "./marblepaint1.png";
 import marblepaint2 from "./marblepaint2.png";
+import marblepaint5 from "./marblePaint5.png";
+import marblepaint3 from "./marble_paint_assembled.png";
+import marblepaint4 from "./marble_paint_disassembled.png";
 import hanji2 from "./hanji2.png";
 import me1 from "./me1.png";
 import silentKillers2 from "./silentKillers2.png";
@@ -63,6 +65,8 @@ import silentKillers3 from "./silentKillers3.png";
 import silentKillers4 from "./silentKillers4.png";
 import silentKillers5 from "./silentKillers5.png";
 import silentKillers6 from "./silentKillers6.png";
+import defenseMechanism1 from "./defenseMechanism1.png";
+import defenseMechanism2 from "./defenseMechanism2.png";
 
 export {
   me,
@@ -77,7 +81,8 @@ export {
   linkedin,
   calligraphy,
   krtr_pot_v1,
-  defenseMechanism,
+  defenseMechanism1,
+  defenseMechanism2,
   fortyDaysNights,
   krtr_pot_lantern,
   single_propagation_holder,
@@ -121,6 +126,9 @@ export {
   frankensteinHand2,
   marblepaint1,
   marblepaint2,
+  marblepaint3,
+  marblepaint4,
+  marblepaint5,
   hanji2,
   me1,
   silentKillers2,

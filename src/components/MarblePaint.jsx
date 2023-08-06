@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style';
 import { transition } from "../hoc";
-import { marblepaint, marblepaint1, marblepaint2, me1 } from '../assets';
+import { marblepaint, marblepaint1, marblepaint2, marblepaint3, marblepaint4, marblepaint5, me1 } from '../assets';
 import "./gallery.css"
 
 const MarblePaint = () => {
@@ -68,6 +68,9 @@ const MarblePaint = () => {
               <img src={marblepaint} className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
               <img src={marblepaint2} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
               <img src={marblepaint1} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={marblepaint3} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={marblepaint4} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={marblepaint5} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
               <img src={me1} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
             </div>
 
