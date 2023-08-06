@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='flex justify-center items-center w-full mt-10'>
-          <p className='font-arimo font-normal md:text-[15px] text-[14px] text-dimWhite'>...at Carnegie Mellon University</p>
+          <p className='font-opensans font-normal md:text-[15px] text-[14px] text-dimWhite'>...at Carnegie Mellon University</p>
         </div>
         {/* <PotCanvas /> */}
       </section>

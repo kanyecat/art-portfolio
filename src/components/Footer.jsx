@@ -17,11 +17,11 @@ const Footer = () => {
       border-t-[1px] border-t-[#3f3r45]">
         <div className="flex md:flex-row flex-col justify-between items-center">
           <object type="image/svg+xml" data={logo} className="icon" />
-          <p className="font-arimo font-normal text-center md:text-[16px] text-[14px] leading-[27px] text-white">
+          <p className="font-opensans font-thin text-center md:text-[16px] text-[14px] leading-[27px] text-white">
           © Code by Joo Hee Kim
           </p>
         </div>
-        <p className="font-arimo font-normal text-center md:text-[16px] text-[14px] leading-[27px] text-white">
+        <p className="font-opensans font-thin text-center md:text-[16px] text-[14px] leading-[27px] text-white">
           jooheeki@andrew.cmu.edu
         </p>
         

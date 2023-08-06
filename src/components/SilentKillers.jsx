@@ -15,18 +15,18 @@ const SilentKillers = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2023</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>2023</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2 Weeks</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>2 Weeks</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
                 <div className='flex-[0.15]'></div>
                 <div className='flex-[2.5]'>
-                  <ul className={`text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
+                  <ul className={`text-white font-opensans font-thin md:text-[18px] text-[18px] objectives`}>
                     <li>Digital Fabrication: Laser Cutting</li>
                     <li>Wood Working</li>
                     <li>Molding and Casting</li>
@@ -38,24 +38,24 @@ const SilentKillers = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18x]`}>48 x 48 x 48 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18x]`}>48 x 48 x 48 Inches</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TEAM</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>Individual Project</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>Individual Project</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>Marble Paint is a machine that allows you to paint with marbles using 
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>Marble Paint is a machine that allows you to paint with marbles using 
                 canvas movement. The whole machine consists of a canvas connected to four crank motion mechanisms moving 
                 in succession.</span>
               </div>
               <div className='flex flex-row'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
                 <div className='flex-[0.15]'></div>
-                <ul className={`flex-[2.5] items-start text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
+                <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[18px] text-[18px] objectives`}>
                   <li>Plywood</li>
                   <li>Plaster</li>
                   <li>Resin</li>
@@ -78,18 +78,18 @@ const SilentKillers = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2023</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>2023</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2 Weeks</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>2 Weeks</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
                 <div className='flex-[0.15]'></div>
                 <div className='flex-[2.5]'>
-                  <ul className={`text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
+                  <ul className={`text-white font-opensans font-thin md:text-[18px] text-[18px] objectives`}>
                     <li>Laser Cutting</li>
                     <li>Wood Working</li>
                     <li>Molding and Casting</li>
@@ -101,24 +101,24 @@ const SilentKillers = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18x]`}>48 x 48 x 48 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18x]`}>48 x 48 x 48 Inches</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TEAM</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>Individual Project</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>Individual Project</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>Marble Paint is a machine that allows you to paint with marbles using 
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>Marble Paint is a machine that allows you to paint with marbles using 
                 canvas movement. The whole machine consists of a canvas connected to four crank motion mechanisms moving 
                 in succession.</span>
               </div>
               <div className='flex flex-row'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
                 <div className='flex-[0.15]'></div>
-                <ul className={`flex-[2.5] items-start text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
+                <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[18px] text-[18px] objectives`}>
                   <li>Plywood</li>
                   <li>Plaster</li>
                   <li>Resin</li>

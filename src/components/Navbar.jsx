@@ -28,7 +28,7 @@ const Navbar = () => {
       onClick={() => reset()}>
         <Link 
         to='/' 
-        className='font-arimo font-normal text-white xs:text-[18px] text-[17px] 
+        className='font-opensans font-normal text-white xs:text-[18px] text-[17px] 
         nav-link xs:leading-[10.8px] leading-[10.8px] w-[120px]'
         >
           <ul className='names'>
@@ -46,13 +46,13 @@ const Navbar = () => {
         onClick={() => setDrop((prev) => !prev)}
         >
           <button 
-          className={`${drop? "button-effect-active" : "button-effect"} font-arimo font-normal cursor-pointer text-[16px] text-white`}>
+          className={`${drop? "button-effect-active" : "button-effect"} font-opensans font-normal cursor-pointer text-[16px] text-white`}>
           ./projects
           </button>
           <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} bg-black-gradient w-[150px]`}>
             <li
             key="marble paint"
-            className={`font-arimo font-normal cursor-pointer text-[16px] pt-4 pb-3
+            className={`font-opensans font-normal cursor-pointer text-[16px] pt-4 pb-3
             text-white link`}
             onClick={() => setDrop((prev) => !prev)}
             >
@@ -64,7 +64,7 @@ const Navbar = () => {
             </li>
             <li
             key="silent killers"
-            className={`font-arimo font-normal cursor-pointer text-[16px] pt-3 pb-3
+            className={`font-opensans font-normal cursor-pointer text-[16px] pt-3 pb-3
             text-white link`}
             onClick={() => setDrop((prev) => !prev)}
             >
@@ -76,7 +76,7 @@ const Navbar = () => {
             </li>
             <li
             key="frankenstein"
-            className={`font-arimo font-normal cursor-pointer text-[16px] pt-3 pb-4
+            className={`font-opensans font-normal cursor-pointer text-[16px] pt-3 pb-4
             text-white link`}
             onClick={() => setDrop((prev) => !prev)}
             >
@@ -91,7 +91,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`button-effect font-arimo font-normal cursor-pointer text-
+            className={`button-effect font-opensans font-normal cursor-pointer text-
             [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mr-10'} 
             text-white`}
             onClick={() => setDrop(false)}
@@ -126,13 +126,13 @@ const Navbar = () => {
             onClick={() => setDrop((prev) => !prev)}
             >
               <button 
-              className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pl-8 pt-3 text-white`}>
+              className={`font-opensans font-normal cursor-pointer text-[24px] pb-3 pl-8 pt-3 text-white`}>
               ./projects
               </button>
               <ul className={`${drop? "dropdown-menu-mobile open" : "dropdown-menu-mobile"} w-[100%] pl-[15vw]`}>
                 <li
                 key="marble paint"
-                className={`font-arimo font-normal cursor-pointer text-[18px] pt-5 pb-3
+                className={`font-opensans font-normal cursor-pointer text-[18px] pt-5 pb-3
                 text-white link w-full`}
                 onClick={() => setDrop((prev) => !prev)}
                 >
@@ -144,7 +144,7 @@ const Navbar = () => {
                 </li>
                 <li
                 key="silent killers"
-                className={`font-arimo font-normal cursor-pointer text-[18px] pt-3 pb-3
+                className={`font-opensans font-normal cursor-pointer text-[18px] pt-3 pb-3
                 text-white link`}
                 onClick={() => setDrop((prev) => !prev)}
                 >
@@ -156,7 +156,7 @@ const Navbar = () => {
                 </li>
                 <li
                 key="frankenstein"
-                className={`font-arimo font-normal cursor-pointer text-[18px] pt-3 pb-5
+                className={`font-opensans font-normal cursor-pointer text-[18px] pt-3 pb-5
                 text-white`}
                 onClick={() => setDrop((prev) => !prev)}
                 >
@@ -175,7 +175,7 @@ const Navbar = () => {
               viewport={{ once: false, amount: 0.25}}
               variants={fadeIn('left', 'spring', (index+1)*0.5, 0.65)}
               key={nav.id}
-              className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pt-3 pl-8
+              className={`font-opensans font-normal cursor-pointer text-[24px] pb-3 pt-3 pl-8
               text-white `}
               onClick={() => reset()}
             >
