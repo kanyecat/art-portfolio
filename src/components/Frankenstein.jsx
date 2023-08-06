@@ -62,12 +62,12 @@ const Frankenstein = () => {
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
                 <div className='flex-[0.15]'></div>
                 <ul className={`flex-[2.5] items-start text-white font-animo font-normal md:text-[18px] text-[18px] objectives`}>
-                  <li>Laser Cutting</li>
-                  <li>Wood Working</li>
-                  <li>Molding and Casting</li>
-                  <li>Painting</li>
-                  <li>Wire</li>
-                  <li>Building</li>
+                  <li>Foam</li>
+                  <li>Hobby Servos</li>
+                  <li>Ultrasonic Sensor</li>
+                  <li>DC Motor</li>
+                  <li>PLA</li>
+                  <li>Acrylic Paint</li>
                 </ul>
               </div>
             </div>
@@ -84,12 +84,12 @@ const Frankenstein = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2023</span>
+                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2019</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>2 Weeks</span>
+                <span className={`flex-[2.5] text-white font-animo font-normal md:text-[18px] text-[18px]`}>3 Weeks</span>
               </div>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
