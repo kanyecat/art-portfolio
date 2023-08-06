@@ -9,7 +9,7 @@ const SilentKillers = () => {
     <div id='silent-killers' className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
-        <span className='md:text-start text-center w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-8'>SILENT KILLERS</span>
+        <span className='md:flex md:flex-1 md:text-start text-center w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-8'>SILENT KILLERS</span>
           <div className='flex md:flex-row flex-col'>
           <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
               <div className='flex flex-row pb-6'>
@@ -74,7 +74,7 @@ const SilentKillers = () => {
               <img src={silentKillers6} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
             </div>
 
-            <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-0'>
+            <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-4'>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>

@@ -95,6 +95,13 @@
             transform: translateY(-280px);
         }
     }
+    .dropdown {
+        position: relative;
+    }
+    .dropdown.open {
+        position: relative;
+        margin-bottom: 22vh;
+    }
 }
 
 /*model*/
@@ -261,6 +268,22 @@
     transition: all 0.2s;
     pointer-events: none;
 }
+.button-effect-active{
+    transition: 0.5s;
+    letter-spacing: 0.025em;
+}
+.button-effect-active::after{
+    content: "";
+    height: 6px;
+    border-radius: 20px;
+    width: 6px;
+    background: #4f84d1;
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    transition: all 0.2s;
+    pointer-events: none;
+}
 
 .button-effect:hover::after{
     opacity: 1;
@@ -274,9 +297,47 @@
 }
 .dropdown.open {
     position: relative;
-    margin-bottom: 22vh;
 }
 .dropdown-menu{
+    position: absolute;
+    left: 0;
+    top: calc(100% + 0.9rem);
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 0;
+    border-top: 0;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        180deg,
+        #4f84d1 -278.56%,
+        #4f84d1 -18.56%,
+        #4f84d1 40.56%,
+        rgba(79,132,209, 0.8) 60%,
+        rgba(0,0,0,0) 100%
+      );
+    height: auto;
+    width: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.dropdown-menu .link{
+    position: relative;
+    padding-left: 15px;
+}
+.dropdown-menu .link:hover{
+    background-color: rgba(79,132,209, 0.4);
+    transition: all 0.2s;
+}
+.dropdown-menu.open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(10px);
+    transition: opacity 350ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdown-menu-mobile{
     position: absolute;
     top: calc(100% + 0.1rem);
     border-top: white 1px solid;
@@ -286,17 +347,18 @@
     visibility: hidden;
     pointer-events: none;
 }
-.dropdown-menu .link{
+.dropdown-menu-mobile .link{
     position: relative;
     border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
 }
-.dropdown-menu.open{
+.dropdown-menu-mobile.open{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     transform: translateY(10px);
     transition: opacity 350ms ease-in-out, transform 250ms ease-in-out;
 }
+
 .objectives li::before {
     content: "+ ";
 }

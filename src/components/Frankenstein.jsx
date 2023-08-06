@@ -9,7 +9,7 @@ const Frankenstein = () => {
     <div id='frankenstein' className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
-          <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-col'>
+          <div className='hidden h-[0] md:h-[auto] md:flex md:flex-1 md:visible md:flex-col'>
             <span className='md:text-start w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>FRANKEN-</span>
             <span className='md:text-start w-full md:text-[70px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>STEIN</span>
           </div>
@@ -80,7 +80,7 @@ const Frankenstein = () => {
               <img src={frankensteinHand2} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
             </div>
 
-            <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-0'>
+            <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-4'>
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <div className='flex-[0.15]'></div>

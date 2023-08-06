@@ -41,12 +41,60 @@ const Navbar = () => {
       </h1>
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+        <div
+        className={`${drop? "dropdown open" : "dropdown"} justify-start mr-10`}
+        onClick={() => setDrop((prev) => !prev)}
+        >
+          <button 
+          className={`${drop? "button-effect-active" : "button-effect"} font-arimo font-normal cursor-pointer text-[16px] text-white`}>
+          ./projects
+          </button>
+          <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} bg-black-gradient w-[150px]`}>
+            <li
+            key="marble paint"
+            className={`font-arimo font-normal cursor-pointer text-[16px] pt-4 pb-3
+            text-white link`}
+            onClick={() => setDrop((prev) => !prev)}
+            >
+              <Link 
+              to="/marble-paint"
+              onClick={() => setDrop(false)}
+              >/marble-paint
+              </Link>
+            </li>
+            <li
+            key="silent killers"
+            className={`font-arimo font-normal cursor-pointer text-[16px] pt-3 pb-3
+            text-white link`}
+            onClick={() => setDrop((prev) => !prev)}
+            >
+              <Link 
+              to="/silent-killers"
+              onClick={() => setDrop(false)}
+              >/silent-killers
+              </Link>
+            </li>
+            <li
+            key="frankenstein"
+            className={`font-arimo font-normal cursor-pointer text-[16px] pt-3 pb-4
+            text-white link`}
+            onClick={() => setDrop((prev) => !prev)}
+            >
+              <Link 
+              to="/frankenstein"
+              onClick={() => setDrop(false)}
+              >/frankenstein
+              </Link>
+            </li>
+          </ul>
+        </div>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`button-effect font-arimo font-normal cursor-pointer text-
             [16px] ${index === navLinks.length - 1 ? 'mr-0': 'mr-10'} 
             text-white`}
+            onClick={() => setDrop(false)}
           >
             <Link to={nav.link}>{nav.title}</Link>
           </li>
@@ -81,15 +129,16 @@ const Navbar = () => {
               className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pl-8 pt-3 text-white`}>
               ./projects
               </button>
-              <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} w-[100%] pl-[15vw]`}>
+              <ul className={`${drop? "dropdown-menu-mobile open" : "dropdown-menu-mobile"} w-[100%] pl-[15vw]`}>
                 <li
                 key="marble paint"
                 className={`font-arimo font-normal cursor-pointer text-[18px] pt-5 pb-3
                 text-white link w-full`}
-                onClick={() => reset()}
+                onClick={() => setDrop((prev) => !prev)}
                 >
                   <Link 
                   to="/marble-paint"
+                  onClick={() => reset()}
                   >/marble-paint
                   </Link>
                 </li>
@@ -97,10 +146,11 @@ const Navbar = () => {
                 key="silent killers"
                 className={`font-arimo font-normal cursor-pointer text-[18px] pt-3 pb-3
                 text-white link`}
-                onClick={() => reset()}
+                onClick={() => setDrop((prev) => !prev)}
                 >
                   <Link 
                   to="/silent-killers"
+                  onClick={() => reset()}
                   >/silent-killers
                   </Link>
                 </li>
@@ -108,28 +158,29 @@ const Navbar = () => {
                 key="frankenstein"
                 className={`font-arimo font-normal cursor-pointer text-[18px] pt-3 pb-5
                 text-white`}
-                onClick={() => reset()}
+                onClick={() => setDrop((prev) => !prev)}
                 >
                   <Link 
                   to="/frankenstein"
+                  onClick={() => reset()}
                   >/frankenstein
                   </Link>
                 </li>
               </ul>
             </motion.li> 
             {navLinks.map((nav, index) => (
-              <motion.li
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: false, amount: 0.25}}
-                variants={fadeIn('left', 'spring', (index+1)*0.5, 0.65)}
-                key={nav.id}
-                className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pt-3 pl-8
-                text-white `}
-                onClick={() => reset()}
-              >
-                <Link to={nav.link}>{nav.title}</Link>
-              </motion.li>
+            <motion.li
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.25}}
+              variants={fadeIn('left', 'spring', (index+1)*0.5, 0.65)}
+              key={nav.id}
+              className={`font-arimo font-normal cursor-pointer text-[24px] pb-3 pt-3 pl-8
+              text-white `}
+              onClick={() => reset()}
+            >
+              <Link to={nav.link}>{nav.title}</Link>
+            </motion.li>
             ))}
           </ul>
         </div>
