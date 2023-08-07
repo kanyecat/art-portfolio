@@ -24,6 +24,7 @@ module.exports = {
         "stone": "url('/src/assets/stonebg.png')",
         "hanji": "url('src/assets/hanji.png')",
         "hanji2" : "url('src/assets/hanji2.png')",
+        "hanji-black" : "url('src/assets/hanji5.png')",
       },
       // keyframes: {
       //   turn: {
