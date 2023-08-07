@@ -107,7 +107,7 @@
 }
 
 .bg-hanji-blue {
-  background: url(..\src\assets\hanji7.png);
+  background: url("../src/assets/hanji7.png");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -116,7 +116,7 @@
   transition: 1s ease-in-out;
 }
 .bg-hanji-black {
-  background: url(./assets/hanji5.png);
+  background: url("../src/assets/hanji5.png");
   background-size: contain;
   opacity: 0.;
   width: 100%;
