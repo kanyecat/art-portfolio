@@ -24,7 +24,7 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className='w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3r45]'>
-      <h1 className='JHK z-30'
+      <h1 className='JHK z-40'
       onClick={() => reset()}>
         <Link 
         to='/' 
@@ -105,18 +105,18 @@ const Navbar = () => {
         <img 
           src={menu}
           alt='menu'
-          className={`w-[25px] h-[25px] object-contain z-30 ${toggle && "animate-turn"}`}
+          className={`w-[25px] h-[25px] object-contain z-30 ${toggle? "menu-button open" : "menu-button"}`}
           onClick={() => setToggle((prev) => !prev)}
         />
         <div
           className={`${toggle ? 'flex' : 'hidden'}`}
         >
-          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-10'/>
+          <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-20'/>
           <div
           className={`fixed top-0 right-0
           w-[100%] h-[100%] z-20 sidebar touch-none`}
           />
-          <ul className='fixed z-30 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
+          <ul className='fixed z-40 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
             <motion.li 
             className={`${drop? "dropdown open" : "dropdown"} w-full justify-start`}
             initial="hidden"

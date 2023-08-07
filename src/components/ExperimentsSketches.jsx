@@ -41,38 +41,41 @@ const ExperimentsSketches = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <div id='experiments-sketches' className={`${changingBg ? "bg-white" : "bg-primary"} w-[full] transition-all ease duration:350ms`}>
-      <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} justify-center`}>
-          <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
-            <img src={tempImage} loading='lazy'/>
-          </div>
-          <div className='gallery'>
-            {experiments.map((item, index) => (
-              <Tilt className='pics'
-              loading="lazy"
-              options={{
-                max: 15,
-                scale: 1,
-                speed: 450
-              }}
-              key={index}>
-                {/* <div id='blur-img'
-                style={`background-image: url(${item.imageSmall})`}> */}
-                  <img
-                    className='pic'
-                    src={item.image} 
-                    style={{width: "100%"}}
-                    loading='lazy'
-                    onClick={() => getImage(item.image)}
-                  />
-                {/* </div> */}
-              </Tilt>
-            ))}
+    <>
+    <div className={`bg-cover fixed top-0 right-0 ${changingBg ? "bg-hanji-blue" : "bg-hanji-white"} w-full h-[100vh] z-0`}/>
+      <div id='experiments-sketches' className="w-[full] transition-all ease duration:350ms">
+        <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth} justify-center z-10`}>
+            <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
+              <img src={tempImage} loading='lazy'/>
+            </div>
+            <div className='gallery'>
+              {experiments.map((item, index) => (
+                <Tilt className='pics'
+                loading="lazy"
+                options={{
+                  max: 15,
+                  scale: 1,
+                  speed: 450
+                }}
+                key={index}>
+                  {/* <div id='blur-img'
+                  style={`background-image: url(${item.imageSmall})`}> */}
+                    <img
+                      className='pic'
+                      src={item.image} 
+                      style={{width: "100%"}}
+                      loading='lazy'
+                      onClick={() => getImage(item.image)}
+                    />
+                  {/* </div> */}
+                </Tilt>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

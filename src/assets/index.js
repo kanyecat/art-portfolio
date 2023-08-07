@@ -60,6 +60,7 @@ import marblepaint3 from "./marble_paint_assembled.png";
 import marblepaint4 from "./marble_paint_disassembled.png";
 import hanji2 from "./hanji2.png";
 import me1 from "./me1.png";
+import me2 from "./me2.png";
 import silentKillers2 from "./silentKillers2.png";
 import silentKillers3 from "./silentKillers3.png";
 import silentKillers4 from "./silentKillers4.png";
@@ -131,6 +132,7 @@ export {
   marblepaint5,
   hanji2,
   me1,
+  me2,
   silentKillers2,
   silentKillers3,
   silentKillers4,

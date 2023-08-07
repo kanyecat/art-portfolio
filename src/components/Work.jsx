@@ -48,7 +48,7 @@ const FeatureCard = ({image, title, content, style, size, link, index}) => (
 
 const Work = () => {
   return (
-  <section id="features" className={`flex-1 flex ${styles.flexCenter} md:mt-0 mt-10 relative flex flex-col w-full`}>
+  <section id="features" className={`flex-1 flex ${styles.flexCenter} md:mt-0 mt-10 relative flex flex-col w-full z-10`}>
     {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...
           feature} index={index} />

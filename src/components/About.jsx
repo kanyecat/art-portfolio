@@ -2,7 +2,7 @@ import styles from '../style';
 import { motion } from 'framer-motion';
 import { slideIn, staggerContainer, textVariant } from '../motion'
 import { TypingText } from '../components';
-import { me } from "../assets";
+import { me, me1, me2 } from "../assets";
 import { Tech } from '../components';
 import { transition } from "../hoc";
 import "./gallery.css";
@@ -13,9 +13,10 @@ const About = () => {
     <div id='about' className="bg-orangered-gradient w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <section className={`flex md:flex-row flex-col md:flex-wrap justify-center`}>
-            <div className='flex flex-1 flex-col pb-10 scroll-box md:h-[700px]'>
-              <div className='flex flex-row md:pb-8 pb-6 about-section'>
+          <div className='bg-contain fixed top-0 right-0 bg-hanji-white w-full h-[100vh] z-0'/>
+          <section className={`flex md:flex-row flex-col md:flex-wrap justify-center z-10`}>
+            <div className='flex flex-1 flex-col pb-10 scroll-box md:h-[700px] z-10'>
+              <div className='flex flex-row md:pb-8 pb-6 about-section z-10'>
                 <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>ABOUT</span>
                 <div className='flex-[2]'>
                   <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>I am currently in the</span>
@@ -29,7 +30,7 @@ const About = () => {
                   <span className='text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'> Physical Computing (IDeATe).</span>
                 </div>
               </div>
-              <div className='visible md:hidden flex-[0.7] flex flex-row justify-center items-center'>
+              <div className='visible md:hidden flex-[0.7] flex flex-row justify-center items-center z-10'>
                 <img src={me} className='w-full' loading='lazy'/>
               </div>
               <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
@@ -79,16 +80,18 @@ const About = () => {
               </div>
             </div>
             <div className='flex-[0.05] h-[700px] w-[auto]'></div>
-            <div className='hidden md:visible md:flex-[0.7] md:flex md:flex-row flex-col justify-center items-start'>
+            <div className='hidden md:visible md:flex-[0.7] md:flex md:flex-row flex-col justify-center items-start z-10'>
               <img src={me} className='w-full' loading='lazy'/>
             </div>
           </section>
-          <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6'>
-            <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'></span>
-              <div className='flex-[2]'>
-              <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>Aside from school and work, I love exploring nature and watching documentaries.</span>
+          <section className={`flex flex-col md:flex-wrap justify-center items-center md:py-16 `}>
+            <div className='md:w-[400px] z-10 bg-hanji-black items-center justify-center'>
+              <img src={me2} className='py-10 md:px-16 px-10' loading='lazy'/>
+              <div className='md:px-16 px-10 pb-10'>
+                <span className='text-white font-opensans font-thin md:text-[16px] text-[16px] leading-[30px]'>Aside from school and work, I am always making things after exploring nature, calligraphy, and films.</span>
+              </div>
             </div>
-          </div>
+          </section>
           <Tech />
         </div>
       </div>

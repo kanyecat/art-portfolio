@@ -371,3 +371,11 @@
 .about-section {
     border-bottom: rgba(255, 255, 255, 0.35) 1px solid;
 }
+.menu-button.open{
+    transform: rotate(-135deg);
+    transition: transform 500ms ease-in-out;
+}
+.menu-button{
+    transform: rotate(0deg);
+    transition: transform 500ms ease-in-out;
+}

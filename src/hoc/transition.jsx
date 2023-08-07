@@ -6,7 +6,7 @@ const transition = (OgComponent) =>
     return (
       <>
         <OgComponent />
-        <motion.div className="slide-in"
+        <motion.div className="slide-in z-50"
         initial={{ scaleY: 0 }}
         animate={{ scaleY: 0 }}
         exit={{ scaleY: 1 }}
@@ -14,7 +14,7 @@ const transition = (OgComponent) =>
         />
 
         <motion.div
-        className="slide-out"
+        className="slide-out z-50"
         initial={{ scaleY: 1 }}
         animate={{ scaleY: 0 }}
         exit={{ scaleY: 0 }}
