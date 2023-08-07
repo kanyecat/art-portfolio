@@ -41,9 +41,11 @@ const ExperimentsSketches = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <div id='experiments-sketches' className={`${changingBg ? "bg-white" : "bg-primary"} w-[full] transition-all ease duration:350ms`}>
+    <>
+    <div className={`bg-contain fixed top-0 right-0 ${changingBg ? "bg-hanji-blue opacity-[1] grayscale" : "bg-hanji-white opacity-[0.125]"} transition-all ease-in-out w-full h-[100vh] z-0`}/>
+    <div id='experiments-sketches' className={`w-[full]`}>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} justify-center`}>
+        <div className={`${styles.boxWidth} justify-center z-10`}>
           <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
             <img src={tempImage} loading='lazy'/>
           </div>
@@ -73,6 +75,7 @@ const ExperimentsSketches = () => {
         </div>
       </div>
     </div>
+  </>
   )
 }
 

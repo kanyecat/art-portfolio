@@ -11,7 +11,7 @@ const About = () => {
     <div id='about' className="bg-orangered-gradient w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <div className='bg-contain fixed top-0 right-0 bg-hanji-white opacity-[0.1] w-full h-[100vh] z-0'/>
+          <div className='bg-contain fixed top-0 right-0 bg-hanji-white opacity-[0.125] w-full h-[100vh] z-0'/>
           <div className={`flex md:flex-row flex-col md:flex-wrap justify-center`}>
             <div className='flex flex-1 flex-col pb-10 scroll-box md:h-[700px] z-10'>
               <div className='flex flex-row md:pb-8 pb-6 about-section '>
