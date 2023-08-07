@@ -105,7 +105,7 @@ const Navbar = () => {
         <img 
           src={menu}
           alt='menu'
-          className={`w-[25px] h-[25px] object-contain z-30 ${toggle? "menu-button open" : "menu-button"}`}
+          className={`w-[25px] h-[25px] object-contain ${toggle? "menu-button open" : "menu-button"}`}
           onClick={() => setToggle((prev) => !prev)}
         />
         <div

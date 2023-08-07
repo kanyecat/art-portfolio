@@ -374,8 +374,10 @@
 .menu-button.open{
     transform: rotate(-135deg);
     transition: transform 500ms ease-in-out;
+    z-index: 998;
 }
 .menu-button{
     transform: rotate(0deg);
     transition: transform 500ms ease-in-out;
+    z-index: 999;
 }
