@@ -113,7 +113,7 @@ const Navbar = () => {
         >
           <div className='blur w-[100%] h-[100%] fixed top-0 right-0 overflow-y-hidden z-20'/>
           <div
-          className={`fixed top-0 right-0
+          className={`fixed top-0 right-0 bg-hanji-white bg-cover opacity-[0.1]
           w-[100%] h-[100%] z-20 sidebar touch-none`}
           />
           <ul className='fixed z-40 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>

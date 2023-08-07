@@ -42,7 +42,7 @@ const ExperimentsSketches = () => {
 
   return (
     <>
-    <div className={`bg-contain fixed top-0 right-0 ${changingBg ? "bg-hanji-blue opacity-[1] grayscale" : "bg-hanji-white opacity-[0.125]"} transition-all ease-in-out w-full h-[100vh] z-0`}/>
+    <div className={`bg-cover fixed top-0 right-0 ${changingBg ? "bg-hanji-blue opacity-[0.5] grayscale" : "bg-hanji-blue opacity-[0.2]"} transition-all ease-in-out w-full h-[100vh] z-0`}/>
     {/* <div className={`bg-contain fixed top-0 right-0 ${changingBg ? "bg-hanji-blue opacity-[1] grayscale" : "bg-primary"} transition-all ease-in-out w-full h-[100vh] z-0`}/> */}
     <div id='experiments-sketches' className={`w-[full]`}>
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>

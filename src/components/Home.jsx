@@ -6,13 +6,14 @@ const Home = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`bg-blue-gradient bg-cover bg-no-repeat bg-center ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className='bg-cover fixed top-0 right-0 bg-hanji-blue opacity-[0.2] w-full h-[100vh] z-0'/>
+        <div className={`${styles.boxWidth} z-10`}>
           <Hero />
           {/* <Tech /> */}
         </div>
       </div>
-      <div className={`bg-white-gradient ${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth} z-10`}>
           <Work />
         </div>
       </div>
