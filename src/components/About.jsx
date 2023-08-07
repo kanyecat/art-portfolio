@@ -3,6 +3,7 @@ import { me, me2 } from "../assets";
 import { Tech } from '../components';
 import { transition } from "../hoc";
 import "./gallery.css";
+import '../index.css';
 
 const About = () => {
   return (
@@ -82,7 +83,7 @@ const About = () => {
             </div>
           </div>
           <div className={`flex flex-col md:flex-wrap justify-center items-center md:py-16 `}>
-            <div className='md:w-[400px] bg-primary items-center justify-center'>
+            <div className='md:w-[400px] bg-hanji-black items-center justify-center'>
               <img src={me2} className='py-10 md:px-16 px-10' loading='lazy'/>
               <div className='md:px-16 px-10 pb-10'>
                 <span className='text-white font-opensans font-thin md:text-[16px] text-[16px] leading-[30px]'>Aside from school and work, I am always making things after exploring nature, calligraphy, and films.</span>
