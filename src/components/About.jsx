@@ -2,6 +2,7 @@ import styles from '../style';
 import { me, me2 } from "../assets";
 import { Tech } from '../components';
 import { transition } from "../hoc";
+import { Link } from "react-router-dom";
 import "./gallery.css";
 import '../index.css';
 
@@ -17,15 +18,16 @@ const About = () => {
               <div className='flex flex-row md:pb-8 pb-6 about-section '>
                 <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>ABOUT</span>
                 <div className='flex-[2]'>
-                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>I am currently in the</span>
-                  <span className='text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'> Bachelor of Engineering Studies and Arts (BESA) </span>
-                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>intercollege degree program at Carnegie Mellon University. I am pursuing
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>I am currently in the </span>
+                  <Link to="https://www.cmu.edu/interdisciplinary/programs/besa.html" className='hover:border-b-[1px] text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'>Bachelor of Engineering Studies and Arts (BESA)</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'> intercollege degree program at Carnegie Mellon University. I am pursuing
                   two majors in the</span>
-                  <span className='text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'> School of Art </span>
-                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>and</span>
-                  <span className='text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'> Mechanical Engineering </span>
-                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>as well as a minor in</span>
-                  <span className='text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'> Physical Computing (IDeATe).</span>
+                  <Link to="https://art.cmu.edu/" className='hover:border-b-[1px] text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'> School of Art</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'> and </span>
+                  <Link to="https://www.meche.engineering.cmu.edu/" className='hover:border-b-[1px] text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'>Department of Mechanical Engineering</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'> as well as a minor in </span>
+                  <Link to="https://ideate.cmu.edu/undergraduate-programs/physical-computing/index.html" className='hover:border-b-[1px] text-white font-opensans font-normal md:text-[18px] text-[18px] leading-[30px]'>Physical Computing</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>.</span>
                 </div>
               </div>
               <div className='visible md:hidden flex-[0.7] flex flex-row justify-center items-center z-10'>
@@ -59,21 +61,47 @@ const About = () => {
               <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
                 <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>04</span>
                 <div className='flex-[2]'>
-                  <span className='text-white font-opensans font-thin md:text-[16px] text-[16px]'>Front-end developer at Hyix LLC - San Diego, CA - Present</span>
+                  <span className='text-white font-opensans font-thin md:text-[16px] text-[16px]'>Front-end developer & UX UI designer subcontractor at Hyix LLC - San Diego, CA (Present)</span>
                 </div>
               </div>
               <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
-                <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>04</span>
+                <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>05</span>
                 <div className='flex-[2]'>
                   <span className='text-white font-opensans font-thin md:text-[16px] text-[16px]'>Engineering Instructor at Robolink - San Diego, CA</span>
+                </div>
+              </div>
+              <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
+                <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'></span>
+                <div className='flex-[2]'>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>While working as an engineering instructor at a summer basecamp hosted by </span>
+                  <Link to="https://www.robolink.com/" className='border-b-[1px] hover:border-b-[#38A0F4] text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>Robolink</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'> and </span>
+                  <Link to="https://www.robolink.com/" className='border-b-[1px] hover:border-b-[#C1511B] text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>The League of Amazing Programmers</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>, I fortunately built
+                  a connection with another instructor working as a software engineer. After stepping into the world of app development, I learned how to empathize with the clients and provide them with solutions. Since then, my design
+                  thinking skills have been improving in my main disciplines: art and mechanical enginneering.</span>
+                </div>
+              </div>
+              <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
+                <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>06</span>
+                <div className='flex-[2]'>
+                  <span className='text-white font-opensans font-thin md:text-[16px] text-[16px]'>Engineering intern at Robolink</span>
+                </div>
+              </div>
+              <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
+                <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'>07</span>
+                <div className='flex-[2]'>
+                  <span className='text-white font-opensans font-thin md:text-[16px] text-[16px]'>Engineering intern at Robo3D</span>
                 </div>
               </div>
               <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6'>
                 <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'></span>
                 <div className='flex-[2]'>
-                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>While working as an engineering instructor at a summer basecamp hosted by Robolink, I fortunately built
-                  a connection with another instructor working as a software engineer. After stepping into the web development industry, I learned how to empathize with the clients and provide them with solutions. Since then, my design
-                  thinking skills have been improving in my main disciplines: art and mechanical enginneering.</span>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>When the desktop 3D printer market was rapidly rising, I learned how to bring my idea from a sketch, to a 3D computer-aided-design, to a 3D print.
+                  After I became comfortable with rapid prototyping, I worked as an intern at Robolink. I learned how to design products that allow kids to easily build robots with joy. Then, I was introduced to </span>
+                  <Link to="https://robo3d.com/" className='border-b-[1px] hover:border-b-[#67B2E8] text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>Robo3D</Link>
+                  <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>, where I studied 3D printers in depth by physically building
+                  one of their printers and printing with various materials.</span>
                 </div>
               </div>
             </div>
