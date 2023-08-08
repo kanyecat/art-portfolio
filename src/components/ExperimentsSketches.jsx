@@ -35,6 +35,7 @@ const ExperimentsSketches = () => {
         <div className={`${styles.boxWidth} justify-center z-10`}>
           <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
             <img src={tempImage} loading='lazy'/>
+            <div className='direction text-dimWhite font-opensans font-thin text-[14px]'>click anywhere to close</div>
           </div>
           <div className='gallery'>
             {experiments.map((item, index) => (
