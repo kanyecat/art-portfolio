@@ -3,7 +3,6 @@ import styles, { layout } from '../style';
 import { experiments } from '../constants';
 import { Tilt } from 'react-tilt';
 import { transition } from "../hoc";
-import { imageComponent } from '../components';
 import "./gallery.css";
 
 const ExperimentsSketches = () => {
