@@ -73,11 +73,11 @@ const Frankenstein = () => {
             </div>
 
             <div className='flex flex-col md:flex-[1.5] scroll-box md:h-[700px]'>
-              <img src={frankensteinHead1} className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
-              <img src={frankensteinHead2} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={frankensteinHead3} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={frankensteinHand1} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={frankensteinHand2} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={frankensteinHead1} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
+              <img src={frankensteinHead2} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={frankensteinHead3} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={frankensteinHand1} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={frankensteinHand2} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
             </div>
 
             <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-4'>

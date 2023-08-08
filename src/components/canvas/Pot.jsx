@@ -32,7 +32,7 @@ const pot = useGLTF("../desktop_pc/krtr_pot_metal.gltf")
 const PotCanvas = () => {
     return (
         <Canvas
-            frameLoop='demand'
+            frameloop='demand'
             shadows
             camera={{position: [20, 3, 5], fov: 25 }}
             gl={ {preserveDrawingBuffer: true} }

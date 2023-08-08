@@ -1,7 +1,7 @@
 import { instagram, calligraphy, mantis_enclosure, 
-  recordplayer, recordplayerSmall, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
+  recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
   untold_story, defenseMechanism1, defenseMechanism2, notebookcoverdesign, single_propagation_holder, 
-  triple_propagation_holder, fortyDaysNights, fortyDaysNightsSmall, linkedin, wahlbergii, torso, sofa, relationships, seoul, corals,
+  triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, seoul, corals,
   waterIntoWine, css, html, psalmsBlock, reactjs, tailwind, figma, git, javascript, typescript,
   nodejs, threejs, solidworks, frankensteinHead1, arduino, marblepaint, silentKillers} from "../assets";
 
@@ -27,6 +27,7 @@ export const features = [
   {
     id: "feature-1",
     image: marblepaint,
+    hash: "LQL;jN-p~pay_2IUIUofxut6WBRk",
     title: "Marble Paint",
     content:
       (
@@ -39,6 +40,7 @@ export const features = [
   {
     id: "feature-2",
     image: silentKillers,
+    hash: "LFN^bxRiM|V@?Gt6~qRkWFM|9EWB",
     title: "Silent Killers",
     content:
       "SCULPTURE",
@@ -49,6 +51,7 @@ export const features = [
   {
     id: "feature-4",
     image: frankensteinHead1,
+    hash: "LVJRKx9F_Ns+%gRkt7t7%NV@M{bJ",
     title: "Frankenstein",
     content:
       "KINETIC SCULPTURE",
@@ -63,90 +66,82 @@ export const experiments = [
   {
     id: "experiment-1",
     image: corals,
+    hash: "LXLN*{t7~qRj%MayRjof-=WBIUoe",
   },
   {
     id: "experiment-2",
     image: krtr_pot_v1,
+    hash: "LEN09j^%pyENwHR.xuw[1TI@xCxZ",
   },
   {
     id: "experiment-3",
     image: notebookcoverdesign,
+    hash: "LFP?%Q8^tR?ws:aeayof?v-;V@IA",
   },
   {
     id: "experiment-4",
     image: fortyDaysNights,
-    imageSmall: fortyDaysNightsSmall,
+    hash: "LVJ[CTt7%jWB?aWYM}s,%QWC%Mfl",
   },
   {
     id: "experiment-5",
     image: triple_propagation_holder,
+    hash: "LXOg7.M{-;M{_4M{IUxuo#jst7bI",
   },
   {
     id: "experiment-6",
     image: long_calli_postcard,
+    hash: "LXO:;MtR-;s:9Ft6tQV@~qt6M{WB",
   },
   {
     id: "experiment-7",
     image: krtr_pot_lantern,
+    hash: "LIHxZs9H03~U%Mt6axRk4;%L?F9a",
   },
   {
     id: "experiment-8",
     image: untold_story,
+    hash: "L4K_agIU00~pF|x[00D+00D%QSoK",
   },
   {
     id: "experiment-9",
     image: recordplayer,
-    imageSmall: recordplayerSmall,
+    hash: "LUNK9gxt_4xt.9t6M{WC%NxuIURk",
   },
   {
     id: "experiment-10",
     image: mantis_enclosure,
+    hash: "LkK_B=t6_4of%Mt6t7of%MayM{ax",
   },
   {
     id: "experiment-11",
     image: wahlbergii,
+    hash: "L7JH?mxu?bofWBj[t7ay_NaeD%j[",
   },
   {
     id: "experiment-12",
     image: torso,
+    hash: "L7Ac^-%1009a-:xtM|IW03R+~TxF",
   },
   {
     id: "experiment-13",
     image: waterIntoWine,
+    hash: "LAEL+^M{D%NH00%2tR-p~qn#M{Rj",
   },
-  // {
-  //   id: "experiment-14",
-  //   image: relationships,
-  // },
   {
     id: "experiment-15",
     image: single_propagation_holder,
+    hash: "LANAk,_44nV?_44o?aoIXURjV@tR",
   },
   {
     id: "experiment-16",
     image: seoul,
+    hash: "L9J8ngxtjXay~pD%?bIUD%t7M{Rj",
   },
   {
     id: "experiment-17",
     image: psalmsBlock,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    hash: "LfQ,O6s:~XWBxuj[bGWB-=ayE0of",
   },
 ];
 

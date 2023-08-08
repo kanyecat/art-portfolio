@@ -39,7 +39,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
     return (
         <Canvas 
-            frameLoop='demand'
+            frameloop='demand'
             gl={ {preserveDrawingBuffer: true} }
         >
             <Suspense fallback={<CanvasLoader />}>

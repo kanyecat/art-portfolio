@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
 import { motion } from 'framer-motion';
-import { fadeIn, slideIn, staggerContainer, textVariant } from '../motion'
+import { fadeIn, slideIn, staggerContainer, textVariant } from '../motion';
 
 const FeatureCard = ({image, title, content, style, size, link, index}) => (
   <motion.div

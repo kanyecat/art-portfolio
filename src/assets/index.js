@@ -1,15 +1,10 @@
-import send from "./Send.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import google from "./google.svg";
-import arrowUp from "./arrow-up.svg";
-import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import calligraphy from "./calligraphy.png";
 import krtr_pot_v1 from "./krtr_pot_v1.png";
 import fortyDaysNights from "./fortyDaysNights.png";
-import fortyDaysNightsSmall from "./fortyDaysNights-small.png";
 import krtr_pot_lantern from "./krtr_pot_lantern.png";
 import single_propagation_holder from "./single_propagation_holder.png";
 import triple_propagation_holder from "./triple_propagation_holder.png";
@@ -19,7 +14,6 @@ import rocking_chair from "./rocking_chair.png";
 import long_calli_postcard from "./long_calli_postcard.png";
 import untold_story from "./untold_story.png";
 import recordplayer from "./recordplayer.png";
-import recordplayerSmall from "./recordplayer-small.png";
 import mantis_enclosure from "./mantis_enclosure.gif";
 import sofa from "./sofa.png";
 import wahlbergii from "./wahlbergii.png";
@@ -29,7 +23,6 @@ import seoul from "./seoul.png";
 import corals from "./corals.gif";
 import waterIntoWine from "./waterIntoWine.png";
 import me from "./me.png";
-import meSmall from "./me-small.png";
 import css from "./css.png";
 import figma from "./figma.png";
 import git from "./git.png";
@@ -45,14 +38,12 @@ import arduino from "./arduino.png";
 import logo from "./logo.svg";
 import marblepaint from "./marblepaint.png";
 import silentKillers from "./silentKillers.png";
-import silentKillersSmall from "./silentKillers-small.png";
 import psalmsBlock from "./psalms_block.png";
 import frankensteinHead1 from "./frankenstein_head_side1.png";
 import frankensteinHead2 from "./frankensteinHead2.png";
 import frankensteinHead3 from "./frankensteinHead3.png";
 import frankensteinHand1 from "./frankensteinHand1.png";
 import frankensteinHand2 from "./frankensteinHand2.png";
-import frankensteinHeadSide1Small from "./frankenstein_head_side1-small.png";
 import marblepaint1 from "./marblepaint1.png";
 import marblepaint2 from "./marblepaint2.png";
 import marblepaint5 from "./marblePaint5.png";
@@ -72,12 +63,8 @@ import defenseMechanism2 from "./defenseMechanism2.png";
 export {
   me,
   logo,
-  send,
   menu,
   close,
-  google,
-  arrowUp,
-  facebook,
   instagram,
   linkedin,
   calligraphy,
@@ -92,10 +79,6 @@ export {
   notebookcoverdesign,
   rocking_chair,
   untold_story,
-  frankensteinHeadSide1Small,
-  fortyDaysNightsSmall,
-  recordplayerSmall,
-  meSmall,
   long_calli_postcard,
   recordplayer,
   mantis_enclosure,
@@ -118,7 +101,6 @@ export {
   arduino,
   marblepaint,
   silentKillers,
-  silentKillersSmall,
   psalmsBlock,
   frankensteinHead1,
   frankensteinHead2,

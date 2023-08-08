@@ -14,8 +14,10 @@ import NotFound from './NotFound';
 import MarblePaint from "./MarblePaint";
 import SilentKillers from './SilentKillers';
 import Frankenstein from './Frankenstein';
+import imageComponent from './imageComponent';
 
 export {
+    imageComponent,
     Navbar,
     Work,
     Footer,

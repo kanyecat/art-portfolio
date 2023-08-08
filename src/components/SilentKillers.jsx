@@ -66,12 +66,12 @@ const SilentKillers = () => {
             </div>
 
             <div className='flex flex-col md:flex-[1.5] scroll-box md:h-[700px]'>
-              <img src={silentKillers} className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
-              <img src={silentKillers2} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={silentKillers3} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={silentKillers4} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={silentKillers5} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
-              <img src={silentKillers6} className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={silentKillers} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6'/>
+              <img src={silentKillers2} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={silentKillers3} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={silentKillers4} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={silentKillers5} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
+              <img src={silentKillers6} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6'/>
             </div>
 
             <div className='hidden h-[0] md:h-[auto] md:visible md:flex md:flex-col md:flex-1 md:pl-4'>
