@@ -121,7 +121,14 @@
     background-color: black;
     color: white;
 } */
-
+.mask{
+    position: absolute;
+    mask-image: url("./src/assets/mask.svg");
+    background:#d0d0d0;
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    color:#00040f;
+}
 .changingBg {
     background: #00040f;
 }
