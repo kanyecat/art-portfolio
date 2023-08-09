@@ -39,6 +39,9 @@ module.exports = {
       //   turn: "turn 600ms ease-in-out"
       // },
     },
+    zIndex: {
+      '15': '15',
+    },
     screens: {
       xs: "480px",
       ss: "620px",

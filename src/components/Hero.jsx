@@ -18,7 +18,7 @@ const Hero = () => {
     <>
       <section id='home' className={`${styles.paddingY}`}>
         <motion.div 
-        className={`mask flex flex-col w-full h-[700px] z-20`}
+        className={`mask flex flex-col w-full h-[700px] z-15`}
         animate={{
           WebkitMaskPosition: isHovered ? `${x-(size/2)}px ${y-(size/2)}px` : `${x-(size/2)}px ${y-(size*7)}px`,
           WebkitMaskSize: `${size}px`,
@@ -49,7 +49,7 @@ const Hero = () => {
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>MECHANICAL</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ENGINEERING</span>
           </div>
-          <div className={`flex md:flex-row flex-col w-[400px] h-[300px] md:pt-0 pt-4 md:pr-3 md:mr-40 sm:mt-20 mr-0`}>
+          <div className={`flex md:flex-row flex-col w-[400px] h-[300px] md:pt-0 pt-4 md:pr-3 md:mr-40 sm:mt-20 mr-0 z-[16]`}>
             <PotCanvas />
           </div>
         </div>
