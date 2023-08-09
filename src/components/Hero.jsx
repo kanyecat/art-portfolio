@@ -15,9 +15,9 @@ const Hero = () => {
   const size = isHovered? 400: 20;
   return (
     <>
-      <section id='home' className={`${styles.paddingY} z-0`}>
+      <section id='home' className={`${styles.paddingY}`}>
         <motion.div 
-        className={`mask flex flex-col w-full h-[700px] z-10`}
+        className={`mask flex flex-col w-full h-[700px] z-20`}
         animate={{
           WebkitMaskPosition: isHovered ? `${x-(size/2)}px ${y-(size/2)}px` : `${x-(size/2)}px ${y-(size*7)}px`,
           WebkitMaskSize: `${size}px`,
@@ -41,7 +41,7 @@ const Hero = () => {
             className='flex md:flex-row flex-col justify-center items-center mb-2 w-full'>
             <TypingText title="Joo Hee is a senior studying..." textStyles ='text-dimWhite' />
         </motion.div>  
-        <div className={`flex md:flex-row flex-col`}>
+        <div className={`flex md:flex-row flex-col z-10`}>
           <div className={`flex-1 ${styles.flexStart} flex-col ${styles.paddingX} md:pl-16 md:pt-0 pt-4`}>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ART &</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>MECHANICAL</span>
@@ -51,7 +51,7 @@ const Hero = () => {
             <PotCanvas />
           </div>
         </div>
-        <div className={`flex-row ${styles.paddingX} justify-end items-center`}>
+        <div className={`flex-row ${styles.paddingX} justify-end items-center z-10`}>
           <div className='scramble-txts xs:text-[30px] text-[20px] xs:leading-[45.8px] leading-[30.8px]'>
               <span className='font-grandiflora' >+ PHYSICAL COMPUTING</span>
               <span className="font-grandiflora">+ %&$~:#+^_%?=@/*?-#</span>
