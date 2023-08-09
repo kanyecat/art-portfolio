@@ -76,7 +76,7 @@ const About = () => {
                   <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>While working as an engineering instructor at a summer basecamp hosted by </span>
                   <Link to="https://www.robolink.com/" className='border-b-[1px] hover:border-b-[#38A0F4] text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>Robolink</Link>
                   <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'> and </span>
-                  <Link to="https://www.robolink.com/" className='border-b-[1px] hover:border-b-[#C1511B] text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>The League of Amazing Programmers</Link>
+                  <Link to="https://www.jointheleague.org/" className='border-b-[1px] hover:border-b-[#C1511B] text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>The League of Amazing Programmers</Link>
                   <span className='text-white font-opensans font-thin md:text-[18px] text-[18px] leading-[30px]'>, I fortunately built
                   a connection with another instructor working as a software engineer. After stepping into the world of app development, I learned how to empathize with the clients and provide them with solutions. Since then, my design
                   thinking skills have been improving in my main disciplines: art and mechanical enginneering.</span>
