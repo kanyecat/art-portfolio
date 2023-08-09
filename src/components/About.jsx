@@ -1,5 +1,5 @@
 import styles from '../style';
-import { me, me2 } from "../assets";
+import { basecamp1, basecamp2,  me, me2 } from "../assets";
 import { Tech } from '../components';
 import { transition } from "../hoc";
 import { Link } from "react-router-dom";
@@ -69,6 +69,10 @@ const About = () => {
                 <div className='flex-[2]'>
                   <span className='text-white font-opensans font-thin md:text-[16px] text-[16px]'>Engineering Instructor at Robolink - San Diego, CA</span>
                 </div>
+              </div>
+              <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
+                <img src={basecamp1} className='md:saturate-0 hover:saturate-100 transition ease-in-out duration-300 w-[50%] h-[auto] pr-[2px]' loading='lazy'/>
+                <img src={basecamp2} className='md:saturate-0 hover:saturate-100 transition ease-in-out duration-300 w-[50%] h-[auto] pl-[2px]' loading='lazy'/>
               </div>
               <div className='flex flex-row md:pb-8 pb-6 md:pt-8 pt-6 about-section'>
                 <span className='flex-[0.25] text-end pr-4 text-white font-grandiflora md:text-[14px] text-[12px]'></span>

@@ -60,9 +60,13 @@ import silentKillers6 from "./silentKillers6.png";
 import defenseMechanism1 from "./defenseMechanism1.png";
 import defenseMechanism2 from "./defenseMechanism2.png";
 import mask from "./mask.svg";
+import basecamp1 from "./basecamp1.png";
+import basecamp2 from "./basecamp2.png";
 
 export {
   me,
+  basecamp1,
+  basecamp2,
   logo,
   mask,
   menu,
