@@ -18,7 +18,7 @@ const Hero = () => {
     <>
       <section id='home' className={`${styles.paddingY}`}>
         <motion.div 
-        className={`mask flex flex-col w-full h-[700px] z-15`}
+        className={`mask flex flex-col w-full h-[700px] z-[15]`}
         animate={{
           WebkitMaskPosition: isHovered ? `${x-(size/2)}px ${y-(size/2)}px` : `${x-(size/2)}px ${y-(size*7)}px`,
           WebkitMaskSize: `${size}px`,
