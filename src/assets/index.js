@@ -59,10 +59,12 @@ import silentKillers5 from "./silentKillers5.png";
 import silentKillers6 from "./silentKillers6.png";
 import defenseMechanism1 from "./defenseMechanism1.png";
 import defenseMechanism2 from "./defenseMechanism2.png";
+import mask from "./mask.svg";
 
 export {
   me,
   logo,
+  mask,
   menu,
   close,
   instagram,

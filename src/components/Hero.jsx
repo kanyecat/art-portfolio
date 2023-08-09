@@ -7,6 +7,7 @@ import { TypingText } from '../components';
 import { PotCanvas, ChairCanvas, ArkCanvas } from "./canvas";
 import "./gallery.css";
 import { useState } from 'react';
+// import { mask } from '../assets';
 
 const Hero = () => {
 
@@ -21,6 +22,7 @@ const Hero = () => {
         animate={{
           WebkitMaskPosition: isHovered ? `${x-(size/2)}px ${y-(size/2)}px` : `${x-(size/2)}px ${y-(size*7)}px`,
           WebkitMaskSize: `${size}px`,
+          // WebkitMaskImage: `${mask}`,
         }}
         transition={{type:"tween", ease:"backOut"}}
         >
@@ -41,8 +43,8 @@ const Hero = () => {
             className='flex md:flex-row flex-col justify-center items-center mb-2 w-full'>
             <TypingText title="Joo Hee is a senior studying..." textStyles ='text-dimWhite' />
         </motion.div>  
-        <div className={`flex md:flex-row flex-col z-10`}>
-          <div className={`flex-1 ${styles.flexStart} flex-col ${styles.paddingX} md:pl-16 md:pt-0 pt-4`}>
+        <div className={`flex md:flex-row flex-col`}>
+          <div className={`flex-1 ${styles.flexStart} flex-col ${styles.paddingX} md:pl-16 md:pt-0 pt-4 z-10`}>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ART &</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>MECHANICAL</span>
             <span className='font-grandiflora xs:text-[90px] text-[48px] xs:leading-[120.8px] leading-[60.8px] text-white'>ENGINEERING</span>
