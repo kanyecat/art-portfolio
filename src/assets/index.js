@@ -62,11 +62,19 @@ import defenseMechanism2 from "./defenseMechanism2.png";
 import mask from "./mask.svg";
 import basecamp1 from "./basecamp1.png";
 import basecamp2 from "./basecamp2.png";
+import anemone from "./anemone.png";
+import friends from "./friends.png";
+import sketch from "./sketch.png";
+import cohabitation from "./cohabitation.png";
 
 export {
   me,
+  sketch,
+  cohabitation,
   basecamp1,
   basecamp2,
+  anemone,
+  friends,
   logo,
   mask,
   menu,

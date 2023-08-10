@@ -6,6 +6,11 @@
     -moz-column-width: 25%;
     column-width: 25%;
     padding: 0;
+    position: absolute;
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
 }
 .gallery .pics{
     -webkit-transition: all 350ms ease;
@@ -37,6 +42,7 @@
         -webkit-column-width: 100%;
         -moz-column-width: 100%;
         column-width: 100%;
+        position: relative;
     }
 
     .icon {
@@ -103,6 +109,26 @@
     box-sizing: border-box;
     padding: 20px 0 20px;
     margin: 0 auto;
+}
+.pro{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid white;
+    z-index: 10;
+    overflow: hidden;
+}
+.pro .open{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid white;
+    z-index: 10;
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
 }
 .direction{
     position: fixed;

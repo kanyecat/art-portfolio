@@ -14,8 +14,14 @@ import NotFound from './NotFound';
 import MarblePaint from "./MarblePaint";
 import SilentKillers from './SilentKillers';
 import Frankenstein from './Frankenstein';
+import Floatgallery from './Floatgallery';
+import Experimentgallery from './Experimentgallery';
+import Prototypegallery from './Prototypegallery';
 
 export {
+    Floatgallery,
+    Experimentgallery,
+    Prototypegallery,
     Navbar,
     Work,
     Footer,

@@ -3,7 +3,8 @@ import { instagram, calligraphy, mantis_enclosure,
   untold_story, defenseMechanism1, defenseMechanism2, notebookcoverdesign, single_propagation_holder, 
   triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, seoul, corals,
   waterIntoWine, css, html, psalmsBlock, reactjs, tailwind, figma, git, javascript, typescript,
-  nodejs, threejs, solidworks, frankensteinHead1, arduino, marblepaint, silentKillers} from "../assets";
+  nodejs, threejs, solidworks, frankensteinHead1, arduino, marblepaint, silentKillers, rocking_chair,
+  anemone, friends, relationships, sketch, cohabitation } from "../assets";
 
 export const navLinks = [
   // {
@@ -61,6 +62,129 @@ export const features = [
   },
 ];
 
+export const prototypes1 = [
+  {
+    id: "experiment-1",
+    image: torso,
+    position: "md:top-[46%] md:left-[21%] top-[55%] left-[8%]",
+  },
+  {
+    id: "experiment-2",
+    image: single_propagation_holder,
+    position: "md:top-[77%] md:left-[55%] top-[85%] left-[65%]",
+  },
+  {
+    id: "experiment-5",
+    image: triple_propagation_holder,
+    position: "top-[30%] md:left-[40%] left-[45%]",
+  },
+  {
+    id: "experiment-7",
+    image: rocking_chair,
+    position: "md:top-[6%] md:left-[0%] top-[10%] left-[10%]",
+  },
+];
+export const prototypes2 = [
+  {
+    id: "experiment-9",
+    image: recordplayer,
+    position: "md:top-[2%] md:left-[81%] top-[5%] left-[60%]",
+  },
+  {
+    id: "experiment-10",
+    image: mantis_enclosure,
+    position: "md:top-[63.5%] md:left-[30%] top-[45%] left-[16%]",
+  },
+  {
+    id: "experiment-12",
+    image: psalmsBlock,
+    position: "md:top-[0%] md:left-[18%] top-[25%] left-[5%]",
+  },
+  {
+    id: "experiment-14",
+    image: sofa,
+    position: "md:top-[45%] md:left-[63%] top-[45%] left-[60%]",
+  },
+];
+export const prototypes3 = [
+  {
+    id: "experiment-15",
+    image: krtr_pot_v1,
+    position: "top-[62%] md:left-[80%] left-[50%]",
+  },
+  {
+    id: "experiment-17",
+    image: corals,
+    position: "md:top-[10%] md:left-[55%] top-[0%] left-[20%]",
+  },
+  {
+    id: "experiment-18",
+    image: krtr_pot_lantern,
+    position: "md:top-[55%] top-[75%] left-[2%]",
+  },
+];
+
+export const experiment1 = [
+  {
+    id: "experiment-1",
+    image: sketch,
+    position: "md:top-[75%] md:left-[55%] top-[55%] left-[8%]",
+  },
+  {
+    id: "experiment-2",
+    image: relationships,
+    position: "md:top-[77%] md:left-[20%] top-[85%] left-[65%]",
+  },
+  {
+    id: "experiment-5",
+    image: wahlbergii,
+    position: "top-[30%] md:left-[40%] left-[45%]",
+  },
+  {
+    id: "experiment-7",
+    image: friends,
+    position: "md:top-[6%] md:left-[0%] top-[10%] left-[10%]",
+  },
+  {
+    id: "experiment-12",
+    image: seoul,
+    position: "md:top-[0%] md:left-[55%] top-[0%] left-[20%]",
+  },
+];
+export const experiment2 = [
+  {
+    id: "experiment-9",
+    image: waterIntoWine,
+    position: "md:top-[4%] md:left-[81%] top-[5%] left-[60%]",
+  },
+  {
+    id: "experiment-10",
+    image: long_calli_postcard,
+    position: "md:top-[45%] md:left-[63%] top-[45%] left-[60%]",
+  },
+  {
+    id: "experiment-14",
+    image: cohabitation,
+    position: "md:top-[63.5%] md:left-[30%] top-[45%] left-[16%]",
+  },
+];
+export const experiment3 = [
+  {
+    id: "experiment-15",
+    image: untold_story,
+    position: "top-[62%] md:left-[80%] left-[50%]",
+  },
+  {
+    id: "experiment-17",
+    image: notebookcoverdesign,
+    position: "md:top-[10%] md:left-[18%] top-[25%] left-[5%]",
+  },
+  {
+    id: "experiment-18",
+    image: fortyDaysNights,
+    position: "md:top-[55%] top-[75%] left-[2%]",
+  },
+];
 
 export const experiments = [
   {
@@ -129,6 +253,10 @@ export const experiments = [
     hash: "LAEL+^M{D%NH00%2tR-p~qn#M{Rj",
   },
   {
+    id: "experiment-14",
+    image: sofa,
+  },
+  {
     id: "experiment-15",
     image: single_propagation_holder,
     hash: "LANAk,_44nV?_44o?aoIXURjV@tR",
@@ -142,6 +270,18 @@ export const experiments = [
     id: "experiment-17",
     image: psalmsBlock,
     hash: "LfQ,O6s:~XWBxuj[bGWB-=ayE0of",
+  },
+  {
+    id: "experiment-18",
+    image: rocking_chair,
+  },
+  {
+    id: "experiment-19",
+    image: anemone,
+  },
+  {
+    id: "experiment-20",
+    image: friends,
   },
 ];
 
