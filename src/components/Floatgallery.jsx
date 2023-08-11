@@ -84,7 +84,7 @@ const Floatgallery = () => {
                 />
                 ))}
             </div>
-            <div ref={plane3} className={`${viewPro ? 'hidden' : 'brightness-[1] w-full h-[100%] absolute'}`}
+            <div ref={plane3} className={`${viewPro ? 'hidden' : 'brightness-[1] w-full h-[100%] absolute cursor-pointer'}`}
             onClick={() => showPro(true)}>
                 {prototypes3.map((item, index) => (
                 <img
@@ -95,7 +95,7 @@ const Floatgallery = () => {
                 />
                 ))}
             </div>
-            <div className={`${viewPro? 'hidden' : 'absolute top-[50%] left-[45%]'}`}>
+            <div className={`${viewPro? 'hidden' : 'absolute top-[50%] left-[45%] cursor-pointer'}`} onClick={() => showPro(true)}>
                 <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Digital Prototypes</h1>
                 <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>3D Rendering</p>
             </div>
@@ -103,7 +103,7 @@ const Floatgallery = () => {
                 <Prototypegallery />
             </div>
             <img src={menu}
-            className={`w-[25px] h-[25px] object-contain z-[12] sticky top-[2.5%] left-[1.5%] ${viewPro? "menu-button open" : "menu-button"}`}
+            className={`w-[25px] h-[25px] object-contain z-[12] sticky top-[2.5%] left-[1.5%] cursor-pointer ${viewPro? "menu-button open" : "menu-button"}`}
                 onClick={() => showPro((prev) => !prev)}
             />
         </div>
@@ -130,7 +130,7 @@ const Floatgallery = () => {
                 />
                 ))}
             </div>
-            <div ref={plane6} className={`${viewExp ?'hidden' : 'brightness-[1] w-full h-[100%] absolute'}`}
+            <div ref={plane6} className={`${viewExp ?'hidden' : 'brightness-[1] w-full h-[100%] absolute cursor-pointer'}`}
             onClick={() => showExp(true)}>
                 {experiment3.map((item, index) => (
                 <img
@@ -141,7 +141,7 @@ const Floatgallery = () => {
                 />
                 ))}
             </div>
-            <div className={`${viewExp? 'hidden' : 'absolute top-[50%] left-[45%]'}`}>
+            <div className={`${viewExp? 'hidden' : 'absolute top-[50%] left-[45%] cursor-pointer'}`} onClick={() => showExp(true)}>
                 <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Experiments</h1>
                 <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>Sketch, Painting, Design</p>
             </div>
@@ -149,7 +149,7 @@ const Floatgallery = () => {
                 <Experimentgallery />
             </div>
             <img src={menu}
-            className={`w-[25px] h-[25px] object-contain z-[12] sticky top-[2.5%] left-[1.5%] ${viewExp? "menu-button open" : "menu-button"}`}
+            className={`w-[25px] h-[25px] object-contain z-[12] sticky top-[2.5%] left-[1.5%] cursor-pointer ${viewExp? "menu-button open" : "menu-button"}`}
             onClick={() => showExp((prev) => !prev)}
             />
         </div>
