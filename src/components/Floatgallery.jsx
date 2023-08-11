@@ -67,7 +67,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute`}
+                className={`${item.position} w-[15%] absolute saturate-0`}
                 src={item.image}
                 onClick={() => getImage(item.image)}
                 />
@@ -78,7 +78,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute`}
+                className={`${item.position} w-[15%] absolute saturate-0`}
                 src={item.image} 
                 onClick={() => getImage(item.image)}
                 />
@@ -90,7 +90,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute`}
+                className={`${item.position} w-[15%] absolute saturate-0`}
                 src={item.image}
                 />
                 ))}
@@ -113,7 +113,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute`}
+                className={`${item.position} w-[15%] absolute saturate-0`}
                 src={item.image}
                 onClick={() => getImage(item.image)}
                 />
@@ -124,7 +124,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute`}
+                className={`${item.position} w-[15%] absolute saturate-0`}
                 src={item.image} 
                 onClick={() => getImage(item.image)}
                 />
@@ -136,7 +136,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute z-[11]`}
+                className={`${item.position} w-[15%] absolute saturate-0`}
                 src={item.image}
                 />
                 ))}

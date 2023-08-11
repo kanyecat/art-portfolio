@@ -66,9 +66,13 @@ import anemone from "./anemone.png";
 import friends from "./friends.png";
 import sketch from "./sketch.png";
 import cohabitation from "./cohabitation.png";
+import folder from "./folder.svg";
+import folderOpen from "./folder_open.svg";
 
 export {
   me,
+  folder,
+  folderOpen,
   sketch,
   cohabitation,
   basecamp1,

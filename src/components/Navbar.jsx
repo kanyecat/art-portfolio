@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 
-import { menu } from '../assets';
+import { menu, folder, folderOpen } from '../assets';
 import { navLinks } from '../constants';
 import { navVariants, fadeIn, slideIn, staggerContainer } from '../motion';
 import "./gallery.css";
@@ -43,10 +43,11 @@ const Navbar = () => {
         className={`${drop? "dropdown open" : "dropdown"} justify-start mr-10`}
         onClick={() => setDrop((prev) => !prev)}
         >
-          <button 
-          className={`${drop? "button-effect-active" : "button-effect"} font-opensans font-normal cursor-pointer text-[16px] text-white`}>
-          ./projects
-          </button>
+          <div
+          className={`flex flex-row button-effect`}>
+            <object type="image/svg+xml" data={`${drop? folderOpen : folder}`} className="w-[25px] h-[25px] invert-[100%] mr-1" />
+            <span className={`font-opensans font-normal cursor-pointer text-[16px] text-white`}>projects</span>
+          </div>
           <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} bg-black-gradient w-[150px]`}>
             <li
             key="marble paint"
