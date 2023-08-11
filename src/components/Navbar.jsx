@@ -115,6 +115,10 @@ const Navbar = () => {
           className={`fixed top-0 right-0 bg-hanji-white bg-cover opacity-[0.1]
           w-[100%] h-[100%] z-20 sidebar touch-none`}
           />
+          {/* <div
+          className={`fixed top-0 right-0 bg-[rgba(255,255,255,0.08)] bg-cover
+          w-[100%] h-[100%] z-20 sidebar touch-none`}
+          /> */}
           <ul className='fixed z-40 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
             <motion.li 
             className={`${drop? "dropdown open" : "dropdown"} w-full justify-start`}
@@ -124,10 +128,12 @@ const Navbar = () => {
             variants={fadeIn('left', 'spring', 0, 0.65)}
             onClick={() => setDrop((prev) => !prev)}
             >
-              <button 
-              className={`font-opensans font-normal cursor-pointer text-[24px] pb-3 pl-8 pt-3 text-white`}>
-              ./projects
-              </button>
+              <div className='flex flex-row pb-3 pl-8 pt-3 items-center'>
+                <object type="image/svg+xml" data={`${drop? folderOpen : folder}`} className="w-[25px] h-[25px] invert-[100%] mr-1" />
+                <span className={`font-opensans font-normal cursor-pointer text-[24px] text-white`}>
+                projects
+                </span>
+              </div>
               <ul className={`${drop? "dropdown-menu-mobile open" : "dropdown-menu-mobile"} w-[100%] pl-[15vw]`}>
                 <li
                 key="marble paint"
