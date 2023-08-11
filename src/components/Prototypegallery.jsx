@@ -18,7 +18,7 @@ const Prototypegallery = () => {
                 <div className='direction text-dimWhite font-opensans font-thin text-[14px]'>click anywhere to close</div>
             </div>
             <div className='gallery z-[11]'>
-            {prototypes1.map((item, index) => (
+            {prototypes3.map((item, index) => (
                 <Tilt className='pics'
                 loading="lazy"
                 options={{
@@ -52,7 +52,7 @@ const Prototypegallery = () => {
                 {/* </div> */}
                 </Tilt>
                 ))}
-            {prototypes3.map((item, index) => (
+            {prototypes1.map((item, index) => (
                 <Tilt className='pics'
                 loading="lazy"
                 options={{

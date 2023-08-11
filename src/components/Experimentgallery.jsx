@@ -18,7 +18,7 @@ const Experimentgallery = () => {
                 <div className='direction text-dimWhite font-opensans font-thin text-[14px]'>click anywhere to close</div>
             </div>
             <div className='gallery z-[11]'>
-            {experiment1.map((item, index) => (
+            {experiment2.map((item, index) => (
                 <Tilt className='pics'
                 loading="lazy"
                 options={{
@@ -36,7 +36,7 @@ const Experimentgallery = () => {
                 </Tilt>
             
                 ))}
-            {experiment2.map((item, index) => (
+            {experiment3.map((item, index) => (
                 <Tilt className='pics'
                 loading="lazy"
                 options={{
@@ -53,7 +53,7 @@ const Experimentgallery = () => {
                 {/* </div> */}
                 </Tilt>
                 ))}
-            {experiment3.map((item, index) => (
+            {experiment1.map((item, index) => (
                 <Tilt className='pics'
                 loading="lazy"
                 options={{
