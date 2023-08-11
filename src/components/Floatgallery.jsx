@@ -97,7 +97,7 @@ const Floatgallery = () => {
             </div>
             <div className={`${viewPro? 'hidden' : 'absolute top-[50%] left-[45%] cursor-pointer'}`} onClick={() => showPro(true)}>
                 <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Digital Prototypes</h1>
-                <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>3D Rendering</p>
+                <p className='text-center text-dimWhite font-opensans font-normal text-[14px]'>3D Rendering</p>
             </div>
             <div className={`${viewPro? "gallery-container open" : "gallery-container"} scroll-box`}>
                 <Prototypegallery />
@@ -143,7 +143,7 @@ const Floatgallery = () => {
             </div>
             <div className={`${viewExp? 'hidden' : 'absolute top-[50%] left-[45%] cursor-pointer'}`} onClick={() => showExp(true)}>
                 <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Experiments</h1>
-                <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>Sketch, Painting, Design</p>
+                <p className='text-center text-dimWhite font-opensans font-normal text-[14px]'>Sketch, Painting, Design</p>
             </div>
             <div className={`${viewExp? "gallery-container open" : "gallery-container"} scroll-box`}>
                 <Experimentgallery />
