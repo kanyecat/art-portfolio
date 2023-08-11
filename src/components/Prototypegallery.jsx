@@ -28,7 +28,7 @@ const Prototypegallery = () => {
                 }}
                 key={index}>
                     <img
-                    className='pic saturate-0 hover:saturate-100'
+                    className='pic md:saturate-0 hover:saturate-100'
                     src={item.image} 
                     onClick={() => getImage(item.image)}
                     />
@@ -45,7 +45,7 @@ const Prototypegallery = () => {
                 }}
                 key={index}>
                     <img
-                    className='pic saturate-0 hover:saturate-100'
+                    className='pic md:saturate-0 hover:saturate-100'
                     src={item.image} 
                     onClick={() => getImage(item.image)}
                     />
@@ -62,7 +62,7 @@ const Prototypegallery = () => {
                 }}
                 key={index}>
                     <img
-                    className='pic saturate-0 hover:saturate-100'
+                    className='pic md:saturate-0 hover:saturate-100'
                     src={item.image} 
                     onClick={() => getImage(item.image)}
                     />
