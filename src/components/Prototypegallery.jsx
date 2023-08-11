@@ -13,8 +13,8 @@ const Prototypegallery = () => {
     };
     return (
         <>
-            <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
-                <img src={tempImage} loading='lazy'/>
+            <div className={model? "model open z-[13]" : "model z-[13]"} onClick={() => setModel(false)}>
+                <img src={tempImage} className="z-[13]" loading='lazy'/>
                 <div className='direction text-dimWhite font-opensans font-thin text-[14px]'>click anywhere to close</div>
             </div>
             <div className='gallery z-[11]'>

@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from '../style';
 import { motion } from 'framer-motion';
 
-import { close, menu } from '../assets';
+import { menu } from '../assets';
 import { navLinks } from '../constants';
 import { navVariants, fadeIn, slideIn, staggerContainer } from '../motion';
-import { Work } from '../components';
 import "./gallery.css";
 
 const Navbar = () => {
@@ -105,7 +103,7 @@ const Navbar = () => {
         <img 
           src={menu}
           alt='menu'
-          className={`w-[25px] h-[25px] object-contain ${toggle? "menu-button open" : "menu-button"}`}
+          className={`w-[25px] h-[25px] object-contain ${toggle? "menu-button open z-[999]" : "menu-button z-[999]"}`}
           onClick={() => setToggle((prev) => !prev)}
         />
         <div

@@ -5,6 +5,7 @@ import { gsap } from 'gsap/dist/gsap';
 import Experimentgallery from './Experimentgallery';
 import Prototypegallery from './Prototypegallery';
 import "./gallery.css";
+import { menu } from '../assets';
 import { useTransform, useScroll } from 'framer-motion';
 
 const Floatgallery = () => {
@@ -60,24 +61,24 @@ const Floatgallery = () => {
             <img src={tempImage} loading='lazy'/>
             <div className='direction text-dimWhite font-opensans font-thin text-[14px]'>click anywhere to close</div>
         </div> */}
-        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`hover:bg-[rgba(0,0,0,0.6)] transition ease-in-out duration-300 w-[100%] h-[100vh] z-10 relative border-[1px] overflow-hidden`}>
-            <div ref={plane1} className= {`${viewPro ?'hidden' :'brightness-[0.85] w-[100%] h-[100%] absolute'} `}>
+        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`${viewPro ? '' : 'hover:bg-[rgba(255,255,255,0.1)] transition ease-in-out duration-300'} w-[100%] h-[100vh] relative corner-border overflow-hidden`}>
+            <div ref={plane1} className= {`${viewPro ?'hidden' :'brightness-[0.8] w-[100%] h-[100%] absolute'} `}>
                 {prototypes1.map((item, index) => (
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} md:w-[200px] w-[120px] absolute`}
+                className={`${item.position} w-[15%] absolute`}
                 src={item.image}
                 onClick={() => getImage(item.image)}
                 />
                 ))}
             </div>
-            <div ref={plane2} className={`${viewPro ? 'hidden' : 'brightness-[0.925] w-full h-[100%] absolute'}`}>
+            <div ref={plane2} className={`${viewPro ? 'hidden' : 'brightness-[0.9] w-full h-[100%] absolute'}`}>
                 {prototypes2.map((item, index) => (
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} md:w-[220px] w-[140px] absolute`}
+                className={`${item.position} w-[15%] absolute`}
                 src={item.image} 
                 onClick={() => getImage(item.image)}
                 />
@@ -89,40 +90,41 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} md:w-[250px] w-[150px] absolute`}
+                className={`${item.position} w-[15%] absolute`}
                 src={item.image}
                 />
                 ))}
-                <div className='absolute top-[50%] left-[45%]'>
-                    <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Digital Prototypes</h1>
-                    <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>3D Rendering</p>
-                </div>
             </div>
-            <div className={`${viewPro? "w-full h-[100%] absolute scroll-box transition ease-in-out duration-300" : "hidden"}`}>
+            <div className={`${viewPro? 'hidden' : 'absolute top-[50%] left-[45%]'}`}>
+                <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Digital Prototypes</h1>
+                <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>3D Rendering</p>
+            </div>
+            <div className={`${viewPro? "gallery-container open" : "gallery-container"} scroll-box`}>
                 <Prototypegallery />
-                <button className='sticky top-[2%] left-[1%] w-[25px] h-[25px] text-white z-[12]'
-                onClick={() => showPro(false)}
-                >close</button>
             </div>
+            <img src={menu}
+            className={`w-[25px] h-[25px] object-contain z-[12] sticky top-[2.5%] left-[1.5%] ${viewPro? "menu-button open" : "menu-button"}`}
+                onClick={() => showPro((prev) => !prev)}
+            />
         </div>
-        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`hover:bg-[rgba(0,0,0,0.6)] transition ease-in-out duration-300 w-[100%] h-[100vh] z-10 relative border-[1px] overflow-hidden`}>
-            <div ref={plane4} className={`${viewExp ? 'hidden' :'brightness-[0.85] w-[100%] h-[100%] absolute'} `}>
+        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`${viewExp ? '' : 'hover:bg-[rgba(255,255,255,0.1)] transition ease-in-out duration-300'} w-[100%] h-[100vh] relative corner-border overflow-hidden`}>
+            <div ref={plane4} className={`${viewExp ? 'hidden' :'brightness-[0.8] w-[100%] h-[100%] absolute'} `}>
                 {experiment1.map((item, index) => (
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} md:w-[200px] w-[120px] absolute`}
+                className={`${item.position} w-[15%] absolute`}
                 src={item.image}
                 onClick={() => getImage(item.image)}
                 />
                 ))}
             </div>
-            <div ref={plane5} className={`${viewExp ?'hidden' : 'brightness-[0.925] w-full h-[100%] absolute'}`}>
+            <div ref={plane5} className={`${viewExp ?'hidden' : 'brightness-[0.9] w-full h-[100%] absolute'}`}>
                 {experiment2.map((item, index) => (
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} md:w-[220px] w-[140px] absolute`}
+                className={`${item.position} w-[15%] absolute`}
                 src={item.image} 
                 onClick={() => getImage(item.image)}
                 />
@@ -134,21 +136,22 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} md:w-[250px] w-[150px] absolute z-[11]`}
+                className={`${item.position} w-[15%] absolute z-[11]`}
                 src={item.image}
                 />
                 ))}
-                <div className='absolute top-[50%] left-[45%]'>
-                    <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Experiments</h1>
-                    <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>Sketch, Painting, Design</p>
-                </div>
             </div>
-            <div className={`${viewExp? "w-full h-[100%] absolute scroll-box opacity-[1] transition-opacity ease-in-out duration-600" : "hidden opacity-[0]"}`}>
+            <div className={`${viewExp? 'hidden' : 'absolute top-[50%] left-[45%]'}`}>
+                <h1 className='text-center text-white font-opensans font-normal text-[18px]'>Experiments</h1>
+                <p className='text-center text-dimWhite font-opensans font-normal text-[15px]'>Sketch, Painting, Design</p>
+            </div>
+            <div className={`${viewExp? "gallery-container open" : "gallery-container"} scroll-box`}>
                 <Experimentgallery />
-                <button className='sticky top-[2%] left-[1%] w-[25px] h-[25px] text-white z-[12]'
-                onClick={() => showExp(false)}
-                >close</button>
             </div>
+            <img src={menu}
+            className={`w-[25px] h-[25px] object-contain z-[12] sticky top-[2.5%] left-[1.5%] ${viewExp? "menu-button open" : "menu-button"}`}
+            onClick={() => showExp((prev) => !prev)}
+            />
         </div>
     </div>
   )

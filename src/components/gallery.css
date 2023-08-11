@@ -1,10 +1,10 @@
 .gallery{
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-    -webkit-column-width: 25%;
-    -moz-column-width: 25%;
-    column-width: 25%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
     padding: 0;
     position: absolute;
     width: 95%;
@@ -101,34 +101,41 @@
 }
 .model img{
     width: auto;
-    max-width: 85%;
+    max-width: 90%;
     height: auto;
-    max-height: 85%;
+    max-height: 90%;
     display: block;
     line-height: 0;
     box-sizing: border-box;
     padding: 20px 0 20px;
     margin: 0 auto;
 }
-.pro{
+.gallery-container{
     visibility: hidden;
     opacity: 0;
     position: absolute;
     width: 100%;
-    height: 100vh;
-    border: 1px solid white;
-    z-index: 10;
-    overflow: hidden;
+    height: 100%;
+    background: rgba(255,255,255,0.25);
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
 }
-.pro .open{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    border: 1px solid white;
-    z-index: 10;
-    overflow: hidden;
+.gallery-container.open{
     visibility: visible;
     opacity: 1;
+}
+.corner-border{
+    --b: 1px;   /* thickness of the border */
+    --c: white;   /* color of the border */
+    --w: 50px;  /* width of border */
+  
+    border: var(--b) solid #0000; /* space for the border */
+    --_g: #0000 90deg,var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+        conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+        conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+        conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
 }
 .direction{
     position: fixed;
@@ -379,10 +386,8 @@
 .menu-button.open{
     transform: rotate(-135deg);
     transition: transform 500ms ease-in-out;
-    z-index: 998;
 }
 .menu-button{
     transform: rotate(0deg);
     transition: transform 500ms ease-in-out;
-    z-index: 999;
 }

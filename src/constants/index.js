@@ -136,11 +136,6 @@ export const experiment1 = [
     position: "md:top-[77%] md:left-[20%] top-[85%] left-[65%]",
   },
   {
-    id: "experiment-5",
-    image: wahlbergii,
-    position: "top-[30%] md:left-[40%] left-[45%]",
-  },
-  {
     id: "experiment-7",
     image: friends,
     position: "md:top-[6%] md:left-[0%] top-[10%] left-[10%]",
@@ -156,6 +151,11 @@ export const experiment2 = [
     id: "experiment-9",
     image: waterIntoWine,
     position: "md:top-[4%] md:left-[81%] top-[5%] left-[60%]",
+  },
+  {
+    id: "experiment-5",
+    image: wahlbergii,
+    position: "top-[30%] md:left-[40%] left-[45%]",
   },
   {
     id: "experiment-10",
