@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 
 import { menu, folder, folderOpen } from '../assets';
-import { navLinks } from '../constants';
+import { navLinks, features } from '../constants';
 import { navVariants, fadeIn, slideIn, staggerContainer } from '../motion';
 import "./gallery.css";
 
@@ -49,42 +49,19 @@ const Navbar = () => {
             <span className={`font-opensans font-normal cursor-pointer text-[16px] text-white`}>projects</span>
           </div>
           <ul className={`${drop? "dropdown-menu open" : "dropdown-menu"} bg-black-gradient w-[150px]`}>
-            <li
-            key="marble paint"
-            className={`font-opensans font-normal cursor-pointer text-[16px] pt-4 pb-3
-            text-white link`}
-            onClick={() => setDrop((prev) => !prev)}
-            >
-              <Link 
-              to="/marble-paint"
-              onClick={() => setDrop(false)}
-              >/marble-paint
-              </Link>
-            </li>
-            <li
-            key="silent killers"
-            className={`font-opensans font-normal cursor-pointer text-[16px] pt-3 pb-3
-            text-white link`}
-            onClick={() => setDrop((prev) => !prev)}
-            >
-              <Link 
-              to="/silent-killers"
-              onClick={() => setDrop(false)}
-              >/silent-killers
-              </Link>
-            </li>
-            <li
-            key="frankenstein"
-            className={`font-opensans font-normal cursor-pointer text-[16px] pt-3 pb-4
-            text-white link`}
-            onClick={() => setDrop((prev) => !prev)}
-            >
-              <Link 
-              to="/frankenstein"
-              onClick={() => setDrop(false)}
-              >/frankenstein
-              </Link>
-            </li>
+            {features.map((item, index) => (
+              <li
+              className={`font-opensans font-normal cursor-pointer text-[14px] pt-4 pb-3
+              text-white link`}
+              onClick={() => setDrop((prev) => !prev)}
+              >
+                <Link 
+                to={item.link}
+                onClick={() => setDrop(false)}
+                >{item.link}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
         {navLinks.map((nav, index) => (
@@ -115,11 +92,7 @@ const Navbar = () => {
           className={`fixed top-0 right-0 bg-hanji-white bg-cover opacity-[0.1]
           w-[100%] h-[100%] z-20 sidebar touch-none`}
           />
-          {/* <div
-          className={`fixed top-0 right-0 bg-[rgba(255,255,255,0.08)] bg-cover
-          w-[100%] h-[100%] z-20 sidebar touch-none`}
-          /> */}
-          <ul className='fixed z-40 w-[100%] h-[100%] top-0 right-0 list-none flex flex-col mt-40 h-[400px] justify-start items-start flex-1'>
+          <ul className='fixed z-40 w-[100%] top-0 right-0 list-none flex flex-col mt-40 justify-start items-start'>
             <motion.li 
             className={`${drop? "dropdown open" : "dropdown"} w-full justify-start`}
             initial="hidden"
@@ -135,42 +108,19 @@ const Navbar = () => {
                 </span>
               </div>
               <ul className={`${drop? "dropdown-menu-mobile open" : "dropdown-menu-mobile"} w-[100%] pl-[15vw]`}>
+              {features.map((item, index) => (
                 <li
-                key="marble paint"
-                className={`font-opensans font-normal cursor-pointer text-[18px] pt-5 pb-3
-                text-white link w-full`}
+                className={`font-opensans font-normal cursor-pointer text-[18px] ${item.position}
+                text-white ${index !== features.length -1 ? "link" : ""} w-full`}
                 onClick={() => setDrop((prev) => !prev)}
                 >
                   <Link 
-                  to="/marble-paint"
+                  to={item.link}
                   onClick={() => reset()}
-                  >/marble-paint
+                  >{item.link}
                   </Link>
                 </li>
-                <li
-                key="silent killers"
-                className={`font-opensans font-normal cursor-pointer text-[18px] pt-3 pb-3
-                text-white link`}
-                onClick={() => setDrop((prev) => !prev)}
-                >
-                  <Link 
-                  to="/silent-killers"
-                  onClick={() => reset()}
-                  >/silent-killers
-                  </Link>
-                </li>
-                <li
-                key="frankenstein"
-                className={`font-opensans font-normal cursor-pointer text-[18px] pt-3 pb-5
-                text-white`}
-                onClick={() => setDrop((prev) => !prev)}
-                >
-                  <Link 
-                  to="/frankenstein"
-                  onClick={() => reset()}
-                  >/frankenstein
-                  </Link>
-                </li>
+              ))}
               </ul>
             </motion.li> 
             {navLinks.map((nav, index) => (

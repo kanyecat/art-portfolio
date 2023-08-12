@@ -26,11 +26,12 @@
     transition: all 350ms ease;
     border-radius: 15px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1060px) {
     .gallery{
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        position: relative;
     }
 }
 
@@ -71,7 +72,7 @@
     }
     .dropdown.open {
         position: relative;
-        margin-bottom: 22vh;
+        margin-bottom: 2vh;
     }
 }
 
@@ -350,12 +351,13 @@
 }
 
 .dropdown-menu-mobile{
-    position: absolute;
+    position: relative;
     top: calc(100% + 0.1rem);
     border-top: white 1px solid;
     border-bottom: white 1px solid;
     background-color: rgb(0,0,0,0.2);
     opacity: 0;
+    height: 0;
     visibility: hidden;
     pointer-events: none;
 }
@@ -369,6 +371,7 @@
     pointer-events: auto;
     transform: translateY(10px);
     transition: opacity 350ms ease-in-out, transform 250ms ease-in-out;
+    height: auto;
 }
 
 .objectives li::before {

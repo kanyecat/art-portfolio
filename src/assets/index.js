@@ -68,10 +68,11 @@ import sketch from "./sketch.png";
 import cohabitation from "./cohabitation.png";
 import folder from "./folder.svg";
 import folderOpen from "./folder_open.svg";
-
+import rattle from "./rattle.png";
 export {
   me,
   folder,
+  rattle,
   folderOpen,
   sketch,
   cohabitation,

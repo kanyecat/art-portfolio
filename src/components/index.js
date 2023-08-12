@@ -17,6 +17,7 @@ import Frankenstein from './Frankenstein';
 import Floatgallery from './Floatgallery';
 import Experimentgallery from './Experimentgallery';
 import Prototypegallery from './Prototypegallery';
+import DefenseMechanism from './DefenseMechanism';
 
 export {
     Floatgallery,
@@ -40,4 +41,5 @@ export {
     MarblePaint,
     SilentKillers,
     Frankenstein,
+    DefenseMechanism,
 };

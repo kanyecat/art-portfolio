@@ -37,7 +37,7 @@ const ExperimentsSketches = () => {
             <Floatgallery />
           </div>
         </div>
-      <div className={`visible ${styles.paddingY} md:hidden z-[11]`}>
+      <div className={`visible ${styles.paddingY} md:hidden z-[11] `}>
         <h1 className='w-full text-center text-normal font-opensans text-white text-[16px]'>Digital Prototypes</h1>
         <p className='w-full text-center text-normal font-opensans text-dimWhite text-[14px]'>3D Rendering</p>
         <Prototypegallery />

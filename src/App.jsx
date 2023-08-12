@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
 import { Navbar, Home, ExperimentsSketches, About, Footer, NotFound, 
-  MarblePaint, SilentKillers, Frankenstein } from './components';
+  MarblePaint, SilentKillers, Frankenstein, DefenseMechanism } from './components';
 import { BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
@@ -24,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/marble-paint" element={<MarblePaint />} />
         <Route path="/silent-killers" element={<SilentKillers />} />
+        <Route path="/defense-mechanism" element={<DefenseMechanism />} />
         <Route path="/frankenstein" element={<Frankenstein />} />
         <Route path="*" element={<NotFound />} />
       </Route>
