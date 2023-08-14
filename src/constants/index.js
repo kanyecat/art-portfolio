@@ -1,17 +1,12 @@
-import { instagram, calligraphy, mantis_enclosure, 
+import { instagram, mantis_enclosure, 
   recordplayer, krtr_pot_v1, krtr_pot_lantern, long_calli_postcard, 
-  untold_story, defenseMechanism1, defenseMechanism2, rattle, notebookcoverdesign, single_propagation_holder, 
+  untold_story, defenseMechanism1, notebookcoverdesign, single_propagation_holder, 
   triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, seoul, corals,
-  waterIntoWine, css, html, psalmsBlock, reactjs, tailwind, figma, git, javascript, typescript,
-  nodejs, threejs, solidworks, frankensteinHead1, arduino, marblepaint, silentKillers, rocking_chair,
-  anemone, friends, relationships, sketch, cohabitation } from "../assets";
+  waterIntoWine, psalmsBlock, reactjs, figma, git, javascript, typescript, solidworks, frankensteinHead1, 
+  arduino, marblepaint, silentKillers, rocking_chair,
+  anemone, friends, sketch, cohabitation } from "../assets";
 
 export const navLinks = [
-  // {
-  //   id: "work",
-  //   title: "./work",
-  //   link: "/",
-  // },
   {
     id: "experiments",
     title: "./experiments-prototypes",
@@ -144,11 +139,6 @@ export const experiment1 = [
     id: "experiment-1",
     image: sketch,
     position: "md:top-[75%] md:left-[55%] top-[55%] left-[8%]",
-  },
-  {
-    id: "experiment-2",
-    image: relationships,
-    position: "md:top-[77%] md:left-[20%] top-[85%] left-[65%]",
   },
   {
     id: "experiment-7",
@@ -300,58 +290,58 @@ export const experiments = [
   },
 ];
 
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-];
+// export const footerLinks = [
+//   {
+//     title: "Useful Links",
+//     links: [
+//       {
+//         name: "Content",
+//         link: "https://www.hoobank.com/content/",
+//       },
+//       {
+//         name: "How it Works",
+//         link: "https://www.hoobank.com/how-it-works/",
+//       },
+//       {
+//         name: "Create",
+//         link: "https://www.hoobank.com/create/",
+//       },
+//       {
+//         name: "Explore",
+//         link: "https://www.hoobank.com/explore/",
+//       },
+//       {
+//         name: "Terms & Services",
+//         link: "https://www.hoobank.com/terms-and-services/",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Community",
+//     links: [
+//       {
+//         name: "Help Center",
+//         link: "https://www.hoobank.com/help-center/",
+//       },
+//       {
+//         name: "Partners",
+//         link: "https://www.hoobank.com/partners/",
+//       },
+//       {
+//         name: "Suggestions",
+//         link: "https://www.hoobank.com/suggestions/",
+//       },
+//       {
+//         name: "Blog",
+//         link: "https://www.hoobank.com/blog/",
+//       },
+//       {
+//         name: "Newsletters",
+//         link: "https://www.hoobank.com/newsletters/",
+//       },
+//     ],
+//   },
+// ];
 
 export const socialMedia = [
   {
@@ -375,14 +365,6 @@ export const technologies = [
     name: "Arduino",
     icon: arduino,
   },
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -395,18 +377,6 @@ export const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,

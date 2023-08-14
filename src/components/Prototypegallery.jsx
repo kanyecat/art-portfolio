@@ -20,7 +20,6 @@ const Prototypegallery = () => {
             <div className='gallery z-[11]'>
             {prototypes3.map((item, index) => (
                 <Tilt className='pics'
-                loading="lazy"
                 options={{
                 max: 15,
                 scale: 1,
@@ -29,7 +28,8 @@ const Prototypegallery = () => {
                 key={index}>
                     <img
                     className='pic md:saturate-0 hover:saturate-100'
-                    src={item.image} 
+                    src={item.image}
+                    loading="lazy"
                     onClick={() => getImage(item.image)}
                     />
                 {/* </div> */}
@@ -37,7 +37,6 @@ const Prototypegallery = () => {
                 ))}
             {prototypes2.map((item, index) => (
                 <Tilt className='pics'
-                loading="lazy"
                 options={{
                 max: 15,
                 scale: 1,
@@ -47,6 +46,7 @@ const Prototypegallery = () => {
                     <img
                     className='pic md:saturate-0 hover:saturate-100'
                     src={item.image} 
+                    loading="lazy"
                     onClick={() => getImage(item.image)}
                     />
                 {/* </div> */}
@@ -54,7 +54,6 @@ const Prototypegallery = () => {
                 ))}
             {prototypes1.map((item, index) => (
                 <Tilt className='pics'
-                loading="lazy"
                 options={{
                 max: 15,
                 scale: 1,
@@ -64,6 +63,7 @@ const Prototypegallery = () => {
                     <img
                     className='pic md:saturate-0 hover:saturate-100'
                     src={item.image} 
+                    loading="lazy"
                     onClick={() => getImage(item.image)}
                     />
                 {/* </div> */}

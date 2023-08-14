@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import styles from '../style';
-import { experiments } from '../constants';
-import { Tilt } from 'react-tilt';
 import { transition } from "../hoc";
 import "./gallery.css";
 import { Experimentgallery, Prototypegallery, Floatgallery } from '../components';

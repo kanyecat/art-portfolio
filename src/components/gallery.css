@@ -100,16 +100,29 @@
     opacity: 1;
     transform: scale(1);
 }
-.model img{
+.model-display{
     width: auto;
-    max-width: 90%;
+    max-width: 98%;
     height: auto;
-    max-height: 90%;
+    max-height: 98%;
     display: block;
     line-height: 0;
     box-sizing: border-box;
     padding: 20px 0 20px;
     margin: 0 auto;
+}
+@media (max-width: 480px) {
+    .model img{
+        width: auto;
+        max-width: 88%;
+        height: auto;
+        max-height: 88%;
+        display: block;
+        line-height: 0;
+        box-sizing: border-box;
+        padding: 20px 0 20px;
+        margin: 0 auto;
+    }
 }
 .gallery-container{
     visibility: hidden;

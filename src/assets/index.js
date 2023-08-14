@@ -8,7 +8,6 @@ import fortyDaysNights from "./fortyDaysNights.png";
 import krtr_pot_lantern from "./krtr_pot_lantern.png";
 import single_propagation_holder from "./single_propagation_holder.png";
 import triple_propagation_holder from "./triple_propagation_holder.png";
-// import suyang from "./suyang.gif";
 import notebookcoverdesign from "./notebookcoverdesign.gif";
 import rocking_chair from "./rocking_chair.png";
 import long_calli_postcard from "./long_calli_postcard.png";
@@ -18,7 +17,6 @@ import mantis_enclosure from "./mantis_enclosure.gif";
 import sofa from "./sofa.png";
 import wahlbergii from "./wahlbergii.png";
 import torso from "./torso.png";
-import relationships from "./relationships.png";
 import seoul from "./seoul.png";
 import corals from "./corals.gif";
 import waterIntoWine from "./waterIntoWine.png";
@@ -94,14 +92,13 @@ export {
   krtr_pot_lantern,
   single_propagation_holder,
   triple_propagation_holder,
-  // suyang,
   notebookcoverdesign,
   rocking_chair,
   untold_story,
   long_calli_postcard,
   recordplayer,
   mantis_enclosure,
-  torso, sofa, relationships,
+  torso, sofa,
   wahlbergii,
   seoul,
   corals,
