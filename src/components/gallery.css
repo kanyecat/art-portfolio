@@ -100,11 +100,11 @@
     opacity: 1;
     transform: scale(1);
 }
-.model-display{
+.model img{
     width: auto;
-    max-width: 98%;
+    max-width: 95%;
     height: auto;
-    max-height: 98%;
+    max-height: 95%;
     display: block;
     line-height: 0;
     box-sizing: border-box;

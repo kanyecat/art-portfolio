@@ -5,6 +5,7 @@ import { gsap } from 'gsap/dist/gsap';
 import Experimentgallery from './Experimentgallery';
 import Prototypegallery from './Prototypegallery';
 import "./gallery.css";
+import styles from '../style';
 import { menu } from '../assets';
 import { useTransform, useScroll } from 'framer-motion';
 
@@ -56,18 +57,15 @@ const Floatgallery = () => {
     const [viewPro, showPro] = useState(false);
 
   return (
+    <div className={`${styles.boxWidth} justify-center z-10`}>
     <div className='flex flex-col gap-16'>
-        {/* <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
-            <img src={tempImage} loading='lazy'/>
-            <div className='direction text-dimWhite font-opensans font-thin text-[14px]'>click anywhere to close</div>
-        </div> */}
-        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`${viewPro ? '' : 'hover:bg-[rgba(255,255,255,0.1)] transition ease-in-out duration-300'} w-[100%] h-[100vh] relative corner-border overflow-hidden`}>
-            <div ref={plane1} className= {`${viewPro ?'hidden' :'brightness-[0.8] w-[100%] h-[100%] absolute'} `}>
+        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`${viewPro ? '' : 'hover:bg-[rgba(255,255,255,0.1)] transition ease-in-out duration-300'} w-[100%] h-[90vh] relative corner-border overflow-hidden`}>
+            <div ref={plane1} className={`${viewPro ?'hidden' :'brightness-[0.8] w-full h-[100%] absolute'} `}>
                 {prototypes1.map((item, index) => (
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute saturate-0`}
+                className={`${item.position} w-[12%] absolute saturate-0`}
                 src={item.image}
                 onClick={() => getImage(item.image)}
                 />
@@ -78,7 +76,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute saturate-0`}
+                className={`${item.position} w-[13%] absolute saturate-0`}
                 src={item.image} 
                 onClick={() => getImage(item.image)}
                 />
@@ -90,7 +88,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute saturate-0`}
+                className={`${item.position} w-[14%] absolute saturate-0`}
                 src={item.image}
                 />
                 ))}
@@ -107,13 +105,13 @@ const Floatgallery = () => {
                 onClick={() => showPro((prev) => !prev)}
             />
         </div>
-        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`${viewExp ? '' : 'hover:bg-[rgba(255,255,255,0.1)] transition ease-in-out duration-300'} w-[100%] h-[100vh] relative corner-border overflow-hidden`}>
+        <div onMouseMove={(e) => {manageMouseMove(e)}} className={`${viewExp ? '' : 'hover:bg-[rgba(255,255,255,0.1)] transition ease-in-out duration-300'} w-[100%] h-[90vh] relative corner-border overflow-hidden`}>
             <div ref={plane4} className={`${viewExp ? 'hidden' :'brightness-[0.8] w-[100%] h-[100%] absolute'} `}>
                 {experiment1.map((item, index) => (
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute saturate-0`}
+                className={`${item.position} w-[12%] absolute saturate-0`}
                 src={item.image}
                 onClick={() => getImage(item.image)}
                 />
@@ -124,7 +122,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute saturate-0`}
+                className={`${item.position} w-[13%] absolute saturate-0`}
                 src={item.image} 
                 onClick={() => getImage(item.image)}
                 />
@@ -136,7 +134,7 @@ const Floatgallery = () => {
                 <img
                 loading="lazy"
                 alt="image"
-                className={`${item.position} w-[15%] absolute saturate-0`}
+                className={`${item.position} w-[14%] absolute saturate-0`}
                 src={item.image}
                 />
                 ))}
@@ -153,6 +151,7 @@ const Floatgallery = () => {
             onClick={() => showExp((prev) => !prev)}
             />
         </div>
+    </div>
     </div>
   )
 }
