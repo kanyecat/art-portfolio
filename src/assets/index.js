@@ -67,8 +67,25 @@ import cohabitation from "./cohabitation.png";
 import folder from "./folder.svg";
 import folderOpen from "./folder_open.svg";
 import rattle from "./rattle.png";
+import rattleRef from "./rattle-ref.png";
+import turtleShip from "./turtle-ship.png";
+import tortoise from "./tortoise.png";
+import blueSeaDragon from "./blue-sea-dragon.png";
+import owlButterfly from "./owl-butterfly.png";
+import cloud from "./cloud.png";
+import dragon from "./dragon.png";
+import blueBumps from "./blue-bumps.png";
+
 export {
   me,
+  rattleRef,
+  cloud,
+  dragon,
+  blueBumps,
+  tortoise,
+  blueSeaDragon,
+  owlButterfly,
+  turtleShip,
   folder,
   rattle,
   folderOpen,
