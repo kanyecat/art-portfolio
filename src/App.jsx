@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
 import { Navbar, Home, ExperimentsSketches, About, Footer, NotFound, 
-  MarblePaint, SilentKillers, Frankenstein, DefenseMechanism } from './components';
+  MarblePaint, SilentKillers, Frankenstein, DefenseMechanism, ScrollToTop } from './components';
 import { BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
@@ -41,6 +41,7 @@ function App() {
 const Root = () => {
   return (
     <AnimatePresence mode='wait'>
+      <ScrollToTop />
       <div className='bg-primary w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth} z-20`}>

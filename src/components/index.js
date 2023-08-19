@@ -18,6 +18,7 @@ import Floatgallery from './Floatgallery';
 import Experimentgallery from './Experimentgallery';
 import Prototypegallery from './Prototypegallery';
 import DefenseMechanism from './DefenseMechanism';
+import ScrollToTop from './ScrollToTop';
 
 export {
     Floatgallery,
@@ -29,6 +30,7 @@ export {
     Hero,
     Intro,
     TypingText,
+    ScrollToTop,
     About,
     ExperimentsSketches,
     Home,
