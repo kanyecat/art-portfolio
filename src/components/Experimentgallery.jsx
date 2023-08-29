@@ -28,7 +28,7 @@ const Experimentgallery = () => {
                 }}
                 key={index}>
                     <img
-                    className='pic md:saturate-0 hover:saturate-100'
+                    className='pic'
                     src={item.image}
                     loading="lazy"
                     onClick={() => getImage(item.image)}
@@ -45,7 +45,7 @@ const Experimentgallery = () => {
                 }}
                 key={index}>
                     <img
-                    className='pic md:saturate-0 hover:saturate-100'
+                    className='pic'
                     src={item.image}
                     loading="lazy" 
                     onClick={() => getImage(item.image)}
@@ -62,7 +62,7 @@ const Experimentgallery = () => {
                 }}
                 key={index}>
                     <img
-                    className='pic md:saturate-0 hover:saturate-100'
+                    className='pic'
                     src={item.image}
                     loading="lazy"
                     onClick={() => getImage(item.image)}
@@ -78,7 +78,7 @@ const Experimentgallery = () => {
                     speed: 450
                     }}
                     >
-                    <video className="pic md:saturate-0 hover:saturate-100" controls loop>
+                    <video className="pic" controls loop>
                         <source src={suyang} type='video/mp4'/>
                     </video>
                 </Tilt>

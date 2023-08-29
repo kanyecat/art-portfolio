@@ -54,7 +54,7 @@ const DefenseMechanism = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>A bio-inspired kinetic sculpture that expresses an emotion of fear through multiple defense mechanisms.</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>A bio-inspired kinetic sculpture that has multiple defense mechanisms for survival.</span>
               </div>
               <div className='flex flex-row'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
@@ -112,7 +112,7 @@ const DefenseMechanism = () => {
               <div className='flex flex-row pb-6'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
                 <div className='flex-[0.15]'></div>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>A bio-inspired kinetic sculpture that expresses an emotion of fear through multiple defense mechanisms.</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[18px] text-[18px]`}>A bio-inspired kinetic sculpture that has multiple defense mechanisms for survival</span>
               </div>
               <div className='flex flex-row'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
@@ -138,7 +138,7 @@ const DefenseMechanism = () => {
             <p className='font-opensans font-thin text-white text-[18px] leading-[27px]'>The Turtle Ship: A warship designed by Admiral Yi Sun-sin and used in the Imjin wars.</p>
             <img src={turtleShip} loading='lazy' className='brightness-[1.2] object-cover mt-6 mb-6'/>
             <p className='font-opensans font-thin text-white text-[18px] leading-[27px]'>The metal spikes, shell, and gas-spewing dragon's head served as a psychological warfare in causing fear among enemies.</p>
-            <p className='font-opensans font-thin text-white text-[18px] leading-[27px] pt-4'>The composition of animal defense mechanisms in the design inspired me to make a creature that expresses an emotion that both animals and humans share, fear.</p>
+            <p className='font-opensans font-thin text-white text-[18px] leading-[27px] pt-4'>The composition of animal defense mechanisms in the design inspired me to make a creature that has evolved in order to survive.</p>
           </div>
           <div className='flex flex-col py-10'>
             <h1 className='text-white font-grandiflora text-center text-[20px]'>BIO-INSPIRATION</h1>
