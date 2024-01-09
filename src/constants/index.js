@@ -3,8 +3,8 @@ import { instagram, mantis_enclosure,
   untold_story, defenseMechanism1, notebookcoverdesign, single_propagation_holder, 
   triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, seoul, corals,
   waterIntoWine, psalmsBlock, reactjs, figma, git, javascript, typescript, solidworks, frankensteinHead1, 
-  arduino, marblepaint, silentKillers, rocking_chair,
-  anemone, friends, sketch, cohabitation } from "../assets";
+  arduino, revolution1, marblepaint, silentKillers, rocking_chair,
+  anemone, friends, sketch, cohabitation, viceiso} from "../assets";
 
 export const navLinks = [
   {
@@ -22,52 +22,74 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
+    image: viceiso,
+    title: "Motorized Benchtop Vice",
+    content:
+      (
+      "PRODUCT"
+      ),
+    style: "",
+    position: "pt-5 pb-3",
+    size: "w-[260px] h-[180px] sm:w-[450px] sm:h-[300px]",
+    link: "/motorized-benchtop-vice",
+  },
+  {
+    id: "feature-1",
+    image: revolution1,
+    title: "(r)evolution",
+    content:
+      (
+      "KINETIC SCULPTURE"
+      ),
+    style: "",
+    position: "pt-5 pb-3",
+    size: "w-[220px] h-[220px] sm:w-[300px] sm:h-[300px]",
+    link: "/r-evolution",
+  },
+  {
+    id: "feature-1",
     image: marblepaint,
-    hash: "LQL;jN-p~pay_2IUIUofxut6WBRk",
     title: "Marble Paint",
     content:
       (
       "MACHINE"
       ),
-    style: "sm:mr-80 pr-10",
+    style: "sm:mr-80 sm:pr-[20vw] mr-20 pr-10",
     position: "pt-5 pb-3",
-    size: "w-[280px] h-[220px] sm:w-[320px] sm:h-[250px]",
+    size: "w-[270px] h-[180px] sm:w-[300px] sm:h-[230px]",
     link: "/marble-paint",
   },
   {
     id: "feature-2",
     image: defenseMechanism1,
-    hash: "LVJRKx9F_Ns+%gRkt7t7%NV@M{bJ",
     title: "Defense Mechanism",
     content:
       "KINETIC SCULPTURE",
     style: "pr-15",
     position: "pt-3 pb-3",
-    size: "w-[150px] h-[150px] sm:w-[200px] sm:h-[200px]",
+    size: "w-[170px] h-[170px] sm:w-[220px] sm:h-[220px]",
     link: "/defense-mechanism",
   },
   {
     id: "feature-3",
     image: silentKillers,
-    hash: "LFN^bxRiM|V@?Gt6~qRkWFM|9EWB",
     title: "Silent Killers",
     content:
       "SCULPTURE",
     style: "sm:ml-80 sm:pl-[20vw] ml-20 pl-10",
     position: "pt-3 pb-3",
-    size: "w-[200px] h-[300px] sm:h-[300px]",
+    size: "w-[200px] h-[300px] sm:h-[320px]",
     link: "/silent-killers",
   },
   {
     id: "feature-4",
     image: frankensteinHead1,
-    hash: "LVJRKx9F_Ns+%gRkt7t7%NV@M{bJ",
     title: "Frankenstein",
     content:
       "KINETIC SCULPTURE",
     style: "pr-40 sm:pr-10",
     position: "pt-3 pb-5",
-    size: "w-[150px] h-[150px] sm:w-[250px] sm:h-[250px]",
+    size: "w-[160px] h-[160px] sm:w-[280px] sm:h-[280px]",
     link: "/frankenstein",
   },
 ];

@@ -75,9 +75,30 @@ import owlButterfly from "./owl-butterfly.png";
 import cloud from "./cloud.png";
 import dragon from "./dragon.png";
 import blueBumps from "./blue-bumps.png";
+import revolution1 from "./revolution1.png";
+import revolution2 from "./revolution2.png";
+import revolution3 from "./revolution3.png";
+import revolution4 from "./revolution4.png";
+import viceiso from "./vice-render.png";
+import vicetop from "./vicetop.png";
+import viceright from "./viceright.png";
+import vicefront from "./vicefront.png";
+import vice1 from "./vice1.png";
+import vice2 from "./vice2.png";
+
 
 export {
   me,
+  revolution1,
+  revolution2,
+  revolution3,
+  revolution4,
+  viceiso,
+  vicefront,
+  viceright,
+  vicetop,
+  vice1,
+  vice2,
   rattleRef,
   cloud,
   dragon,

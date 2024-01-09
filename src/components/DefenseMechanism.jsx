@@ -10,11 +10,11 @@ const DefenseMechanism = () => {
       <div className={`${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
           <div className='hidden h-[0] md:h-[auto] md:flex md:flex-1 md:visible md:flex-col'>
-            <span className='md:text-start w-full md:text-[60px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>DEFENSE</span>
-            <span className='md:text-start w-full md:text-[60px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>MECHANISM</span>
+            <span className='md:text-start w-full md:text-[50px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>DEFENSE</span>
+            <span className='md:text-start w-full md:text-[50px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>MECHANISM</span>
           </div>
           <div className='visible mb-8 md:h-[0] h-[auto] md:hidden'>
-            <span className='text-center md:text-[60px] text-[30px] text-white font-grandiflora md:mb-4 mb-6'>DEFENSE MECHANISM</span>
+            <span className='text-center md:text-[50px] text-[30px] text-white font-grandiflora md:mb-4 mb-6'>DEFENSE MECHANISM</span>
           </div>
           <div className='flex md:flex-row flex-col'>
           <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
@@ -63,7 +63,7 @@ const DefenseMechanism = () => {
                   <li>Plaster</li>
                   <li>Vibration Motor</li>
                   <li>Ultrasonic Sensor</li>
-                  <li>Plywood</li>
+                  <li>Wood</li>
                   <li>PLA</li>
                   <li>Acrylic Paint</li>
                 </ul>

@@ -11,6 +11,8 @@ import { PotCanvas, ChairCanvas, BallCanvas } from './canvas';
 import Loader from "./Loader";
 import Tech from "./Tech";
 import NotFound from './NotFound';
+import MotorizedBenchtopVice from './MotorizedBenchtopVice';
+import Revolution from './Revolution';
 import MarblePaint from "./MarblePaint";
 import SilentKillers from './SilentKillers';
 import Frankenstein from './Frankenstein';
@@ -40,6 +42,8 @@ export {
     ChairCanvas,
     Tech,
     NotFound,
+    MotorizedBenchtopVice,
+    Revolution,
     MarblePaint,
     SilentKillers,
     Frankenstein,
