@@ -28,6 +28,7 @@ const Revolution = () => {
           </div>
           <div className='flex md:flex-row flex-col'>
           <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
+          <img src={revolution1} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(revolution1)}/>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>2023</span>
@@ -54,7 +55,7 @@ const Revolution = () => {
             </div>
 
             <div className='flex flex-col md:flex-[1.35] scroll-box md:h-[700px]'>
-              <img src={revolution1} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(revolution1)}/>
+              <img src={revolution1} loading='lazy' className='hidden md:visible w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(revolution1)}/>
               <img src={revolution2} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(revolution2)}/>
               <img src={revolution3} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(revolution3)}/>
               <img src={revolution4} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(revolution4)}/>
