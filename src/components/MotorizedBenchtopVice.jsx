@@ -24,7 +24,7 @@ const MotorizedBenchtopVice = () => {
             <span className='md:text-start w-full md:text-[50px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>MOTORIZED BENCHTOP VICE</span>
           </div>
           <div className='visible mb-8 md:h-[0] h-[auto] md:hidden'>
-            <span className='text-center md:text-[50px] text-[35px] text-white font-grandiflora md:mb-4 mb-6'>(R)EVOLUTION</span>
+            <span className='text-center md:text-[50px] text-[35px] text-white font-grandiflora md:mb-4 mb-6'>MOTORIZED BENCHTOP VICE</span>
           </div>
           <div className='flex md:flex-row flex-col'>
           <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
@@ -34,7 +34,7 @@ const MotorizedBenchtopVice = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>7.5 x 6.5 x 10 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 15.5 x 3.125 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
@@ -43,12 +43,14 @@ const MotorizedBenchtopVice = () => {
                 in succession.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>COMPONENTS</span>
                 <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                  <li>Wood</li>
-                  <li>Clear Acrylic</li>
-                  <li>DC Motor</li>
-                  <li>Acrylic Paint</li>
+                <li>Screw Slide Table Linear Actuator</li>
+                  <li>Motor Coupling</li>
+                  <li>12V 5RPM Gear Motor</li>
+                  <li>Foot Control Pedal</li>
+                  <li>Circuit</li>
+                  <li>Custom Cast Iron Parts</li>
                 </ul>
               </div>
             </div>
@@ -78,17 +80,24 @@ const MotorizedBenchtopVice = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 Weeks</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>10 Weeks</span>
               </div>
-              <div className='flex flex-row gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
+              <div className='flex flex-row pb-6 gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>PRIMARY ROLE</span>
                 <div className='flex-[2.5]'>
                   <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                    <li>Laser Cutting</li>
-                    <li>Wood Working</li>
-                    <li>Painting</li>
-                    <li>Programming</li>
-                    <li>Building and Testing</li>
+                    <li>CAD Modeler</li>
+                    <li>Brainstorming Sketcher</li>
+                  </ul>
+                </div>
+              </div>
+              <div className='flex flex-row gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>SUPPORTING ROLE</span>
+                <div className='flex-[2.5]'>
+                  <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
+                    <li>FEA Simulator</li>
+                    <li>Report Writer</li>
+                    <li>Presenter</li>
                   </ul>
                 </div>
               </div>
@@ -101,7 +110,7 @@ const MotorizedBenchtopVice = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>7.5 x 6.5 x 10 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 15.5 x 3.125 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
@@ -110,17 +119,19 @@ const MotorizedBenchtopVice = () => {
                 in succession.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>COMPONENTS</span>
                 <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                  <li>Wood</li>
-                  <li>Clear Acrylic</li>
-                  <li>DC Motor</li>
-                  <li>Acrylic Paint</li>
+                  <li>Screw Slide Table Linear Actuator</li>
+                  <li>Motor Coupling</li>
+                  <li>12V 5RPM Gear Motor</li>
+                  <li>Foot Control Pedal</li>
+                  <li>Circuit</li>
+                  <li>Custom Cast Iron Parts</li>
                 </ul>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TEAM</span>
-                    <div className='flex-[2.5]'>
+                    <div className='flex-[2.5]'>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                         <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
                             <li>Lauren Meyers (Mechanical Engineering)</li>
                             <li>Catherine Or (Mechanical Engineering)</li>
@@ -130,17 +141,24 @@ const MotorizedBenchtopVice = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 Weeks</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>10 Weeks</span>
               </div>
-              <div className='flex flex-row gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
+              <div className='flex flex-row pb-6 gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>PRIMARY ROLE</span>
                 <div className='flex-[2.5]'>
                   <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                    <li>Laser Cutting</li>
-                    <li>Wood Working</li>
-                    <li>Painting</li>
-                    <li>Programming</li>
-                    <li>Building and Testing</li>
+                    <li>CAD Modeler</li>
+                    <li>Brainstorming Sketcher</li>
+                  </ul>
+                </div>
+              </div>
+              <div className='flex flex-row gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>SUPPORTING ROLE</span>
+                <div className='flex-[2.5]'>
+                  <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
+                    <li>FEA Simulator</li>
+                    <li>Report Writer</li>
+                    <li>Presenter</li>
                   </ul>
                 </div>
               </div>
