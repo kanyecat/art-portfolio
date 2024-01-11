@@ -22,7 +22,7 @@ const Revolution = () => {
         <div className={`${styles.boxWidth} flex md:flex-nowrap flex-wrap justify-center`}>
           <div className='hidden h-[0] md:h-[auto] md:flex md:flex-1 md:visible md:flex-col'>
             <span className='md:text-start w-full md:text-[50px] text-[35px] text-white font-grandiflora px-6 md:mb-4 mb-3'>(R)EVOLUTION</span>
-          </div>
+          </div> 
           <div className='visible mb-8 md:h-[0] h-[auto] md:hidden'>
             <span className='text-center md:text-[50px] text-[35px] text-white font-grandiflora md:mb-4 mb-6'>(R)EVOLUTION</span>
           </div>
@@ -55,11 +55,11 @@ const Revolution = () => {
             </div>
 
             <div className='flex flex-col md:flex-[1.35] scroll-box md:h-[700px]'>
-              <img src={revolution1} loading='lazy' className='hidden md:visible w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(revolution1)}/>
+              <img src={revolution1} loading='lazy' className='hidden md:visible md:flex w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(revolution1)}/>
               <img src={revolution2} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(revolution2)}/>
               <img src={revolution3} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(revolution3)}/>
               <img src={revolution4} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(revolution4)}/>
-              <video className="pic mt-6 mb-6" controls loop>
+              <video className="mt-6 mb-6" controls loop>
                         <source src={revolution} type='video/mp4'/>
                 </video>
             </div>

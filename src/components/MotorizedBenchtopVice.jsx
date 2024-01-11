@@ -3,7 +3,7 @@ import styles from '../style';
 import { transition } from "../hoc";
 import { viceiso, vicefront, viceright, vicetop, vice1, vice2 } from '../assets';
 import vicevideo from "../assets/vice-video.mp4";
-import "./gallery.css"
+import "./gallery.css";
 
 const MotorizedBenchtopVice = () => {
     const [model, setModel] = useState(false);
@@ -59,13 +59,13 @@ const MotorizedBenchtopVice = () => {
             </div>
 
             <div className='flex flex-col md:flex-[1.35] scroll-box md:h-[700px]'>
-                <img src={viceiso} loading='lazy' className='hidden md:visible w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(viceiso)}/>
+                <img src={viceiso} loading='lazy' className='hidden md:visible md:flex w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(viceiso)}/>
                 <img src={viceright} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(viceright)}/>
                 <img src={vicetop} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(vicetop)}/>
                 <img src={vicefront} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(vicefront)}/>
                 <img src={vice1} loading='lazy' className='w-auto h-[auto] object-cover md:mt-0 mt-6 mb-6' onClick={() => getImage(vice1)}/>
                 <img src={vice2} loading='lazy' className='w-auto h-[auto] object-cover mt-6 mb-6' onClick={() => getImage(vice2)}/>
-                <video className="pic mt-6 mb-6" controls loop>
+                <video className="mt-6 mb-6" controls loop>
                     <source src={vicevideo} type='video/mp4'/>
                 </video>
             </div>
@@ -116,10 +116,12 @@ const MotorizedBenchtopVice = () => {
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 15.5 x 3.125 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Marble Paint is a machine that allows you to paint with marbles using 
-                canvas movement. The whole machine consists of a canvas connected to four crank motion mechanisms moving 
-                in succession.</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DESCRIPTION</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Our product takes a regular bench top vice used for clamping objects for various mechanical applications and motorizes it. Instead of manually turning the bench vice to tighten an object, we modified the bench top vice so that it attaches to a motor. We would then press a foot pedal to automatically turn the motor and tighten the clamp. We would also have a button that users can press so that the direction the motor turns can be reversed (to allow for tightening and loosening of the clamp).</span>
+              </div>
+              <div className='flex flex-row pb-6 gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TARGET POPULATION</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>This product is primarily used for people with hand and wrist tendonitis since they would experience pain and discomfort turning a bench top vice. It would provide the much needed user relief for such individuals in their day to day tasks involving this tool as it removes the need for them to use their hands.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>COMPONENTS</span>
