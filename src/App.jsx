@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
 import { Navbar, Home, ExperimentsSketches, About, Footer, NotFound, 
-  MarblePaint, SilentKillers, Frankenstein, DefenseMechanism, ScrollToTop, Revolution, MotorizedBenchtopVice } from './components';
+  MarblePaint, SilentKillers, Frankenstein, DefenseMechanism, ScrollToTop, Revolution, MotorizedBenchtopVice, DIYDF } from './components';
 import { BrowserRouter,
   createBrowserRouter,
   createRoutesFromElements,
@@ -13,6 +13,8 @@ import { BrowserRouter,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
+import TeaBagBox from './components/TeaBagBox';
+import CoffeeCupHolderCarrier from './components/CoffeeCupHolderCarrier';
 
 function App() {
   const router = createBrowserRouter(
@@ -22,6 +24,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/experimentssketches" element={<ExperimentsSketches />} />
         <Route path="/about" element={<About />} />
+        <Route path="/DIYDF" element={<DIYDF />} />
+        <Route path="/tea-bag-box" element={<TeaBagBox />} />
+        <Route path="/coffee-cup-holder-carrier" element={<CoffeeCupHolderCarrier />} />
         <Route path="/motorized-benchtop-vice" element={<MotorizedBenchtopVice />} />
         <Route path="/r-evolution" element={<Revolution />} />
         <Route path="/marble-paint" element={<MarblePaint />} />

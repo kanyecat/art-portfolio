@@ -4,7 +4,7 @@ import { instagram, mantis_enclosure,
   triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, seoul, corals,
   waterIntoWine, psalmsBlock, reactjs, figma, git, javascript, typescript, solidworks, frankensteinHead1, 
   arduino, revolution1, marblepaint, silentKillers, rocking_chair,
-  anemone, friends, sketch, cohabitation, viceiso} from "../assets";
+  anemone, friends, sketch, cohabitation, viceiso, holderCAD, holderside, holdertop, teabagboxfinal5} from "../assets";
 
 export const navLinks = [
   {
@@ -22,11 +22,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
+    image: holderCAD,
+    title: "DIY Design and Fabrication",
+    content:
+      (
+      "PRODUCT DESIGN"
+      ),
+    style: "",
+    position: "pt-5 pb-3",
+    size: "w-[100px] h-[180px] sm:w-[200px] sm:h-[300px]",
+    link: "/DIYDF",
+  },
+  {
+    id: "feature-1",
     image: viceiso,
     title: "Motorized Benchtop Vice",
     content:
       (
-      "PRODUCT"
+      "DEVICE"
       ),
     style: "",
     position: "pt-5 pb-3",
@@ -93,7 +106,34 @@ export const features = [
     link: "/frankenstein",
   },
 ];
-
+export const diy = [
+  {
+    id: "ps-1",
+    image: holdertop,
+    title: "Coffee Cup Holder/Carrier",
+    content:
+      (
+      "PROBLEM SET 1"
+      ),
+    style: "",
+    position: "pt-5 pb-3",
+    size: "w-[100px] h-[180px] sm:w-[200px] sm:h-[300px]",
+    link: "/coffee-cup-holder-carrier",
+  },
+  {
+    id: "feature-1",
+    image: teabagboxfinal5,
+    title: "Tea Bag Box",
+    content:
+      (
+      "PROBLEM SET 2"
+      ),
+    style: "",
+    position: "pt-5 pb-3",
+    size: "w-[100px] h-[180px] sm:w-[200px] sm:h-[300px]",
+    link: "/tea-bag-box",
+  },
+];
 export const prototypes1 = [
   {
     id: "experiment-1",

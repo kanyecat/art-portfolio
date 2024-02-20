@@ -11,6 +11,7 @@ import { PotCanvas, ChairCanvas, BallCanvas } from './canvas';
 import Loader from "./Loader";
 import Tech from "./Tech";
 import NotFound from './NotFound';
+import DIYDF from './DIYDF';
 import MotorizedBenchtopVice from './MotorizedBenchtopVice';
 import Revolution from './Revolution';
 import MarblePaint from "./MarblePaint";
@@ -42,6 +43,7 @@ export {
     ChairCanvas,
     Tech,
     NotFound,
+    DIYDF,
     MotorizedBenchtopVice,
     Revolution,
     MarblePaint,

@@ -85,10 +85,39 @@ import viceright from "./viceright.png";
 import vicefront from "./vicefront.png";
 import vice1 from "./vice1.png";
 import vice2 from "./vice2.png";
+import holderCAD from "./holderCAD.png";
+import holderside from "./coffeecupholder_side.png";
+import holdertop from "./coffeecupholder_top.png";
+import teabagboxfinal1 from "./Kim_Rebecca_ps2_101_product.png";
+import teabagboxfinal2 from "./Kim_Rebecca_ps2_102_product.png";
+import teabagboxfinal3 from "./Kim_Rebecca_ps2_103_product.png";
+import teabagboxfinal4 from "./Kim_Rebecca_ps2_104_product.png";
+import teabagboxfinal5 from "./Kim_Rebecca_ps2_105_product.png";
+import coffeecupholdercarrierfinal1 from "./Kim_Rebecca_ps1_101_product.png";
+import coffeecupholdercarrierfinal2 from "./Kim_Rebecca_ps1_102_product.png";
+import coffeecupholdercarrierfinal3 from "./Kim_Rebecca_ps1_103_product.png";
+import coffeecupholdercarrierfinal4 from "./Kim_Rebecca_ps1_104_product.png";
+import coffeecupholdercarrierfinal5 from "./Kim_Rebecca_ps1_105_product.png";
+import coffeecupholdercarrierflyer from "./Kim_Rebecca_ps1_000_flyer.png";
+
 
 
 export {
   me,
+  coffeecupholdercarrierfinal1,
+  coffeecupholdercarrierfinal2,
+  coffeecupholdercarrierfinal3,
+  coffeecupholdercarrierfinal4,
+  coffeecupholdercarrierfinal5,
+  coffeecupholdercarrierflyer,
+  teabagboxfinal1,
+  teabagboxfinal2,
+  teabagboxfinal3,
+  teabagboxfinal4,
+  teabagboxfinal5,
+  holderCAD,
+  holderside,
+  holdertop,
   revolution1,
   revolution2,
   revolution3,
