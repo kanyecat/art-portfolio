@@ -93,6 +93,7 @@ import teabagboxfinal2 from "./Kim_Rebecca_ps2_102_product.png";
 import teabagboxfinal3 from "./Kim_Rebecca_ps2_103_product.png";
 import teabagboxfinal4 from "./Kim_Rebecca_ps2_104_product.png";
 import teabagboxfinal5 from "./Kim_Rebecca_ps2_105_product.png";
+import teabagboxflyer from "./Kim_Rebecca_ps2_000_flyer.png";
 import coffeecupholdercarrierfinal1 from "./Kim_Rebecca_ps1_101_product.png";
 import coffeecupholdercarrierfinal2 from "./Kim_Rebecca_ps1_102_product.png";
 import coffeecupholdercarrierfinal3 from "./Kim_Rebecca_ps1_103_product.png";
@@ -115,6 +116,7 @@ export {
   teabagboxfinal3,
   teabagboxfinal4,
   teabagboxfinal5,
+  teabagboxflyer,
   holderCAD,
   holderside,
   holdertop,

@@ -36,25 +36,21 @@ const CoffeeCupHolderCarrier = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 15.5 x 3.125 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 5.5 x 3.125 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DESCRIPTION</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Our product takes a regular bench top vice used for clamping objects for various mechanical applications and motorizes it. Instead of manually turning the bench vice to tighten an object, we modified the bench top vice so that it attaches to a motor. We would then press a foot pedal to automatically turn the motor and tighten the clamp. We would also have a button that users can press so that the direction the motor turns can be reversed (to allow for tightening and loosening of the clamp).</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>A lightweight, reusable cup handle for hot drinks.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TARGET POPULATION</span>
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>This product is primarily used for people with hand and wrist tendonitis since they would experience pain and discomfort turning a bench top vice. It would provide the much needed user relief for such individuals in their day to day tasks involving this tool as it removes the need for them to use their hands.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>COMPONENTS</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
                 <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                <li>Screw Slide Table Linear Actuator</li>
-                  <li>Motor Coupling</li>
-                  <li>12V 5RPM Gear Motor</li>
-                  <li>Foot Control Pedal</li>
-                  <li>Circuit</li>
-                  <li>Custom Cast Iron Parts</li>
+                  <li>Acrylic</li>
+                  <li>Epoxy</li>
                 </ul>
               </div>
             </div>
@@ -71,34 +67,19 @@ const CoffeeCupHolderCarrier = () => {
             <div className='visible md:h-[0] h-[auto] md:hidden flex flex-col flex-1'>
             <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TEAM</span>
-                    <div className='flex-[2.5]'>
-                        <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                            <li>Lauren Meyers (Mechanical Engineering)</li>
-                            <li>Catherine Or (Mechanical Engineering)</li>
-                            <li>Mandy Lin (Mechanical Engineering)</li>
-                        </ul>
-                    </div>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Individual Project</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>6 Weeks</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>2 Weeks</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>PRIMARY ROLE</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
                 <div className='flex-[2.5]'>
                   <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                    <li>CAD Modeler</li>
-                    <li>Brainstorming Sketcher</li>
-                  </ul>
-                </div>
-              </div>
-              <div className='flex flex-row gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>SUPPORTING ROLE</span>
-                <div className='flex-[2.5]'>
-                  <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                    <li>FEA Simulator</li>
-                    <li>Report Writer</li>
-                    <li>Presenter</li>
+                    <li>CAD</li>
+                    <li>Laser Cutting</li>
+                    <li>Plastic Bending with Heat Gun</li>
                   </ul>
                 </div>
               </div>
@@ -111,7 +92,7 @@ const CoffeeCupHolderCarrier = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 15.5 x 3.125 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>4 x 5.5 x 3.125 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DESCRIPTION</span>
@@ -122,46 +103,27 @@ const CoffeeCupHolderCarrier = () => {
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>This product is primarily used for people with hand and wrist tendonitis since they would experience pain and discomfort turning a bench top vice. It would provide the much needed user relief for such individuals in their day to day tasks involving this tool as it removes the need for them to use their hands.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>COMPONENTS</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUMS</span>
                 <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                  <li>Screw Slide Table Linear Actuator</li>
-                  <li>Motor Coupling</li>
-                  <li>12V 5RPM Gear Motor</li>
-                  <li>Foot Control Pedal</li>
-                  <li>Circuit</li>
-                  <li>Custom Cast Iron Parts</li>
+                  <li>Acrylic</li>
+                  <li>Epoxy</li>
                 </ul>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TEAM</span>
-                    <div className='flex-[2.5]'>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                        <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                            <li>Lauren Meyers (Mechanical Engineering)</li>
-                            <li>Catherine Or (Mechanical Engineering)</li>
-                            <li>Mandy Lin (Mechanical Engineering)</li>
-                        </ul>
-                    </div>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Individual Project</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>6 Weeks</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>2 Weeks</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>PRIMARY ROLE</span>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TECHNIQUES</span>
                 <div className='flex-[2.5]'>
                   <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                    <li>CAD Modeler</li>
-                    <li>Brainstorming Sketcher</li>
-                  </ul>
-                </div>
-              </div>
-              <div className='flex flex-row gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>SUPPORTING ROLE</span>
-                <div className='flex-[2.5]'>
-                  <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
-                    <li>FEA Simulator</li>
-                    <li>Report Writer</li>
-                    <li>Presenter</li>
+                    <li>CAD</li>
+                    <li>Laser Cutting</li>
+                    <li>Plastic Bending with Heat Gun</li>
                   </ul>
                 </div>
               </div>
