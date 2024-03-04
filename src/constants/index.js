@@ -4,7 +4,7 @@ import { instagram, mantis_enclosure,
   triple_propagation_holder, fortyDaysNights, linkedin, wahlbergii, torso, sofa, seoul, corals,
   waterIntoWine, psalmsBlock, reactjs, figma, git, javascript, typescript, solidworks, frankensteinHead1, 
   arduino, revolution1, marblepaint, silentKillers, rocking_chair,
-  anemone, friends, sketch, cohabitation, viceiso, holderCAD, holderside, holdertop, teabagboxfinal5} from "../assets";
+  anemone, friends, sketch, cohabitation, viceiso, holderCAD, holderside, holdertop, teabagboxfinal5, carseat} from "../assets";
 
 export const navLinks = [
   {
@@ -157,6 +157,11 @@ export const prototypes1 = [
   },
 ];
 export const prototypes2 = [
+  {
+    id: "experiment-9",
+    image: carseat,
+    position: "md:top-[20%] md:left-[71%] top-[15%] left-[60%]",
+  },
   {
     id: "experiment-9",
     image: recordplayer,

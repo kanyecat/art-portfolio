@@ -24,7 +24,7 @@ const Frankenstein = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>7.5 x 6.5 x 10 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>10 x 7.5 x 6.5 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>
@@ -83,7 +83,7 @@ const Frankenstein = () => {
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>7.5 x 6.5 x 10 Inches</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>10 x 7.5 x 6.5 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>STATEMENT</span>

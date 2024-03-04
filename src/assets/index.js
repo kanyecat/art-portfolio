@@ -100,11 +100,13 @@ import coffeecupholdercarrierfinal3 from "./Kim_Rebecca_ps1_103_product.png";
 import coffeecupholdercarrierfinal4 from "./Kim_Rebecca_ps1_104_product.png";
 import coffeecupholdercarrierfinal5 from "./Kim_Rebecca_ps1_105_product.png";
 import coffeecupholdercarrierflyer from "./Kim_Rebecca_ps1_000_flyer.png";
+import carseat from "./carseat.png";
 
 
 
 export {
   me,
+  carseat,
   coffeecupholdercarrierfinal1,
   coffeecupholdercarrierfinal2,
   coffeecupholdercarrierfinal3,
