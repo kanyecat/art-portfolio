@@ -17,6 +17,10 @@ const MarblePaint = () => {
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>2022</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>12 x 12 x 11 Inches</span>
+              </div>
+              <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>8 Weeks</span>
               </div>
@@ -71,6 +75,10 @@ const MarblePaint = () => {
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>YEAR</span>
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>2022</span>
+              </div>
+              <div className='flex flex-row pb-6 gap-4'>
+                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>DIMENSIONS</span>
+                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>12 x 12 x 11 Inches</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TIMELINE</span>

@@ -46,10 +46,6 @@ const TeaBagBox = () => {
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Tea Bag Box is an origami-inspired container that transforms into a tea bag display stand. It is perfect for storing, organizing, and separating tea bags by flavor.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TARGET POPULATION</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>This product is primarily used for people with hand and wrist tendonitis since they would experience pain and discomfort turning a bench top vice. It would provide the much needed user relief for such individuals in their day to day tasks involving this tool as it removes the need for them to use their hands.</span>
-              </div>
-              <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUM</span>
                 <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
                   <li>Basswood tone taskboard</li>
@@ -80,7 +76,8 @@ const TeaBagBox = () => {
                 <div className='flex-[2.5]'>
                   <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
                     <li>CAD</li>
-                    <li>Precise paper folding</li>
+                    <li>Laser Cutting</li>
+                    <li>Precise Paper Folding</li>
                   </ul>
                 </div>
               </div>
@@ -105,10 +102,6 @@ const TeaBagBox = () => {
                 <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>Tea Bag Box is an origami-inspired container that transforms into a tea bag display stand. It is perfect for storing, organizing, and separating tea bags by flavor.</span>
               </div>
               <div className='flex flex-row pb-6 gap-4'>
-                <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>TARGET POPULATION</span>
-                <span className={`flex-[2.5] text-white font-opensans font-thin md:text-[16px] text-[16px]`}>This product is primarily used for people with hand and wrist tendonitis since they would experience pain and discomfort turning a bench top vice. It would provide the much needed user relief for such individuals in their day to day tasks involving this tool as it removes the need for them to use their hands.</span>
-              </div>
-              <div className='flex flex-row pb-6 gap-4'>
                 <span className='flex-1 text-end md:text-[14px] text-[12px] text-white font-grandiflora'>MEDIUM</span>
                 <ul className={`flex-[2.5] items-start text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
                   <li>Basswood tone taskboard</li>
@@ -127,6 +120,7 @@ const TeaBagBox = () => {
                 <div className='flex-[2.5]'>
                   <ul className={`text-white font-opensans font-thin md:text-[16px] text-[16px] objectives`}>
                     <li>CAD</li>
+                    <li>Laser Cutting</li>
                     <li>Precise paper folding</li>
                   </ul>
                 </div>
